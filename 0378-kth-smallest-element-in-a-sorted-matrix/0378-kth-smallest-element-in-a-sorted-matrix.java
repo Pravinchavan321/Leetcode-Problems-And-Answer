@@ -36,40 +36,90 @@
 
 //(2)
 
+// class Solution {
+//     public int kthSmallest(int[][] matrix, int k) {
+
+//         int n = matrix.length;
+
+//         PriorityQueue<int[]> minHeap = new PriorityQueue<>(
+//                 (a, b) -> a[0] - b[0]);
+
+//         for (int i = 0; i < n; i++) {
+//             minHeap.offer(new int[] { matrix[i][0], i, 0 });
+//         }
+
+//         while (k > 1) {
+
+//             int[] curr = minHeap.poll();
+
+//             int value = curr[0];
+//             int row = curr[1];
+//             int col = curr[2];
+
+//             if (col + 1 < n) {
+//                 minHeap.offer(new int[] {
+//                         matrix[row][col + 1],
+//                         row,
+//                         col + 1
+//                 });
+//             }
+
+//             k--;
+//         }
+
+//         return minHeap.peek()[0];
+//     }
+// }
+
+//(3)
+
 class Solution {
+
     public int kthSmallest(int[][] matrix, int k) {
 
         int n = matrix.length;
 
-    
-        PriorityQueue<int[]> minHeap = new PriorityQueue<>(
-                (a, b) -> a[0] - b[0]);
+        int low = matrix[0][0];
+        int high = matrix[n - 1][n - 1];
 
-        
-        for (int i = 0; i < n; i++) {
-            minHeap.offer(new int[] { matrix[i][0], i, 0 });
-        }
+        while (low < high) {
 
-        while (k > 1) {
+            int mid = low + (high - low) / 2;
 
-            int[] curr = minHeap.poll();
+            int count = countLessOrEqual(matrix, mid);
 
-            int value = curr[0];
-            int row = curr[1];
-            int col = curr[2];
-
-            
-            if (col + 1 < n) {
-                minHeap.offer(new int[] {
-                        matrix[row][col + 1],
-                        row,
-                        col + 1
-                });
+            if (count < k) {
+                low = mid + 1;
+            } else {
+                high = mid;
             }
-
-            k--;
         }
 
-        return minHeap.peek()[0];
+        return low;
+    }
+
+    private int countLessOrEqual(int[][] matrix, int target) {
+
+        int n = matrix.length;
+
+        int row = n - 1;
+        int col = 0;
+
+        int count = 0;
+
+        while (row >= 0 && col < n) {
+
+            if (matrix[row][col] <= target) {
+
+                count += row + 1;
+                col++;
+
+            } else {
+
+                row--;
+            }
+        }
+
+        return count;
     }
 }
