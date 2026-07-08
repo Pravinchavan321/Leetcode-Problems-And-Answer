@@ -65,81 +65,81 @@
 
 //(2)
 
-class Solution {
-    public int[] shortestToChar(String s, char c) {
-
-        List<Integer> list = new ArrayList<>();
-        int n = s.length();
-
-        // Store all indices where c occurs
-        for (int i = 0; i < n; i++) {
-            if (s.charAt(i) == c) {
-                list.add(i);
-            }
-        }
-
-        int[] ans = new int[n];
-
-        // Pointer to current occurrence
-        int p = 0;
-
-        for (int i = 0; i < n; i++) {
-
-            // Move to the next occurrence if it is closer
-            while (p < list.size() - 1 &&
-                   Math.abs(i - list.get(p)) >= Math.abs(i - list.get(p + 1))) {
-                p++;
-            }
-
-            ans[i] = Math.abs(i - list.get(p));
-        }
-
-        return ans;
-    }
-}
-
-
-
-
-//(3)
 // class Solution {
 //     public int[] shortestToChar(String s, char c) {
 
+//         List<Integer> list = new ArrayList<>();
 //         int n = s.length();
-//         int[] ans = new int[n];
 
-//         // A very small value so that initially
-//         // no character has been seen on the left.
-//         int prev = -n;
-
-//         // ---------------- Left to Right ----------------
-//         // Store distance from nearest left occurrence.
+//         // Store all indices where c occurs
 //         for (int i = 0; i < n; i++) {
-
-//             // Update previous occurrence of c
 //             if (s.charAt(i) == c) {
-//                 prev = i;
+//                 list.add(i);
 //             }
-
-//             ans[i] = i - prev;
 //         }
 
-//         // A very large value so that initially
-//         // no character has been seen on the right.
-//         prev = 2 * n;
+//         int[] ans = new int[n];
 
-//         // ---------------- Right to Left ----------------
-//         // Compare with nearest right occurrence.
-//         for (int i = n - 1; i >= 0; i--) {
+//         // Pointer to current occurrence
+//         int p = 0;
 
-//             // Update next occurrence of c
-//             if (s.charAt(i) == c) {
-//                 prev = i;
+//         for (int i = 0; i < n; i++) {
+
+//             // Move to the next occurrence if it is closer
+//             while (p < list.size() - 1 &&
+//                    Math.abs(i - list.get(p)) >= Math.abs(i - list.get(p + 1))) {
+//                 p++;
 //             }
 
-//             ans[i] = Math.min(ans[i], prev - i);
+//             ans[i] = Math.abs(i - list.get(p));
 //         }
 
 //         return ans;
 //     }
 // }
+
+
+
+
+//(3)
+class Solution {
+    public int[] shortestToChar(String s, char c) {
+
+        int n = s.length();
+        int[] ans = new int[n];
+
+        // A very small value so that initially
+        // no character has been seen on the left.
+        int prev = -n;
+
+        // ---------------- Left to Right ----------------
+        // Store distance from nearest left occurrence.
+        for (int i = 0; i < n; i++) {
+
+            // Update previous occurrence of c
+            if (s.charAt(i) == c) {
+                prev = i;
+            }
+
+            ans[i] = i - prev;
+        }
+
+        // A very large value so that initially
+        // no character has been seen on the right.
+        prev = 2 * n;
+
+        // ---------------- Right to Left ----------------
+        // Compare with nearest right occurrence.
+        for (int i = n - 1; i >= 0; i--) {
+
+            // Update next occurrence of c
+            if (s.charAt(i) == c) {
+                prev = i;
+            }
+
+            ans[i] = Math.min(ans[i], prev - i);
+        }
+
+        return ans;
+    }
+}
