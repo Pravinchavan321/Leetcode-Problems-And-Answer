@@ -16,4 +16,16 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [3756-concatenate-non-zero-digits-and-multiply-by-sum-ii](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/3756-concatenate-non-zero-digits-and-multiply-by-sum-ii) |
+## Array
+|  |
+| ------- |
+| [0867-transpose-matrix](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0867-transpose-matrix) |
+## Matrix
+|  |
+| ------- |
+| [0867-transpose-matrix](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0867-transpose-matrix) |
+## Simulation
+|  |
+| ------- |
+| [0867-transpose-matrix](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0867-transpose-matrix) |
 <!---LeetCode Topics End-->
