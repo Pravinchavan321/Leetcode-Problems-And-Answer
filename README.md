@@ -63,4 +63,16 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1805-number-of-different-integers-in-a-string](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1805-number-of-different-integers-in-a-string) |
 | [3471-find-the-largest-almost-missing-integer](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/3471-find-the-largest-almost-missing-integer) |
 | [3678-smallest-absent-positive-greater-than-average](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/3678-smallest-absent-positive-greater-than-average) |
+## Dynamic Programming
+|  |
+| ------- |
+| [3954-sum-of-compatible-numbers-in-range-i](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/3954-sum-of-compatible-numbers-in-range-i) |
+## Bit Manipulation
+|  |
+| ------- |
+| [3954-sum-of-compatible-numbers-in-range-i](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/3954-sum-of-compatible-numbers-in-range-i) |
+## Enumeration
+|  |
+| ------- |
+| [3954-sum-of-compatible-numbers-in-range-i](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/3954-sum-of-compatible-numbers-in-range-i) |
 <!---LeetCode Topics End-->
