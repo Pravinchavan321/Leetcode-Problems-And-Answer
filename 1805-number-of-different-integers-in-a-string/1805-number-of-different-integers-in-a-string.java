@@ -1,5 +1,5 @@
 
-//(1)
+                        //(1)
 
 // class Solution {
 //     public int numDifferentIntegers(String word) {
@@ -39,7 +39,7 @@
 //     }
 // }
 
-//(2)
+                    //(2)
 
 class Solution {
     public int numDifferentIntegers(String word) {
