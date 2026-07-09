@@ -12,6 +12,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0821-shortest-distance-to-a-character](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0821-shortest-distance-to-a-character) |
 | [0824-goat-latin](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0824-goat-latin) |
+| [1805-number-of-different-integers-in-a-string](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1805-number-of-different-integers-in-a-string) |
 | [3756-concatenate-non-zero-digits-and-multiply-by-sum-ii](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/3756-concatenate-non-zero-digits-and-multiply-by-sum-ii) |
 ## Prefix Sum
 |  |
@@ -52,5 +53,6 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Hash Table
 |  |
 | ------- |
+| [1805-number-of-different-integers-in-a-string](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1805-number-of-different-integers-in-a-string) |
 | [3471-find-the-largest-almost-missing-integer](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/3471-find-the-largest-almost-missing-integer) |
 <!---LeetCode Topics End-->
