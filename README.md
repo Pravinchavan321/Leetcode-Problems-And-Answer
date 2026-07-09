@@ -13,6 +13,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0058-length-of-last-word](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0058-length-of-last-word) |
 | [0821-shortest-distance-to-a-character](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0821-shortest-distance-to-a-character) |
 | [0824-goat-latin](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0824-goat-latin) |
+| [0925-long-pressed-name](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0925-long-pressed-name) |
 | [1796-second-largest-digit-in-a-string](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1796-second-largest-digit-in-a-string) |
 | [1805-number-of-different-integers-in-a-string](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1805-number-of-different-integers-in-a-string) |
 | [3756-concatenate-non-zero-digits-and-multiply-by-sum-ii](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/3756-concatenate-non-zero-digits-and-multiply-by-sum-ii) |
@@ -52,6 +53,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0821-shortest-distance-to-a-character](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0821-shortest-distance-to-a-character) |
+| [0925-long-pressed-name](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0925-long-pressed-name) |
 ## Hash Table
 |  |
 | ------- |
