@@ -7,8 +7,8 @@ class Solution {
         }
         boolean ans = false;
         boolean bool = true;
-        int maxIndex = 0;
-        int max = arr[0];
+        int maxIndex = -1;
+        int max = Integer.MIN_VALUE;
         for (int i = 0; i < n; i++) {
             if (arr[i] > max) {
                 max = arr[i];
