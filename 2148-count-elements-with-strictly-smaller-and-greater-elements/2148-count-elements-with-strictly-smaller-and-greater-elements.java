@@ -1,5 +1,5 @@
 
-                        //(1)
+//(1)
 // class Solution {
 //     public int countElements(int[] nums) {
 
@@ -43,22 +43,23 @@
 //     }
 // }
 
-
-                //(2)
-
-
+//(2)
 
 class Solution {
     public int countElements(int[] nums) {
 
-        Arrays.sort(nums);
-        int n = nums.length;
+        int min = Integer.MAX_VALUE;
+        int max = Integer.MIN_VALUE;
 
-        int min = nums[0];
-        int max = nums[n - 1];
+        // Find minimum and maximum
+        for (int num : nums) {
+            min = Math.min(min, num);
+            max = Math.max(max, num);
+        }
 
         int count = 0;
 
+        // Count elements between min and max
         for (int num : nums) {
             if (num > min && num < max) {
                 count++;
