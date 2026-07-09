@@ -8,8 +8,7 @@ class Solution {
         if (tL < nL) {
             return false;
         }
-        if(nA[0] != tA[0])
-        {
+        if (nA[0] != tA[0]) {
             return false;
         }
 
@@ -23,22 +22,17 @@ class Solution {
                 j++;
                 count++;
             } else {
-                if(nA[i - 1] == tA[j])
-                {
+                if (nA[i - 1] == tA[j]) {
                     j++;
-                }
-                else
-                {
+                } else {
                     return false;
                 }
 
             }
         }
 
-        while(j < tL)
-        {
-            if(tA[j] != nA[nL - 1])
-            {
+        while (j < tL) {
+            if (tA[j] != nA[nL - 1]) {
                 return false;
             }
             j++;
