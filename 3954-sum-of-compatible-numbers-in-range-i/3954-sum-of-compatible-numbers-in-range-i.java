@@ -2,9 +2,8 @@ class Solution {
     public int sumOfGoodIntegers(int n, int k) {
         int sum = 0;
         int i = n - k;
-        int j = Math.abs(n + k);
-        if(i < 0)
-        {
+        int j = n + k;
+        if (i < 0) {
             i = 1;
         }
         while (i <= j) {
