@@ -28,6 +28,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0821-shortest-distance-to-a-character](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0821-shortest-distance-to-a-character) |
 | [0867-transpose-matrix](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0867-transpose-matrix) |
 | [3471-find-the-largest-almost-missing-integer](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/3471-find-the-largest-almost-missing-integer) |
+| [3678-smallest-absent-positive-greater-than-average](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/3678-smallest-absent-positive-greater-than-average) |
 ## Matrix
 |  |
 | ------- |
@@ -60,4 +61,5 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1796-second-largest-digit-in-a-string](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1796-second-largest-digit-in-a-string) |
 | [1805-number-of-different-integers-in-a-string](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1805-number-of-different-integers-in-a-string) |
 | [3471-find-the-largest-almost-missing-integer](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/3471-find-the-largest-almost-missing-integer) |
+| [3678-smallest-absent-positive-greater-than-average](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/3678-smallest-absent-positive-greater-than-average) |
 <!---LeetCode Topics End-->
