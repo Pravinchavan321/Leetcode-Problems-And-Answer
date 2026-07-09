@@ -32,6 +32,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2148-count-elements-with-strictly-smaller-and-greater-elements](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/2148-count-elements-with-strictly-smaller-and-greater-elements) |
 | [2996-smallest-missing-integer-greater-than-sequential-prefix-sum](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/2996-smallest-missing-integer-greater-than-sequential-prefix-sum) |
 | [3471-find-the-largest-almost-missing-integer](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/3471-find-the-largest-almost-missing-integer) |
+| [3532-path-existence-queries-in-a-graph-i](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/3532-path-existence-queries-in-a-graph-i) |
 | [3678-smallest-absent-positive-greater-than-average](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/3678-smallest-absent-positive-greater-than-average) |
 ## Matrix
 |  |
@@ -46,6 +47,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
+| [3532-path-existence-queries-in-a-graph-i](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/3532-path-existence-queries-in-a-graph-i) |
 ## Sorting
 |  |
 | ------- |
@@ -68,6 +70,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1805-number-of-different-integers-in-a-string](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1805-number-of-different-integers-in-a-string) |
 | [2996-smallest-missing-integer-greater-than-sequential-prefix-sum](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/2996-smallest-missing-integer-greater-than-sequential-prefix-sum) |
 | [3471-find-the-largest-almost-missing-integer](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/3471-find-the-largest-almost-missing-integer) |
+| [3532-path-existence-queries-in-a-graph-i](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/3532-path-existence-queries-in-a-graph-i) |
 | [3678-smallest-absent-positive-greater-than-average](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/3678-smallest-absent-positive-greater-than-average) |
 ## Dynamic Programming
 |  |
@@ -85,4 +88,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [2148-count-elements-with-strictly-smaller-and-greater-elements](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/2148-count-elements-with-strictly-smaller-and-greater-elements) |
+## Union-Find
+|  |
+| ------- |
+| [3532-path-existence-queries-in-a-graph-i](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/3532-path-existence-queries-in-a-graph-i) |
+## Graph Theory
+|  |
+| ------- |
+| [3532-path-existence-queries-in-a-graph-i](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/3532-path-existence-queries-in-a-graph-i) |
 <!---LeetCode Topics End-->
