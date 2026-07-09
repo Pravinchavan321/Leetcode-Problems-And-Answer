@@ -1,4 +1,4 @@
-                                //(1)
+//(1)
 // class Solution {
 //     public boolean canBeIncreasing(int[] nums) {
 //         int n = nums.length;
@@ -37,7 +37,7 @@
 //     }
 // }
 
-                    //(2)
+                            //(2)
 
 class Solution {
     public boolean canBeIncreasing(int[] nums) {
