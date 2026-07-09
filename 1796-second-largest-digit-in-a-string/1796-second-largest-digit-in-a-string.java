@@ -21,7 +21,7 @@ class Solution {
             }
         }
 
-        if (max1 == max2 || max2 == Integer.MIN_VALUE) {
+        if (max2 == Integer.MIN_VALUE) {
             return -1;
         }
 
