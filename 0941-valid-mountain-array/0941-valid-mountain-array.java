@@ -1,39 +1,65 @@
+
+                        //(1)
+
+// class Solution {
+//     public boolean validMountainArray(int[] arr) {
+//         int n = arr.length;
+
+//         if (n < 3) {
+//             return false;
+//         }
+//         boolean ans = false;
+//         boolean bool = true;
+//         int maxIndex = -1;
+//         int max = Integer.MIN_VALUE;
+//         for (int i = 0; i < n; i++) {
+//             if (arr[i] > max) {
+//                 max = arr[i];
+//                 maxIndex = i;
+//             }
+
+//         }
+//         if (maxIndex == n - 1 || maxIndex == 0) {
+//             return false;
+//         }
+//         for (int i = 1; i < n; i++) {
+//             if ((arr[i] > arr[i - 1] && bool == true)) {
+//                 ans = true;
+
+//             } else if (arr[i] < arr[i - 1] && bool == true) {
+//                 bool = false;
+//             } else if ((arr[i] < arr[i - 1] && bool == false)) {
+//                 ans = true;
+//             } else {
+//                 return false;
+//             }
+
+//         }
+
+//         return ans;
+
+//     }
+// }
+
+                    //(2)
+
 class Solution {
     public boolean validMountainArray(int[] arr) {
+
         int n = arr.length;
-
-        if (n < 3) {
+        if (n < 3)
             return false;
-        }
-        boolean ans = false;
-        boolean bool = true;
-        int maxIndex = -1;
-        int max = Integer.MIN_VALUE;
-        for (int i = 0; i < n; i++) {
-            if (arr[i] > max) {
-                max = arr[i];
-                maxIndex = i;
-            }
 
-        }
-        if (maxIndex == n - 1 || maxIndex == 0) {
-            return false;
-        }
-        for (int i = 1; i < n; i++) {
-            if ((arr[i] > arr[i - 1] && bool == true)) {
-                ans = true;
+        int left = 0;
+        int right = n - 1;
 
-            } else if (arr[i] < arr[i - 1] && bool == true) {
-                bool = false;
-            } else if ((arr[i] < arr[i - 1] && bool == false)) {
-                ans = true;
-            } else {
-                return false;
-            }
-
+        while (left + 1 < n && arr[left] < arr[left + 1]) {
+            left++;
         }
 
-        return ans;
-
+        while (right - 1 >= 0 && arr[right] < arr[right - 1]) {
+            right--;
+        }
+        return left > 0 && right < n - 1 && left == right;
     }
 }
