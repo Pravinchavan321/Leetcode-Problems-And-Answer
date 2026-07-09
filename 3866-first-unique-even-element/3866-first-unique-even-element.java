@@ -9,9 +9,9 @@ class Solution {
             }
         }
         int ans = -1;
-        for (int elem : lHM.keySet()) {
-            if (lHM.get(elem) == 1) {
-                ans = elem;
+        for (int num : nums) {
+            if (num % 2 == 0 && lHM.get(num) == 1) {
+                ans = num;
                 break;
             }
         }
