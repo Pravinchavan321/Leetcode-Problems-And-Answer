@@ -51,7 +51,7 @@ class Solution {
         List<Integer> even = new ArrayList<>();
         List<Integer> odd = new ArrayList<>();
 
-        // Separate even and odd indexed elements
+        
         for (int i = 0; i < nums.length; i++) {
             if ((i & 1) == 0)
                 even.add(nums[i]);
