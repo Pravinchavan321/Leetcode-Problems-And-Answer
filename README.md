@@ -19,6 +19,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1796-second-largest-digit-in-a-string](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1796-second-largest-digit-in-a-string) |
 | [1805-number-of-different-integers-in-a-string](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1805-number-of-different-integers-in-a-string) |
 | [3756-concatenate-non-zero-digits-and-multiply-by-sum-ii](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/3756-concatenate-non-zero-digits-and-multiply-by-sum-ii) |
+| [3813-vowel-consonant-score](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/3813-vowel-consonant-score) |
 ## Prefix Sum
 |  |
 | ------- |
@@ -51,6 +52,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0867-transpose-matrix](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0867-transpose-matrix) |
+| [3813-vowel-consonant-score](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/3813-vowel-consonant-score) |
 ## Binary Search
 |  |
 | ------- |
