@@ -42,6 +42,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1252-cells-with-odd-values-in-a-matrix](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1252-cells-with-odd-values-in-a-matrix) |
 | [1287-element-appearing-more-than-25-in-sorted-array](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1287-element-appearing-more-than-25-in-sorted-array) |
 | [1295-find-numbers-with-even-number-of-digits](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1295-find-numbers-with-even-number-of-digits) |
+| [1299-replace-elements-with-greatest-element-on-right-side](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1299-replace-elements-with-greatest-element-on-right-side) |
 | [1491-average-salary-excluding-the-minimum-and-maximum-salary](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1491-average-salary-excluding-the-minimum-and-maximum-salary) |
 | [1822-sign-of-the-product-of-an-array](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1822-sign-of-the-product-of-an-array) |
 | [1909-remove-one-element-to-make-the-array-strictly-increasing](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1909-remove-one-element-to-make-the-array-strictly-increasing) |
