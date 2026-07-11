@@ -15,7 +15,7 @@ class Solution {
             int diffXCheck = coordinates[i][0] - coordinates[0][0];
             int diffYCheck = coordinates[i][1] - coordinates[0][1];
 
-            if (diffY * diffXCheck != diffYCheck * diffX) {
+            if ((diffY * diffXCheck) != (diffYCheck * diffX)) {
                 return false;
             }
         }
