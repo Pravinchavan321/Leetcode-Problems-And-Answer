@@ -29,18 +29,20 @@
 
                         //(2)
 
-                        
+
 class Solution {
     public int totalMoney(int n) {
 
         int weeks = n / 7;
         int days = n % 7;
 
-        // Sum of complete weeks
-        int completeWeeks = weeks * 28 + (weeks * (weeks - 1) / 2) * 7;
+        // AP: 28, 35, 42, 49...
+        int completeWeeks =
+                weeks * (2 * 28 + (weeks - 1) * 7) / 2;
 
-        // Sum of remaining days
-        int remainingDays = days * (2 * (weeks + 1) + (days - 1)) / 2;
+        // AP: (weeks+1), (weeks+2), ...
+        int remainingDays =
+                days * (2 * (weeks + 1) + (days - 1)) / 2;
 
         return completeWeeks + remainingDays;
     }
