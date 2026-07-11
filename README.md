@@ -54,6 +54,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2164-sort-even-and-odd-indices-independently](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/2164-sort-even-and-odd-indices-independently) |
 | [2404-most-frequent-even-element](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/2404-most-frequent-even-element) |
 | [2815-max-pair-sum-in-an-array](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/2815-max-pair-sum-in-an-array) |
+| [2855-minimum-right-shifts-to-sort-the-array](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/2855-minimum-right-shifts-to-sort-the-array) |
 | [2996-smallest-missing-integer-greater-than-sequential-prefix-sum](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/2996-smallest-missing-integer-greater-than-sequential-prefix-sum) |
 | [3024-type-of-triangle](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/3024-type-of-triangle) |
 | [3471-find-the-largest-almost-missing-integer](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/3471-find-the-largest-almost-missing-integer) |
