@@ -1,4 +1,4 @@
-//(1)
+                            //(1)
 
 // class Solution {
 //     public int findSpecialInteger(int[] arr) {
@@ -33,7 +33,7 @@
 //     }
 // }
 
-//(2)
+                                    //(2)
 
 // class Solution {
 //     public int findSpecialInteger(int[] arr) {
@@ -57,25 +57,21 @@
 //     }
 // }
 
-//(3)
+                                //(3)
+
 
 class Solution {
     public int findSpecialInteger(int[] arr) {
-
         int n = arr.length;
-        int count = 1;
+        int k  = (n/4);
+        if(n <= 1)
+            return arr[0];
 
-        for (int i = 1; i < n; i++) {
-            if (arr[i] == arr[i - 1]) {
-                count++;
-                if (count > n / 4) {
-                    return arr[i];
-                }
-            } else {
-                count = 1;
-            }
+        for(int i = 0; i < n; i++){
+            if(arr[i] == arr[i+k])
+                return arr[i];
         }
-
-        return arr[0];
+        return -1;
+        
     }
 }
