@@ -10,7 +10,7 @@ class Solution {
         {
             if(arr[i] == arr[j])
             {
-                if((j - i) > moreThan25)
+                if((j - i) + 1 > moreThan25)
                 {
                     ans = arr[i];
                     return ans;
