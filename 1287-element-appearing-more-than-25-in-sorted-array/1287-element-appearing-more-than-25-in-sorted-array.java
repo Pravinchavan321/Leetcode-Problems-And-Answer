@@ -35,26 +35,47 @@
 
 //(2)
 
+// class Solution {
+//     public int findSpecialInteger(int[] arr) {
+
+//         int n = arr.length;
+//         int moreThan25 = n / 4;
+
+//         HashMap<Integer, Integer> hashMap = new HashMap<>();
+
+//         for (int num : arr) {
+//             int freq = hashMap.getOrDefault(num, 0) + 1;
+
+//             if (freq > moreThan25) {
+//                 return num;
+//             }
+
+//             hashMap.put(num, freq);
+//         }
+
+//         return -1;
+//     }
+// }
+
+//(3)
+
 class Solution {
     public int findSpecialInteger(int[] arr) {
 
         int n = arr.length;
-        int moreThan25 = n / 4;
+        int count = 1;
 
-        HashMap<Integer, Integer> hashMap = new HashMap<>();
-
-        for (int num : arr) {
-            int freq = hashMap.getOrDefault(num, 0) + 1;
-
-            if (freq > moreThan25) {
-                return num;
+        for (int i = 1; i < n; i++) {
+            if (arr[i] == arr[i - 1]) {
+                count++;
+                if (count > n / 4) {
+                    return arr[i];
+                }
+            } else {
+                count = 1;
             }
-
-            hashMap.put(num, freq);
         }
 
-        return -1;
+        return arr[0];
     }
 }
-
-//(3)
