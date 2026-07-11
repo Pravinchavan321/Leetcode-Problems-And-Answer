@@ -4,7 +4,7 @@ class Solution {
         for (int i = 1; i <= n; i++) {
             int left = i;
             int right = n - i;
-            if (left > 0 && right > 0 && iscontainsZero(left) == false && iscontainsZero(right) == false) {
+            if (iscontainsZero(left) == false && iscontainsZero(right) == false) {
                 return new int[] { left, right };
             }
         }
