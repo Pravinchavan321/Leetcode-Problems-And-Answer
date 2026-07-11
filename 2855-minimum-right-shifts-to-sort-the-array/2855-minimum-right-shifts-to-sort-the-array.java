@@ -14,7 +14,7 @@ class Solution {
         }
         int j = index;
         int stop = j - 1;
-        if (j == 0) {
+        if (index == 0) {
             stop = n - 1;
 
         }
