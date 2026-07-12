@@ -10,15 +10,17 @@
  */
 class Solution {
     public ListNode mergeNodes(ListNode head) {
-        ListNode newList = new ListNode(0);
-        ListNode newListHead = newList;
-        ListNode newListHead1 = newList;
+        ListNode newListHead = head;
+        ListNode newListPrev = null;
+        ListNode newListHead1 = head;
+
         ListNode left = head;
         ListNode right = head.next;
         int sum = 0;
         while (right != null) {
             if (right.val == 0) {
-                newListHead1.next = new ListNode(sum);
+                newListHead1.val = sum;
+                newListPrev = newListHead1;
                 newListHead1 = newListHead1.next;
                 sum = 0;
                 left = right;
@@ -30,8 +32,9 @@ class Solution {
             }
 
         }
+        newListPrev.next = null;
 
-        return newListHead.next;
+        return newListHead;
 
     }
 }
