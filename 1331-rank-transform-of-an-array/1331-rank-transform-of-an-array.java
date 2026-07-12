@@ -1,5 +1,5 @@
 
-//(1)
+                    //(1)
 // class Solution {
 //     public int[] arrayRankTransform(int[] arr) {
 
@@ -24,7 +24,7 @@
 //     }
 // }
 
-//(2)
+                    //(2)
 class Solution {
     public int[] arrayRankTransform(int[] arr) {
 
@@ -54,7 +54,7 @@ class Solution {
     }
 }
 
-//(3)
+                    //(3)
 // class Solution {
 //     public int[] arrayRankTransform(int[] arr) {
 
