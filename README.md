@@ -77,6 +77,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0867-transpose-matrix](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0867-transpose-matrix) |
 | [1252-cells-with-odd-values-in-a-matrix](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1252-cells-with-odd-values-in-a-matrix) |
+| [2181-merge-nodes-in-between-zeros](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/2181-merge-nodes-in-between-zeros) |
 | [3813-vowel-consonant-score](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/3813-vowel-consonant-score) |
 ## Binary Search
 |  |
@@ -177,6 +178,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Linked List
 |  |
 | ------- |
+| [2181-merge-nodes-in-between-zeros](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/2181-merge-nodes-in-between-zeros) |
 | [2807-insert-greatest-common-divisors-in-linked-list](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/2807-insert-greatest-common-divisors-in-linked-list) |
 ## Number Theory
 |  |
