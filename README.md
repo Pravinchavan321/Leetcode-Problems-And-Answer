@@ -13,6 +13,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1523-count-odd-numbers-in-an-interval-range](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1523-count-odd-numbers-in-an-interval-range) |
 | [1716-calculate-money-in-leetcode-bank](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1716-calculate-money-in-leetcode-bank) |
 | [1822-sign-of-the-product-of-an-array](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1822-sign-of-the-product-of-an-array) |
+| [2125-number-of-laser-beams-in-a-bank](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/2125-number-of-laser-beams-in-a-bank) |
 | [2729-check-if-the-number-is-fascinating](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/2729-check-if-the-number-is-fascinating) |
 | [2807-insert-greatest-common-divisors-in-linked-list](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/2807-insert-greatest-common-divisors-in-linked-list) |
 | [3024-type-of-triangle](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/3024-type-of-triangle) |
@@ -27,6 +28,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1736-latest-time-by-replacing-hidden-digits](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1736-latest-time-by-replacing-hidden-digits) |
 | [1796-second-largest-digit-in-a-string](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1796-second-largest-digit-in-a-string) |
 | [1805-number-of-different-integers-in-a-string](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1805-number-of-different-integers-in-a-string) |
+| [2125-number-of-laser-beams-in-a-bank](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/2125-number-of-laser-beams-in-a-bank) |
 | [3756-concatenate-non-zero-digits-and-multiply-by-sum-ii](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/3756-concatenate-non-zero-digits-and-multiply-by-sum-ii) |
 | [3813-vowel-consonant-score](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/3813-vowel-consonant-score) |
 ## Prefix Sum
@@ -52,6 +54,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1822-sign-of-the-product-of-an-array](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1822-sign-of-the-product-of-an-array) |
 | [1909-remove-one-element-to-make-the-array-strictly-increasing](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1909-remove-one-element-to-make-the-array-strictly-increasing) |
 | [2057-smallest-index-with-equal-value](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/2057-smallest-index-with-equal-value) |
+| [2125-number-of-laser-beams-in-a-bank](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/2125-number-of-laser-beams-in-a-bank) |
 | [2148-count-elements-with-strictly-smaller-and-greater-elements](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/2148-count-elements-with-strictly-smaller-and-greater-elements) |
 | [2164-sort-even-and-odd-indices-independently](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/2164-sort-even-and-odd-indices-independently) |
 | [2404-most-frequent-even-element](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/2404-most-frequent-even-element) |
@@ -72,6 +75,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0867-transpose-matrix](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0867-transpose-matrix) |
+| [2125-number-of-laser-beams-in-a-bank](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/2125-number-of-laser-beams-in-a-bank) |
 ## Simulation
 |  |
 | ------- |
