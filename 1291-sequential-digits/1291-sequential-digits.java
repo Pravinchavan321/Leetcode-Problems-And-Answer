@@ -31,9 +31,9 @@ class Solution {
 
             lastElem = Integer.parseInt(sb.toString());
 
-            if (lastElem >= low && lastElem <= high)
+            if (lastElem >= low && lastElem <= high) {
                 list.add(lastElem);
-
+            }
             if (sb.charAt(sbL - 1) == '9') {
                 if (sbL == 9)
                     break;
