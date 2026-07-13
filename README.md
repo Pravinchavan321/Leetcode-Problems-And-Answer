@@ -138,6 +138,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Enumeration
 |  |
 | ------- |
+| [1291-sequential-digits](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1291-sequential-digits) |
 | [3833-count-dominant-indices](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/3833-count-dominant-indices) |
 | [3880-minimum-absolute-difference-between-two-values](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/3880-minimum-absolute-difference-between-two-values) |
 | [3954-sum-of-compatible-numbers-in-range-i](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/3954-sum-of-compatible-numbers-in-range-i) |
