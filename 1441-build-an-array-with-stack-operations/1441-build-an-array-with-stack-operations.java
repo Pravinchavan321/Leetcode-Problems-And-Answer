@@ -1,4 +1,4 @@
-//(1)
+                        //(1)
 
 // class Solution {
 //     public List<String> buildArray(int[] target, int n) {
@@ -41,7 +41,7 @@
 //     }
 // }
 
-//(2)
+                        //(2)
 class Solution {
     public List<String> buildArray(int[] target, int n) {
 
@@ -49,7 +49,8 @@ class Solution {
         int tL = target.length;
         int i = 0;
         int no = 1;
-        int prev = 1;;
+        int prev = 1;
+        ;
         if (target[tL - 1] > n) {
             return list;
         }
