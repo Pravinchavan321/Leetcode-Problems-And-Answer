@@ -41,17 +41,15 @@ class Solution {
                 freq2[s2.charAt(left) - 'a'] -= 1;
                 left++;
                 right++;
-                if(right == n2)
-                {
+                if (right == n2) {
                     return false;
                 }
                 freq2[s2.charAt(right) - 'a'] += 1;
-            
+
             }
 
         }
         return false;
-
 
     }
 }
