@@ -16,7 +16,6 @@ class Solution {
 
         ListNode prev = null;
         ListNode left = head;
-
         ListNode right = head.next;
         ListNode nextNode = right.next;
 
