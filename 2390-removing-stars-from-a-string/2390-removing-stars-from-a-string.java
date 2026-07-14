@@ -35,9 +35,9 @@ class Solution {
             if (c == '*') {
                 count++;
 
-            } else if (Character.isLetter(c) && count == 0) {
+            } else if (count == 0) {
                 sb.append(c);
-            } else if (Character.isLetter(c) && count != 0) {
+            } else if (count != 0) {
                 count--;
             }
             j--;
