@@ -39,6 +39,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Array
 |  |
 | ------- |
+| [0322-coin-change](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0322-coin-change) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0821-shortest-distance-to-a-character](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0821-shortest-distance-to-a-character) |
 | [0867-transpose-matrix](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0867-transpose-matrix) |
@@ -138,6 +139,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Dynamic Programming
 |  |
 | ------- |
+| [0322-coin-change](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0322-coin-change) |
 | [3534-path-existence-queries-in-a-graph-ii](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/3534-path-existence-queries-in-a-graph-ii) |
 | [3857-minimum-cost-to-split-into-ones](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/3857-minimum-cost-to-split-into-ones) |
 | [3954-sum-of-compatible-numbers-in-range-i](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/3954-sum-of-compatible-numbers-in-range-i) |
@@ -182,6 +184,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Breadth-First Search
 |  |
 | ------- |
+| [0322-coin-change](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0322-coin-change) |
 | [2685-count-the-number-of-complete-components](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/2685-count-the-number-of-complete-components) |
 ## Geometry
 |  |
