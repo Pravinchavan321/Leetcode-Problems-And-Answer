@@ -2,13 +2,7 @@ class Solution {
     public int removeDuplicates(int[] nums) {
 
         int n = nums.length;
-        if (n == 1) {
-            return 1;
 
-        }
-        if (n == 2) {
-            return 2;
-        }
         int left = 0;
         int right = 0;
         int count = 0;
