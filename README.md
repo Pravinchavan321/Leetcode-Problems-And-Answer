@@ -18,6 +18,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2807-insert-greatest-common-divisors-in-linked-list](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/2807-insert-greatest-common-divisors-in-linked-list) |
 | [3024-type-of-triangle](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/3024-type-of-triangle) |
 | [3756-concatenate-non-zero-digits-and-multiply-by-sum-ii](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/3756-concatenate-non-zero-digits-and-multiply-by-sum-ii) |
+| [3857-minimum-cost-to-split-into-ones](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/3857-minimum-cost-to-split-into-ones) |
 ## String
 |  |
 | ------- |
@@ -138,6 +139,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [3534-path-existence-queries-in-a-graph-ii](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/3534-path-existence-queries-in-a-graph-ii) |
+| [3857-minimum-cost-to-split-into-ones](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/3857-minimum-cost-to-split-into-ones) |
 | [3954-sum-of-compatible-numbers-in-range-i](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/3954-sum-of-compatible-numbers-in-range-i) |
 ## Bit Manipulation
 |  |
