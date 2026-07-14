@@ -33,6 +33,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1796-second-largest-digit-in-a-string](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1796-second-largest-digit-in-a-string) |
 | [1805-number-of-different-integers-in-a-string](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1805-number-of-different-integers-in-a-string) |
 | [2125-number-of-laser-beams-in-a-bank](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/2125-number-of-laser-beams-in-a-bank) |
+| [2390-removing-stars-from-a-string](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/2390-removing-stars-from-a-string) |
 | [3756-concatenate-non-zero-digits-and-multiply-by-sum-ii](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/3756-concatenate-non-zero-digits-and-multiply-by-sum-ii) |
 | [3813-vowel-consonant-score](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/3813-vowel-consonant-score) |
 ## Prefix Sum
@@ -93,6 +94,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1252-cells-with-odd-values-in-a-matrix](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1252-cells-with-odd-values-in-a-matrix) |
 | [1441-build-an-array-with-stack-operations](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1441-build-an-array-with-stack-operations) |
 | [2181-merge-nodes-in-between-zeros](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/2181-merge-nodes-in-between-zeros) |
+| [2390-removing-stars-from-a-string](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/2390-removing-stars-from-a-string) |
 | [2482-difference-between-ones-and-zeros-in-row-and-column](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/2482-difference-between-ones-and-zeros-in-row-and-column) |
 | [3813-vowel-consonant-score](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/3813-vowel-consonant-score) |
 ## Binary Search
@@ -215,6 +217,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1441-build-an-array-with-stack-operations](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1441-build-an-array-with-stack-operations) |
+| [2390-removing-stars-from-a-string](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/2390-removing-stars-from-a-string) |
 ## Sliding Window
 |  |
 | ------- |
