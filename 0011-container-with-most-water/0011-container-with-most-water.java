@@ -7,10 +7,12 @@ class Solution {
         int j = n - 1;
 
         while (i != j) {
-            maxArea = Math.max(maxArea, (j - i) * Math.min(height[i], height[j]));
+
             if (height[i] < height[j]) {
+                maxArea = Math.max(maxArea, (j - i) * height[i]);
                 i++;
             } else {
+                maxArea = Math.max(maxArea, (j - i) * height[j]);
                 j--;
             }
 
