@@ -42,6 +42,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Array
 |  |
 | ------- |
+| [0011-container-with-most-water](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0011-container-with-most-water) |
 | [0322-coin-change](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0322-coin-change) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0821-shortest-distance-to-a-character](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0821-shortest-distance-to-a-character) |
@@ -119,6 +120,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Two Pointers
 |  |
 | ------- |
+| [0011-container-with-most-water](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0011-container-with-most-water) |
 | [0567-permutation-in-string](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0567-permutation-in-string) |
 | [0821-shortest-distance-to-a-character](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0821-shortest-distance-to-a-character) |
 | [0925-long-pressed-name](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0925-long-pressed-name) |
@@ -183,6 +185,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Greedy
 |  |
 | ------- |
+| [0011-container-with-most-water](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0011-container-with-most-water) |
 | [1736-latest-time-by-replacing-hidden-digits](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1736-latest-time-by-replacing-hidden-digits) |
 | [3534-path-existence-queries-in-a-graph-ii](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/3534-path-existence-queries-in-a-graph-ii) |
 ## Depth-First Search
