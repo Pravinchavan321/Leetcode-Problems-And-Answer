@@ -1,8 +1,6 @@
 class Solution {
     public boolean isPerfectSquare(int num) {
-        if (num == 1) {
-            return true;
-        }
+        
 
         int left = 1;
         int right = num;
@@ -13,9 +11,7 @@ class Solution {
             if (midSquare == num) {
                 return true;
 
-            }
-
-            else if (midSquare > num) {
+            } else if (midSquare > num) {
                 right = mid - 1;
             } else {
                 left = mid + 1;
@@ -24,6 +20,6 @@ class Solution {
         }
 
         return false;
-        // 238
+
     }
 }
