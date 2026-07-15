@@ -207,11 +207,13 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0116-populating-next-right-pointers-in-each-node](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0116-populating-next-right-pointers-in-each-node) |
+| [0117-populating-next-right-pointers-in-each-node-ii](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0117-populating-next-right-pointers-in-each-node-ii) |
 | [2685-count-the-number-of-complete-components](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/2685-count-the-number-of-complete-components) |
 ## Breadth-First Search
 |  |
 | ------- |
 | [0116-populating-next-right-pointers-in-each-node](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0116-populating-next-right-pointers-in-each-node) |
+| [0117-populating-next-right-pointers-in-each-node-ii](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0117-populating-next-right-pointers-in-each-node-ii) |
 | [0322-coin-change](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0322-coin-change) |
 | [2685-count-the-number-of-complete-components](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/2685-count-the-number-of-complete-components) |
 ## Geometry
@@ -223,6 +225,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0024-swap-nodes-in-pairs](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0024-swap-nodes-in-pairs) |
 | [0116-populating-next-right-pointers-in-each-node](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0116-populating-next-right-pointers-in-each-node) |
+| [0117-populating-next-right-pointers-in-each-node-ii](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0117-populating-next-right-pointers-in-each-node-ii) |
 | [2181-merge-nodes-in-between-zeros](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/2181-merge-nodes-in-between-zeros) |
 | [2807-insert-greatest-common-divisors-in-linked-list](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/2807-insert-greatest-common-divisors-in-linked-list) |
 ## Number Theory
@@ -250,8 +253,10 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0116-populating-next-right-pointers-in-each-node](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0116-populating-next-right-pointers-in-each-node) |
+| [0117-populating-next-right-pointers-in-each-node-ii](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0117-populating-next-right-pointers-in-each-node-ii) |
 ## Binary Tree
 |  |
 | ------- |
 | [0116-populating-next-right-pointers-in-each-node](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0116-populating-next-right-pointers-in-each-node) |
+| [0117-populating-next-right-pointers-in-each-node-ii](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0117-populating-next-right-pointers-in-each-node-ii) |
 <!---LeetCode Topics End-->
