@@ -38,14 +38,14 @@ class Solution {
     }
 
     public int gcdOfOddEvenSums(int n) {
-        int evenN = n * 2;
-        int oddN = (n * 2) - 1;
 
-        float evenSum = ((n / 2.0f) * (2 + evenN));
-        float oddSum = ((n / 2.0f) * (1 + oddN));
+        // int evenN = n * 2;
+        // int oddN = (n * 2) - 1;
+        // float evenSum = ((n / 2.0f) * (2 + evenN));
+        // float oddSum = ((n / 2.0f) * (1 + oddN));
 
-        // int evenSum = (n / 2) * ((2 * 2) + ((n - 1) * 2));
-        // int oddSum = (n / 2) * ((2 * 1) + ((n - 1) * 2));
+        float evenSum = (n / 2.0f) * ((2 * 2) + ((n - 1) * 2));
+        float oddSum = (n / 2.0f) * ((2 * 1) + ((n - 1) * 2));
 
         return gcd((int) oddSum, (int) evenSum);
 
