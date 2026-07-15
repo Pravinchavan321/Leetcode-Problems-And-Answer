@@ -6,6 +6,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Math
 |  |
 | ------- |
+| [0150-evaluate-reverse-polish-notation](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0227-basic-calculator-ii](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0227-basic-calculator-ii) |
 | [1232-check-if-it-is-a-straight-line](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1232-check-if-it-is-a-straight-line) |
 | [1252-cells-with-odd-values-in-a-matrix](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1252-cells-with-odd-values-in-a-matrix) |
@@ -52,6 +53,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0128-longest-consecutive-sequence](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0128-longest-consecutive-sequence) |
 | [0136-single-number](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0136-single-number) |
 | [0137-single-number-ii](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0137-single-number-ii) |
+| [0150-evaluate-reverse-polish-notation](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0179-largest-number](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0179-largest-number) |
 | [0229-majority-element-ii](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0229-majority-element-ii) |
 | [0322-coin-change](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0322-coin-change) |
@@ -245,6 +247,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Stack
 |  |
 | ------- |
+| [0150-evaluate-reverse-polish-notation](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0227-basic-calculator-ii](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0227-basic-calculator-ii) |
 | [1441-build-an-array-with-stack-operations](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1441-build-an-array-with-stack-operations) |
 | [2390-removing-stars-from-a-string](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/2390-removing-stars-from-a-string) |
