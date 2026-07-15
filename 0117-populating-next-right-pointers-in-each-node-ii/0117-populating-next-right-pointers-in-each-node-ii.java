@@ -27,26 +27,25 @@ class Solution {
             return root;
         }
 
-        Deque<Node> q = new ArrayDeque<>();
-        q.offerLast(root);
+        Queue<Node> q = new ArrayDeque<>();
+        q.offer(root);
 
         while (!q.isEmpty()) {
             int size = q.size();
-            int last = 1;
 
             while (size > 0) {
-                Node lastElem = q.pollFirst();
-                if (size != last) {
-                    lastElem.next = q.peekFirst();
+                Node lastElem = q.poll();
+                if (size > 1) {
+                    lastElem.next = q.peek();
 
                 }
 
                 if (lastElem.left != null) {
 
-                    q.offerLast(lastElem.left);
+                    q.offer(lastElem.left);
                 }
                 if (lastElem.right != null) {
-                    q.offerLast(lastElem.right);
+                    q.offer(lastElem.right);
 
                 }
 
