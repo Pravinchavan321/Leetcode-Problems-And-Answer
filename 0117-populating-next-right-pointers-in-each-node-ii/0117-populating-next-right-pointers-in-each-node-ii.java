@@ -21,11 +21,59 @@ class Node {
 };
 */
 
+
+
+
+                        //(1)
+
+
+// class Solution {
+//     public Node connect(Node root) {
+//         if (root == null) {
+//             return root;
+//         }
+
+//         Queue<Node> q = new ArrayDeque<>();
+//         q.offer(root);
+
+//         while (!q.isEmpty()) {
+//             int size = q.size();
+
+//             while (size > 0) {
+//                 Node lastElem = q.poll();
+//                 if (size > 1) {
+//                     lastElem.next = q.peek();
+
+//                 }
+
+//                 if (lastElem.left != null) {
+
+//                     q.offer(lastElem.left);
+//                 }
+//                 if (lastElem.right != null) {
+//                     q.offer(lastElem.right);
+
+//                 }
+
+//                 size--;
+
+//             }
+
+//         }
+
+//         return root;
+
+//     }
+// }
+
+
+
+                        //(2)
+
+
 class Solution {
     public Node connect(Node root) {
-        if (root == null) {
-            return root;
-        }
+        if (root == null) return null;
 
         Queue<Node> q = new ArrayDeque<>();
         q.offer(root);
@@ -33,29 +81,18 @@ class Solution {
         while (!q.isEmpty()) {
             int size = q.size();
 
-            while (size > 0) {
-                Node lastElem = q.poll();
-                if (size > 1) {
-                    lastElem.next = q.peek();
+            for (int i = 0; i < size; i++) {
+                Node curr = q.poll();
 
+                if (i < size - 1) {
+                    curr.next = q.peek();
                 }
 
-                if (lastElem.left != null) {
-
-                    q.offer(lastElem.left);
-                }
-                if (lastElem.right != null) {
-                    q.offer(lastElem.right);
-
-                }
-
-                size--;
-
+                if (curr.left != null) q.offer(curr.left);
+                if (curr.right != null) q.offer(curr.right);
             }
-
         }
 
         return root;
-
     }
 }
