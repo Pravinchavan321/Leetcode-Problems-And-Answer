@@ -49,6 +49,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0011-container-with-most-water](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0011-container-with-most-water) |
 | [0080-remove-duplicates-from-sorted-array-ii](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0080-remove-duplicates-from-sorted-array-ii) |
+| [0128-longest-consecutive-sequence](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0128-longest-consecutive-sequence) |
 | [0179-largest-number](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0179-largest-number) |
 | [0229-majority-element-ii](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0229-majority-element-ii) |
 | [0322-coin-change](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0322-coin-change) |
@@ -143,6 +144,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0003-longest-substring-without-repeating-characters) |
+| [0128-longest-consecutive-sequence](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0128-longest-consecutive-sequence) |
 | [0229-majority-element-ii](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0229-majority-element-ii) |
 | [0567-permutation-in-string](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0567-permutation-in-string) |
 | [1207-unique-number-of-occurrences](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1207-unique-number-of-occurrences) |
@@ -188,6 +190,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Union-Find
 |  |
 | ------- |
+| [0128-longest-consecutive-sequence](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0128-longest-consecutive-sequence) |
 | [2685-count-the-number-of-complete-components](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/2685-count-the-number-of-complete-components) |
 | [3532-path-existence-queries-in-a-graph-i](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/3532-path-existence-queries-in-a-graph-i) |
 ## Graph Theory
