@@ -15,7 +15,12 @@ class Solution {
 
         long mx = Integer.MIN_VALUE;
         for (int i = 0; i < n; i++) {
-            mx = Math.max(mx, nums[i]);
+            if(nums[i] > mx)
+            {
+                mx = nums[i];
+
+            }
+            
 
             prefixGcd[i] = gcd(mx, nums[i]);
 
