@@ -1,45 +1,45 @@
 class Solution {
     public int widthOfBinaryTree(TreeNode root) {
+        if (root == null) return 0;
 
-        Queue<TreeNode> q = new LinkedList<>();  // Fix 1: LinkedList instead of ArrayDeque
+        // Queue stores {node, index} pairs
+        Queue<long[]> q = new LinkedList<>();
+        // Can't store object in long[], so use two parallel structures
+        
+        Queue<TreeNode> nodes = new LinkedList<>();
+        Queue<Long> indices = new LinkedList<>();
 
-        q.offer(root);
-        int max = 1;
+        nodes.offer(root);
+        indices.offer(1L);
+        int maxWidth = 0;
 
-        while (!q.isEmpty()) {
-            int index1 = -1;
-            int index2 = -1;
-            int count = 0;
+        while (!nodes.isEmpty()) {
+            int size = nodes.size();
+            long first = 0, last = 0;
 
-            for (TreeNode node : q) {
-                if (index1 == -1 && node != null) {
-                    index1 = count;
-                } else if (node != null) {
-                    index2 = count;
+            for (int i = 0; i < size; i++) {
+                TreeNode node = nodes.poll();
+                long idx = indices.poll();
+
+                if (i == 0) first = idx;
+                if (i == size - 1) last = idx;
+
+                // Normalize index to prevent overflow
+                long pos = idx - first;
+
+                if (node.left != null) {
+                    nodes.offer(node.left);
+                    indices.offer(2 * pos);
                 }
-                count++;
-            }
-            if (index1 == -1) {
-                break;
-            }
-
-            max = Math.max(max, index2 - index1 + 1);
-
-            int size = q.size();
-
-            while (size > 0) {
-                TreeNode elem = q.poll();
-                if (elem == null) {
-                    q.offer(null);
-                    q.offer(null);
-                } else {                    // Fix 2 & 3: simplified block, always push both children
-                    q.offer(elem.left);
-                    q.offer(elem.right);
+                if (node.right != null) {
+                    nodes.offer(node.right);
+                    indices.offer(2 * pos + 1);
                 }
-                size--;                    // Fix 4: decrement size
             }
+
+            maxWidth = Math.max(maxWidth, (int)(last - first + 1));
         }
 
-        return max;
+        return maxWidth;
     }
 }
