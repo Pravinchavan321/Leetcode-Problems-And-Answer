@@ -10,6 +10,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0227-basic-calculator-ii](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0227-basic-calculator-ii) |
 | [0367-valid-perfect-square](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0367-valid-perfect-square) |
 | [0445-add-two-numbers-ii](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0445-add-two-numbers-ii) |
+| [0788-rotated-digits](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0788-rotated-digits) |
 | [1232-check-if-it-is-a-straight-line](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1232-check-if-it-is-a-straight-line) |
 | [1252-cells-with-odd-values-in-a-matrix](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1252-cells-with-odd-values-in-a-matrix) |
 | [1295-find-numbers-with-even-number-of-digits](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1295-find-numbers-with-even-number-of-digits) |
@@ -196,6 +197,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0322-coin-change](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0322-coin-change) |
+| [0788-rotated-digits](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0788-rotated-digits) |
 | [3336-find-the-number-of-subsequences-with-equal-gcd](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/3336-find-the-number-of-subsequences-with-equal-gcd) |
 | [3534-path-existence-queries-in-a-graph-ii](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/3534-path-existence-queries-in-a-graph-ii) |
 | [3857-minimum-cost-to-split-into-ones](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/3857-minimum-cost-to-split-into-ones) |
