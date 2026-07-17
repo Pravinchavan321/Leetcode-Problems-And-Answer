@@ -86,10 +86,7 @@ class Solution {
             return;
         }
         inorderBst(root.left);
-        if (previous == -1) {
-
-            previous = root.val;
-        } else if (minDiff > Math.abs(root.val - previous)) {
+        if (previous != -1 && minDiff > Math.abs(root.val - previous)) {
 
             minDiff = Math.abs(root.val - previous);
         }
