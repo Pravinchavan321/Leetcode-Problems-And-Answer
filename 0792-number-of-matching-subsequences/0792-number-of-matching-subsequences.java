@@ -67,8 +67,6 @@
 
 //(2)
 
-import java.util.*;
-
 class Solution {
 
     class Node {
