@@ -247,6 +247,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0116-populating-next-right-pointers-in-each-node](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0116-populating-next-right-pointers-in-each-node) |
 | [0117-populating-next-right-pointers-in-each-node-ii](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0117-populating-next-right-pointers-in-each-node-ii) |
 | [0129-sum-root-to-leaf-numbers](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0129-sum-root-to-leaf-numbers) |
+| [0530-minimum-absolute-difference-in-bst](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0530-minimum-absolute-difference-in-bst) |
 | [0662-maximum-width-of-binary-tree](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0662-maximum-width-of-binary-tree) |
 | [0783-minimum-distance-between-bst-nodes](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0783-minimum-distance-between-bst-nodes) |
 | [2685-count-the-number-of-complete-components](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/2685-count-the-number-of-complete-components) |
@@ -257,6 +258,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0117-populating-next-right-pointers-in-each-node-ii](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0117-populating-next-right-pointers-in-each-node-ii) |
 | [0322-coin-change](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0322-coin-change) |
 | [0429-n-ary-tree-level-order-traversal](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0429-n-ary-tree-level-order-traversal) |
+| [0530-minimum-absolute-difference-in-bst](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0530-minimum-absolute-difference-in-bst) |
 | [0662-maximum-width-of-binary-tree](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0662-maximum-width-of-binary-tree) |
 | [0783-minimum-distance-between-bst-nodes](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0783-minimum-distance-between-bst-nodes) |
 | [2685-count-the-number-of-complete-components](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/2685-count-the-number-of-complete-components) |
@@ -305,6 +307,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0117-populating-next-right-pointers-in-each-node-ii](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0117-populating-next-right-pointers-in-each-node-ii) |
 | [0129-sum-root-to-leaf-numbers](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0129-sum-root-to-leaf-numbers) |
 | [0429-n-ary-tree-level-order-traversal](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0429-n-ary-tree-level-order-traversal) |
+| [0530-minimum-absolute-difference-in-bst](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0530-minimum-absolute-difference-in-bst) |
 | [0662-maximum-width-of-binary-tree](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0662-maximum-width-of-binary-tree) |
 | [0783-minimum-distance-between-bst-nodes](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0783-minimum-distance-between-bst-nodes) |
 ## Binary Tree
@@ -313,6 +316,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0116-populating-next-right-pointers-in-each-node](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0116-populating-next-right-pointers-in-each-node) |
 | [0117-populating-next-right-pointers-in-each-node-ii](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0117-populating-next-right-pointers-in-each-node-ii) |
 | [0129-sum-root-to-leaf-numbers](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0129-sum-root-to-leaf-numbers) |
+| [0530-minimum-absolute-difference-in-bst](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0530-minimum-absolute-difference-in-bst) |
 | [0662-maximum-width-of-binary-tree](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0662-maximum-width-of-binary-tree) |
 | [0783-minimum-distance-between-bst-nodes](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0783-minimum-distance-between-bst-nodes) |
 ## Divide and Conquer
@@ -326,5 +330,6 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Binary Search Tree
 |  |
 | ------- |
+| [0530-minimum-absolute-difference-in-bst](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0530-minimum-absolute-difference-in-bst) |
 | [0783-minimum-distance-between-bst-nodes](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0783-minimum-distance-between-bst-nodes) |
 <!---LeetCode Topics End-->
