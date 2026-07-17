@@ -53,7 +53,7 @@ class Solution {
                 return false;
             }
 
-            if (digit == 2 || digit == 5 || digit == 6 || digit == 9) {
+            if (!changed && (digit == 2 || digit == 5 || digit == 6 || digit == 9)) {
                 changed = true;
             }
 
