@@ -51,6 +51,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1078-occurrences-after-bigram](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1078-occurrences-after-bigram) |
 | [1108-defanging-an-ip-address](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1108-defanging-an-ip-address) |
 | [1160-find-words-that-can-be-formed-by-characters](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1160-find-words-that-can-be-formed-by-characters) |
+| [1221-split-a-string-in-balanced-strings](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1221-split-a-string-in-balanced-strings) |
 | [1736-latest-time-by-replacing-hidden-digits](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1736-latest-time-by-replacing-hidden-digits) |
 | [1796-second-largest-digit-in-a-string](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1796-second-largest-digit-in-a-string) |
 | [1805-number-of-different-integers-in-a-string](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1805-number-of-different-integers-in-a-string) |
@@ -258,6 +259,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0169-majority-element](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0169-majority-element) |
 | [0229-majority-element-ii](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0229-majority-element-ii) |
 | [1160-find-words-that-can-be-formed-by-characters](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1160-find-words-that-can-be-formed-by-characters) |
+| [1221-split-a-string-in-balanced-strings](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1221-split-a-string-in-balanced-strings) |
 | [2148-count-elements-with-strictly-smaller-and-greater-elements](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/2148-count-elements-with-strictly-smaller-and-greater-elements) |
 | [2404-most-frequent-even-element](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/2404-most-frequent-even-element) |
 | [3312-sorted-gcd-pair-queries](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/3312-sorted-gcd-pair-queries) |
@@ -279,6 +281,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0011-container-with-most-water](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0011-container-with-most-water) |
 | [0179-largest-number](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0179-largest-number) |
+| [1221-split-a-string-in-balanced-strings](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1221-split-a-string-in-balanced-strings) |
 | [1736-latest-time-by-replacing-hidden-digits](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1736-latest-time-by-replacing-hidden-digits) |
 | [3534-path-existence-queries-in-a-graph-ii](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/3534-path-existence-queries-in-a-graph-ii) |
 ## Depth-First Search
