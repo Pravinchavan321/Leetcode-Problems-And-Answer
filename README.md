@@ -109,6 +109,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1331-rank-transform-of-an-array](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1331-rank-transform-of-an-array) |
 | [1346-check-if-n-and-its-double-exist](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1346-check-if-n-and-its-double-exist) |
 | [1351-count-negative-numbers-in-a-sorted-matrix](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1351-count-negative-numbers-in-a-sorted-matrix) |
+| [1365-how-many-numbers-are-smaller-than-the-current-number](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1365-how-many-numbers-are-smaller-than-the-current-number) |
 | [1441-build-an-array-with-stack-operations](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1441-build-an-array-with-stack-operations) |
 | [1491-average-salary-excluding-the-minimum-and-maximum-salary](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1491-average-salary-excluding-the-minimum-and-maximum-salary) |
 | [1822-sign-of-the-product-of-an-array](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1822-sign-of-the-product-of-an-array) |
@@ -183,6 +184,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1200-minimum-absolute-difference](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1200-minimum-absolute-difference) |
 | [1331-rank-transform-of-an-array](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1331-rank-transform-of-an-array) |
 | [1346-check-if-n-and-its-double-exist](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1346-check-if-n-and-its-double-exist) |
+| [1365-how-many-numbers-are-smaller-than-the-current-number](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1365-how-many-numbers-are-smaller-than-the-current-number) |
 | [1491-average-salary-excluding-the-minimum-and-maximum-salary](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1491-average-salary-excluding-the-minimum-and-maximum-salary) |
 | [2148-count-elements-with-strictly-smaller-and-greater-elements](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/2148-count-elements-with-strictly-smaller-and-greater-elements) |
 | [2164-sort-even-and-odd-indices-independently](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/2164-sort-even-and-odd-indices-independently) |
@@ -227,6 +229,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1207-unique-number-of-occurrences](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1207-unique-number-of-occurrences) |
 | [1331-rank-transform-of-an-array](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1331-rank-transform-of-an-array) |
 | [1346-check-if-n-and-its-double-exist](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1346-check-if-n-and-its-double-exist) |
+| [1365-how-many-numbers-are-smaller-than-the-current-number](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1365-how-many-numbers-are-smaller-than-the-current-number) |
 | [1796-second-largest-digit-in-a-string](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1796-second-largest-digit-in-a-string) |
 | [1805-number-of-different-integers-in-a-string](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1805-number-of-different-integers-in-a-string) |
 | [2404-most-frequent-even-element](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/2404-most-frequent-even-element) |
@@ -414,4 +417,5 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1122-relative-sort-array](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1122-relative-sort-array) |
+| [1365-how-many-numbers-are-smaller-than-the-current-number](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1365-how-many-numbers-are-smaller-than-the-current-number) |
 <!---LeetCode Topics End-->
