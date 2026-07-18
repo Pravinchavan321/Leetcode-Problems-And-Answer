@@ -12,6 +12,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0445-add-two-numbers-ii](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0445-add-two-numbers-ii) |
 | [0509-fibonacci-number](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0509-fibonacci-number) |
 | [0788-rotated-digits](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0788-rotated-digits) |
+| [1030-matrix-cells-in-distance-order](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1030-matrix-cells-in-distance-order) |
 | [1232-check-if-it-is-a-straight-line](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1232-check-if-it-is-a-straight-line) |
 | [1252-cells-with-odd-values-in-a-matrix](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1252-cells-with-odd-values-in-a-matrix) |
 | [1295-find-numbers-with-even-number-of-digits](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1295-find-numbers-with-even-number-of-digits) |
@@ -81,6 +82,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0821-shortest-distance-to-a-character](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0821-shortest-distance-to-a-character) |
 | [0867-transpose-matrix](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0867-transpose-matrix) |
 | [0941-valid-mountain-array](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0941-valid-mountain-array) |
+| [1030-matrix-cells-in-distance-order](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1030-matrix-cells-in-distance-order) |
 | [1089-duplicate-zeros](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1089-duplicate-zeros) |
 | [1207-unique-number-of-occurrences](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1207-unique-number-of-occurrences) |
 | [1232-check-if-it-is-a-straight-line](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1232-check-if-it-is-a-straight-line) |
@@ -120,6 +122,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0867-transpose-matrix](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0867-transpose-matrix) |
+| [1030-matrix-cells-in-distance-order](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1030-matrix-cells-in-distance-order) |
 | [2125-number-of-laser-beams-in-a-bank](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/2125-number-of-laser-beams-in-a-bank) |
 | [2482-difference-between-ones-and-zeros-in-row-and-column](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/2482-difference-between-ones-and-zeros-in-row-and-column) |
 ## Simulation
@@ -154,6 +157,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0442-find-all-duplicates-in-an-array](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0442-find-all-duplicates-in-an-array) |
 | [0792-number-of-matching-subsequences](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0792-number-of-matching-subsequences) |
+| [1030-matrix-cells-in-distance-order](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1030-matrix-cells-in-distance-order) |
 | [1331-rank-transform-of-an-array](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1331-rank-transform-of-an-array) |
 | [1491-average-salary-excluding-the-minimum-and-maximum-salary](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1491-average-salary-excluding-the-minimum-and-maximum-salary) |
 | [2148-count-elements-with-strictly-smaller-and-greater-elements](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/2148-count-elements-with-strictly-smaller-and-greater-elements) |
@@ -284,6 +288,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Geometry
 |  |
 | ------- |
+| [1030-matrix-cells-in-distance-order](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1030-matrix-cells-in-distance-order) |
 | [1232-check-if-it-is-a-straight-line](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1232-check-if-it-is-a-straight-line) |
 ## Linked List
 |  |
