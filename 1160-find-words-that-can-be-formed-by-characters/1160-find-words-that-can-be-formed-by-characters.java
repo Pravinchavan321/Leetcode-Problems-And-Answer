@@ -1,8 +1,6 @@
 class Solution {
     public int countCharacters(String[] words, String chars) {
-        
-        
-        
+
         int[] freqArr = new int[26];
         int n = chars.length();
         for (int i = 0; i < n; i++) {
