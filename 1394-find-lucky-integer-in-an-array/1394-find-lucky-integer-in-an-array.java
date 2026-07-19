@@ -1,21 +1,58 @@
+//(1)
+
 class Solution {
     public int findLucky(int[] arr) {
 
-        TreeMap<Integer, Integer> treeMap = new TreeMap<>(Collections.reverseOrder());
         int n = arr.length;
-
-        for (int i = 0; i < n; i++) {
-            treeMap.put(arr[i], treeMap.getOrDefault(arr[i], 0) + 1);
-        }
+        Arrays.sort(arr);
         int luckyNo = -1;
-        for (int num : treeMap.keySet()) {
-            if (num == treeMap.get(num)) {
-                luckyNo = num;
-                break;
+        int lastElem = arr[n - 1];
+        int count = 0;
+        for (int i = n - 1; i >= 0; i--) {
+            if (arr[i] == lastElem) {
+                count++;
+
+            } else if (arr[i] != lastElem) {
+                if (count == lastElem) {
+                    luckyNo = lastElem;
+                    break;
+                } else {
+                    count = 1;
+                    lastElem = arr[i];
+
+                }
+
             }
 
+        }
+        if (count == lastElem) {
+            luckyNo = lastElem;
         }
 
         return luckyNo;
     }
 }
+
+//(2)
+
+// class Solution {
+//     public int findLucky(int[] arr) {
+
+//         TreeMap<Integer, Integer> treeMap = new TreeMap<>(Collections.reverseOrder());
+//         int n = arr.length;
+
+//         for (int i = 0; i < n; i++) {
+//             treeMap.put(arr[i], treeMap.getOrDefault(arr[i], 0) + 1);
+//         }
+//         int luckyNo = -1;
+//         for (int num : treeMap.keySet()) {
+//             if (num == treeMap.get(num)) {
+//                 luckyNo = num;
+//                 break;
+//             }
+
+//         }
+
+//         return luckyNo;
+//     }
+// }
