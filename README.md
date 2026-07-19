@@ -114,6 +114,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1380-lucky-numbers-in-a-matrix](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1380-lucky-numbers-in-a-matrix) |
 | [1385-find-the-distance-value-between-two-arrays](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1385-find-the-distance-value-between-two-arrays) |
 | [1389-create-target-array-in-the-given-order](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1389-create-target-array-in-the-given-order) |
+| [1394-find-lucky-integer-in-an-array](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1394-find-lucky-integer-in-an-array) |
 | [1441-build-an-array-with-stack-operations](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1441-build-an-array-with-stack-operations) |
 | [1491-average-salary-excluding-the-minimum-and-maximum-salary](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1491-average-salary-excluding-the-minimum-and-maximum-salary) |
 | [1822-sign-of-the-product-of-an-array](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1822-sign-of-the-product-of-an-array) |
@@ -239,6 +240,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1331-rank-transform-of-an-array](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1331-rank-transform-of-an-array) |
 | [1346-check-if-n-and-its-double-exist](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1346-check-if-n-and-its-double-exist) |
 | [1365-how-many-numbers-are-smaller-than-the-current-number](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1365-how-many-numbers-are-smaller-than-the-current-number) |
+| [1394-find-lucky-integer-in-an-array](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1394-find-lucky-integer-in-an-array) |
 | [1796-second-largest-digit-in-a-string](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1796-second-largest-digit-in-a-string) |
 | [1805-number-of-different-integers-in-a-string](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1805-number-of-different-integers-in-a-string) |
 | [2404-most-frequent-even-element](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/2404-most-frequent-even-element) |
@@ -284,6 +286,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0229-majority-element-ii](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0229-majority-element-ii) |
 | [1160-find-words-that-can-be-formed-by-characters](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1160-find-words-that-can-be-formed-by-characters) |
 | [1221-split-a-string-in-balanced-strings](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1221-split-a-string-in-balanced-strings) |
+| [1394-find-lucky-integer-in-an-array](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1394-find-lucky-integer-in-an-array) |
 | [2148-count-elements-with-strictly-smaller-and-greater-elements](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/2148-count-elements-with-strictly-smaller-and-greater-elements) |
 | [2404-most-frequent-even-element](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/2404-most-frequent-even-element) |
 | [3312-sorted-gcd-pair-queries](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/3312-sorted-gcd-pair-queries) |
