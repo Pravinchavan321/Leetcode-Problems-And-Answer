@@ -1,39 +1,63 @@
+//(1)
+// class Solution {
+//     public int binaryGap(int n) {
+
+//         String bStr = Integer.toBinaryString(n);
+//         int length = bStr.length();
+//         boolean lastOne = false;
+//         int countZero = 0;
+//         int countOne = 0;
+//         int i = length - 1;
+//         int max = 0;
+//         while (i >= 0) {
+//             char c = bStr.charAt(i);
+
+//             if (c == '1' && lastOne == false) {
+//                 lastOne = true;
+//                 countOne++;
+
+//             } else if (c == '0' && lastOne == true) {
+//                 countZero++;
+
+//             } else if (c == '1' && lastOne == true) {
+//                 if (countZero > max) {
+//                     max = countZero;
+//                 }
+//                 countOne++;
+//                 countZero = 0;
+
+//             }
+//             i--;
+
+//         }
+//         if (countOne < 2) {
+//             return 0;
+//         }
+
+//         return max + 1;
+
+//     }
+// }
+
+//(2)
+
 class Solution {
     public int binaryGap(int n) {
+        int last = -1;
+        int maxGap = 0;
+        int pos = 0;
 
-        String bStr = Integer.toBinaryString(n);
-        int length = bStr.length();
-        boolean lastOne = false;
-        int countZero = 0;
-        int countOne = 0;
-        int i = length - 1;
-        int max = 0;
-        while (i >= 0) {
-            char c = bStr.charAt(i);
-
-            if (c == '1' && lastOne == false) {
-                lastOne = true;
-                countOne++;
-
-            } else if (c == '0' && lastOne == true) {
-                countZero++;
-
-            } else if (c == '1' && lastOne == true) {
-                if (countZero > max) {
-                    max = countZero;
+        while (n > 0) {
+            if ((n & 1) == 1) {
+                if (last != -1) {
+                    maxGap = Math.max(maxGap, pos - last);
                 }
-                countOne++;
-                countZero = 0;
-
+                last = pos;
             }
-            i--;
-
-        }
-        if (countOne < 2) {
-            return 0;
+            pos++;
+            n >>= 1;
         }
 
-        return max + 1;
-
+        return maxGap;
     }
 }
