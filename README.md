@@ -58,6 +58,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1309-decrypt-string-from-alphabet-to-integer-mapping](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1309-decrypt-string-from-alphabet-to-integer-mapping) |
 | [1374-generate-a-string-with-characters-that-have-odd-counts](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1374-generate-a-string-with-characters-that-have-odd-counts) |
 | [1408-string-matching-in-an-array](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1408-string-matching-in-an-array) |
+| [1417-reformat-the-string](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1417-reformat-the-string) |
 | [1736-latest-time-by-replacing-hidden-digits](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1736-latest-time-by-replacing-hidden-digits) |
 | [1796-second-largest-digit-in-a-string](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1796-second-largest-digit-in-a-string) |
 | [1805-number-of-different-integers-in-a-string](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1805-number-of-different-integers-in-a-string) |
