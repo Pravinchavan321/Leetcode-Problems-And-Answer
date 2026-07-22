@@ -65,34 +65,77 @@
 
 //(2)
 
+// class Solution {
+//     public String reformat(String s) {
+//         List<Character> letters = new ArrayList<>();
+//         List<Character> digits = new ArrayList<>();
+
+//         for (char c : s.toCharArray()) {
+//             if (Character.isLetter(c)) letters.add(c);
+//             else digits.add(c);
+//         }
+
+//         int lCount = letters.size(), dCount = digits.size();
+
+//         if (Math.abs(lCount - dCount) > 1) return "";
+
+//         StringBuilder sb = new StringBuilder();
+//         int iL = 0, iD = 0;
+
+//         // Jo zyada hai wo pehle aayega (even index pe)
+//         boolean letterFirst = lCount >= dCount;
+
+//         for (int i = 0; i < s.length(); i++) {
+//             if (i % 2 == 0) {
+//                 sb.append(letterFirst ? letters.get(iL++) : digits.get(iD++));
+//             } else {
+//                 sb.append(letterFirst ? digits.get(iD++) : letters.get(iL++));
+//             }
+//         }
+
+//         return sb.toString();
+//     }
+// }
+
+//(3)
+
 class Solution {
     public String reformat(String s) {
-        List<Character> letters = new ArrayList<>();
-        List<Character> digits = new ArrayList<>();
-
-        for (char c : s.toCharArray()) {
-            if (Character.isLetter(c)) letters.add(c);
-            else digits.add(c);
+        int letter = 0;
+        int digit = 0;
+        // Pehle sirf count karo
+        for (char ch : s.toCharArray()) {
+            if (Character.isLetter(ch))
+                letter++;
+            else
+                digit++;
         }
-
-        int lCount = letters.size(), dCount = digits.size();
-
-        if (Math.abs(lCount - dCount) > 1) return "";
-
-        StringBuilder sb = new StringBuilder();
-        int iL = 0, iD = 0;
-
-        // Jo zyada hai wo pehle aayega (even index pe)
-        boolean letterFirst = lCount >= dCount;
-
-        for (int i = 0; i < s.length(); i++) {
-            if (i % 2 == 0) {
-                sb.append(letterFirst ? letters.get(iL++) : digits.get(iD++));
+        // Agar difference 1 se zyada hai
+        // to alternate banana possible nahi
+        if (Math.abs(letter - digit) > 1)
+            return "";
+        char[] ans = new char[s.length()];
+        int letterIdx;
+        int digitIdx;
+        // Jiski count zyada hai woh index 0 se start karega
+        if (letter >= digit) {
+            letterIdx = 0;
+            digitIdx = 1;
+        } else {
+            digitIdx = 0;
+            letterIdx = 1;
+        }
+        // Ab characters ko unki position par rakho
+        for (char c : s.toCharArray()) {
+            if (Character.isLetter(c)) {
+                ans[letterIdx] = c;
+                letterIdx += 2;
             } else {
-                sb.append(letterFirst ? digits.get(iD++) : letters.get(iL++));
+                ans[digitIdx] = c;
+                digitIdx += 2;
             }
         }
 
-        return sb.toString();
+        return new String(ans);
     }
 }
