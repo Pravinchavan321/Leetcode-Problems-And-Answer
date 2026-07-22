@@ -1,89 +1,108 @@
-import java.util.regex.*;
+import java.util.*;
 
 class Solution {
-    private int[] zs, ze, V;
-    private int nblocks;
-    private List<int[]> sparse;
-
     public List<Integer> maxActiveSectionsAfterTrade(String s, int[][] queries) {
-        int ones = (int) s.chars().filter(c -> c == '1').count();
+        final int n = s.length();
+        final char[] c = s.toCharArray();
 
-        // maximal zero-blocks (inclusive ends), split into starts / ends
-        List<Integer> zsL = new ArrayList<>(), zeL = new ArrayList<>();
-        Matcher mo = Pattern.compile("0+").matcher(s);
-        while (mo.find()) {
-            zsL.add(mo.start());
-            zeL.add(mo.end() - 1);
+        // --- count ones without streams ---
+        int ones = 0;
+        for (int i = 0; i < n; i++) if (c[i] == '1') ones++;
+
+        // --- build zero groups as flat primitive arrays (no Group objects, no Pair) ---
+        int[] gStart = new int[n];
+        int[] gLen = new int[n];
+        int[] zeroGroupIndex = new int[n];
+        int groupCount = 0;
+
+        for (int i = 0; i < n; i++) {
+            if (c[i] == '0') {
+                if (i > 0 && c[i - 1] == '0') {
+                    gLen[groupCount - 1]++;
+                } else {
+                    gStart[groupCount] = i;
+                    gLen[groupCount] = 1;
+                    groupCount++;
+                }
+            }
+            // IMPORTANT: assign for '1' positions too - the index of the most
+            // recently completed zero group (or -1 if none yet). This is NOT
+            // "-1 for every '1' character": a '1' after some zero group must
+            // still remember that group's index, since later comparisons
+            // (lg < rg-1, rEndGroup, etc.) rely on it to determine whether a
+            // whole zero group lies strictly within the query range.
+            zeroGroupIndex[i] = groupCount - 1;
         }
-        zs = zsL.stream().mapToInt(Integer::intValue).toArray();
-        ze = zeL.stream().mapToInt(Integer::intValue).toArray();
-        nblocks = zs.length;
 
-        // valley j: full value = sum of the two adjacent block lengths
-        V = IntStream.range(0, nblocks - 1)
-                .map(j -> (ze[j] - zs[j] + 1) + (ze[j + 1] - zs[j + 1] + 1))
-                .toArray();
+        final int q = queries.length;
+        List<Integer> ans = new ArrayList<>(q); // preallocate, avoid resizing
 
-        // sparse table for range-max over V
-        int nv = V.length;
-        sparse = new ArrayList<>();
-        sparse.add(V);
-        for (int half = 1; half * 2 <= nv; half *= 2) {
-            int[] prev = sparse.get(sparse.size() - 1);
-            int[] next = new int[prev.length - half];
-            for (int i = 0; i < next.length; i++)
-                next[i] = Math.max(prev[i], prev[i + half]);
-            sparse.add(next);
+        if (groupCount == 0) {
+            Integer boxedOnes = ones; // box once, reuse
+            for (int i = 0; i < q; i++) ans.add(boxedOnes);
+            return ans;
         }
 
-        List<Integer> ans = new ArrayList<>(queries.length);
-        for (int[] q : queries)
-            ans.add(ones + gain(q[0], q[1]));
+        // --- sparse table over merge-lengths of adjacent zero groups ---
+        final int m = groupCount - 1;
+        int[][] st = null;
+        if (m > 0) {
+            int[] base = new int[m];
+            for (int i = 0; i < m; i++) base[i] = gLen[i] + gLen[i + 1];
+
+            int LOG = 32 - Integer.numberOfLeadingZeros(m); // number of levels
+            st = new int[LOG][];
+            st[0] = base;
+            for (int k = 1; k < LOG; k++) {
+                int half = 1 << (k - 1);
+                int len = m - (1 << k) + 1;
+                int[] prev = st[k - 1];
+                int[] row = new int[len];
+                for (int j = 0; j < len; j++)
+                    row[j] = Math.max(prev[j], prev[j + half]);
+                st[k] = row;
+            }
+        }
+
+        for (int[] query : queries) {
+            final int l = query[0];
+            final int r = query[1];
+            final int lg = zeroGroupIndex[l];
+            final int rg = zeroGroupIndex[r];
+
+            final int left = (lg == -1) ? -1 : (gLen[lg] - (l - gStart[lg]));
+            final int right = (rg == -1) ? -1 : (r - gStart[rg] + 1);
+
+            // computed once, reused (original code evaluated this ternary twice)
+            final int rEndGroup = (c[r] == '1') ? rg : rg - 1;
+            final int startAdj = lg + 1;
+            final int endAdj = rEndGroup - 1;
+
+            int active = ones;
+
+            if (c[l] == '0' && c[r] == '0' && lg + 1 == rg) {
+                final int cand = ones + left + right;
+                if (cand > active) active = cand;
+            } else if (startAdj <= endAdj) {
+                final int k = 31 - Integer.numberOfLeadingZeros(endAdj - startAdj + 1);
+                final int[] row = st[k];
+                final int best = Math.max(row[startAdj], row[endAdj - (1 << k) + 1]);
+                final int cand = ones + best;
+                if (cand > active) active = cand;
+            }
+
+            if (c[l] == '0' && lg + 1 <= rEndGroup) {
+                final int cand = ones + left + gLen[lg + 1];
+                if (cand > active) active = cand;
+            }
+            if (c[r] == '0' && lg < rg - 1) {
+                final int cand = ones + right + gLen[rg - 1];
+                if (cand > active) active = cand;
+            }
+
+            ans.add(active);
+        }
+
         return ans;
-    }
-
-    private int rmq(int lo, int hi) { // inclusive max over V[lo..hi]
-        int t = 31 - Integer.numberOfLeadingZeros(hi - lo + 1);
-        return Math.max(sparse.get(t)[lo], sparse.get(t)[hi - (1 << t) + 1]);
-    }
-
-    private int clip(int j, int l, int r) { // valley j's gain, clipped to [l, r]
-        return V[j] - Math.max(0, l - zs[j]) - Math.max(0, ze[j + 1] - r);
-    }
-
-    private int gain(int l, int r) {
-        if (nblocks < 2)
-            return 0;
-        int ja = lowerBound(ze, l); // first usable valley: left block ends >= l
-        int jb = upperBound(zs, r) - 2; // last  usable valley: right block starts <= r
-        if (ja > jb)
-            return 0;
-        return Math.max(Math.max(clip(ja, l, r), clip(jb, l, r)),
-                jb - ja >= 2 ? rmq(ja + 1, jb - 1) : 0);
-    }
-
-    // bisect_left / bisect_right equivalents
-    private static int lowerBound(int[] a, int x) {
-        int lo = 0, hi = a.length;
-        while (lo < hi) {
-            int mid = (lo + hi) >>> 1;
-            if (a[mid] < x)
-                lo = mid + 1;
-            else
-                hi = mid;
-        }
-        return lo;
-    }
-
-    private static int upperBound(int[] a, int x) {
-        int lo = 0, hi = a.length;
-        while (lo < hi) {
-            int mid = (lo + hi) >>> 1;
-            if (a[mid] <= x)
-                lo = mid + 1;
-            else
-                hi = mid;
-        }
-        return lo;
     }
 }
