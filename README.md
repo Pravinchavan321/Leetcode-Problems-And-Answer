@@ -59,6 +59,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1374-generate-a-string-with-characters-that-have-odd-counts](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1374-generate-a-string-with-characters-that-have-odd-counts) |
 | [1408-string-matching-in-an-array](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1408-string-matching-in-an-array) |
 | [1417-reformat-the-string](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1417-reformat-the-string) |
+| [1422-maximum-score-after-splitting-a-string](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1422-maximum-score-after-splitting-a-string) |
 | [1736-latest-time-by-replacing-hidden-digits](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1736-latest-time-by-replacing-hidden-digits) |
 | [1796-second-largest-digit-in-a-string](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1796-second-largest-digit-in-a-string) |
 | [1805-number-of-different-integers-in-a-string](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1805-number-of-different-integers-in-a-string) |
@@ -71,6 +72,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0525-contiguous-array](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0525-contiguous-array) |
+| [1422-maximum-score-after-splitting-a-string](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1422-maximum-score-after-splitting-a-string) |
 | [3312-sorted-gcd-pair-queries](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/3312-sorted-gcd-pair-queries) |
 | [3756-concatenate-non-zero-digits-and-multiply-by-sum-ii](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/3756-concatenate-non-zero-digits-and-multiply-by-sum-ii) |
 ## Array
