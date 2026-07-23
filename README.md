@@ -101,6 +101,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0566-reshape-the-matrix](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0566-reshape-the-matrix) |
 | [0581-shortest-unsorted-continuous-subarray](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0581-shortest-unsorted-continuous-subarray) |
 | [0598-range-addition-ii](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0598-range-addition-ii) |
+| [0624-maximum-distance-in-arrays](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0624-maximum-distance-in-arrays) |
 | [0792-number-of-matching-subsequences](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0792-number-of-matching-subsequences) |
 | [0821-shortest-distance-to-a-character](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0821-shortest-distance-to-a-character) |
 | [0867-transpose-matrix](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0867-transpose-matrix) |
@@ -341,6 +342,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0011-container-with-most-water](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0011-container-with-most-water) |
 | [0179-largest-number](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0179-largest-number) |
 | [0581-shortest-unsorted-continuous-subarray](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0581-shortest-unsorted-continuous-subarray) |
+| [0624-maximum-distance-in-arrays](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0624-maximum-distance-in-arrays) |
 | [1081-smallest-subsequence-of-distinct-characters](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1081-smallest-subsequence-of-distinct-characters) |
 | [1221-split-a-string-in-balanced-strings](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1221-split-a-string-in-balanced-strings) |
 | [1736-latest-time-by-replacing-hidden-digits](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1736-latest-time-by-replacing-hidden-digits) |
