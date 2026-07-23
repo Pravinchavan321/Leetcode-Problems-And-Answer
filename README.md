@@ -348,6 +348,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0129-sum-root-to-leaf-numbers](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0129-sum-root-to-leaf-numbers) |
 | [0530-minimum-absolute-difference-in-bst](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0530-minimum-absolute-difference-in-bst) |
 | [0563-binary-tree-tilt](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0563-binary-tree-tilt) |
+| [0590-n-ary-tree-postorder-traversal](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0590-n-ary-tree-postorder-traversal) |
 | [0662-maximum-width-of-binary-tree](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0662-maximum-width-of-binary-tree) |
 | [0783-minimum-distance-between-bst-nodes](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0783-minimum-distance-between-bst-nodes) |
 | [2685-count-the-number-of-complete-components](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/2685-count-the-number-of-complete-components) |
@@ -394,6 +395,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0445-add-two-numbers-ii](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0445-add-two-numbers-ii) |
 | [0503-next-greater-element-ii](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0503-next-greater-element-ii) |
 | [0581-shortest-unsorted-continuous-subarray](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0581-shortest-unsorted-continuous-subarray) |
+| [0590-n-ary-tree-postorder-traversal](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0590-n-ary-tree-postorder-traversal) |
 | [1047-remove-all-adjacent-duplicates-in-string](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1047-remove-all-adjacent-duplicates-in-string) |
 | [1081-smallest-subsequence-of-distinct-characters](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1081-smallest-subsequence-of-distinct-characters) |
 | [1441-build-an-array-with-stack-operations](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1441-build-an-array-with-stack-operations) |
@@ -417,6 +419,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0429-n-ary-tree-level-order-traversal](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0429-n-ary-tree-level-order-traversal) |
 | [0530-minimum-absolute-difference-in-bst](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0530-minimum-absolute-difference-in-bst) |
 | [0563-binary-tree-tilt](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0563-binary-tree-tilt) |
+| [0590-n-ary-tree-postorder-traversal](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0590-n-ary-tree-postorder-traversal) |
 | [0662-maximum-width-of-binary-tree](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0662-maximum-width-of-binary-tree) |
 | [0783-minimum-distance-between-bst-nodes](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0783-minimum-distance-between-bst-nodes) |
 ## Binary Tree
