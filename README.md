@@ -113,6 +113,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0665-non-decreasing-array](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0665-non-decreasing-array) |
 | [0674-longest-continuous-increasing-subsequence](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0674-longest-continuous-increasing-subsequence) |
 | [0682-baseball-game](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0682-baseball-game) |
+| [0704-binary-search](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0704-binary-search) |
 | [0792-number-of-matching-subsequences](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0792-number-of-matching-subsequences) |
 | [0821-shortest-distance-to-a-character](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0821-shortest-distance-to-a-character) |
 | [0867-transpose-matrix](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0867-transpose-matrix) |
@@ -209,6 +210,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0367-valid-perfect-square](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0367-valid-perfect-square) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
+| [0704-binary-search](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0704-binary-search) |
 | [0792-number-of-matching-subsequences](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0792-number-of-matching-subsequences) |
 | [1346-check-if-n-and-its-double-exist](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1346-check-if-n-and-its-double-exist) |
 | [1351-count-negative-numbers-in-a-sorted-matrix](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1351-count-negative-numbers-in-a-sorted-matrix) |
