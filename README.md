@@ -112,6 +112,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0646-maximum-length-of-pair-chain](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0646-maximum-length-of-pair-chain) |
 | [0665-non-decreasing-array](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0665-non-decreasing-array) |
 | [0674-longest-continuous-increasing-subsequence](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0674-longest-continuous-increasing-subsequence) |
+| [0682-baseball-game](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0682-baseball-game) |
 | [0792-number-of-matching-subsequences](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0792-number-of-matching-subsequences) |
 | [0821-shortest-distance-to-a-character](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0821-shortest-distance-to-a-character) |
 | [0867-transpose-matrix](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0867-transpose-matrix) |
@@ -190,6 +191,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0566-reshape-the-matrix](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0566-reshape-the-matrix) |
 | [0657-robot-return-to-origin](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0657-robot-return-to-origin) |
+| [0682-baseball-game](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0682-baseball-game) |
 | [0867-transpose-matrix](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0867-transpose-matrix) |
 | [1252-cells-with-odd-values-in-a-matrix](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1252-cells-with-odd-values-in-a-matrix) |
 | [1260-shift-2d-grid](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1260-shift-2d-grid) |
@@ -430,6 +432,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0581-shortest-unsorted-continuous-subarray](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0581-shortest-unsorted-continuous-subarray) |
 | [0589-n-ary-tree-preorder-traversal](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0589-n-ary-tree-preorder-traversal) |
 | [0590-n-ary-tree-postorder-traversal](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0590-n-ary-tree-postorder-traversal) |
+| [0682-baseball-game](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0682-baseball-game) |
 | [1047-remove-all-adjacent-duplicates-in-string](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1047-remove-all-adjacent-duplicates-in-string) |
 | [1081-smallest-subsequence-of-distinct-characters](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1081-smallest-subsequence-of-distinct-characters) |
 | [1441-build-an-array-with-stack-operations](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1441-build-an-array-with-stack-operations) |
