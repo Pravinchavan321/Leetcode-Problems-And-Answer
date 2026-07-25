@@ -320,6 +320,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0136-single-number](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0136-single-number) |
 | [0137-single-number-ii](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0137-single-number-ii) |
 | [0645-set-mismatch](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0645-set-mismatch) |
+| [0693-binary-number-with-alternating-bits](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0693-binary-number-with-alternating-bits) |
 | [0868-binary-gap](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0868-binary-gap) |
 | [3513-number-of-unique-xor-triplets-i](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/3513-number-of-unique-xor-triplets-i) |
 | [3514-number-of-unique-xor-triplets-ii](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/3514-number-of-unique-xor-triplets-ii) |
