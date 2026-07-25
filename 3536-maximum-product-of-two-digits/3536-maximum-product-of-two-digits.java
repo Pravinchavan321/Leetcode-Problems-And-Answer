@@ -14,8 +14,6 @@ class Solution {
             } else if (digit > max2) {
                 max2 = digit;
 
-            } else if (max1 == 9 && max2 == 9) {
-                return 81;
             }
             n1 /= 10;
         }
