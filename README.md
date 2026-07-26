@@ -80,6 +80,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0525-contiguous-array](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0525-contiguous-array) |
+| [0724-find-pivot-index](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0724-find-pivot-index) |
 | [1422-maximum-score-after-splitting-a-string](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1422-maximum-score-after-splitting-a-string) |
 | [3312-sorted-gcd-pair-queries](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/3312-sorted-gcd-pair-queries) |
 | [3756-concatenate-non-zero-digits-and-multiply-by-sum-ii](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/3756-concatenate-non-zero-digits-and-multiply-by-sum-ii) |
@@ -115,6 +116,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0674-longest-continuous-increasing-subsequence](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0674-longest-continuous-increasing-subsequence) |
 | [0682-baseball-game](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0682-baseball-game) |
 | [0704-binary-search](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0704-binary-search) |
+| [0724-find-pivot-index](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0724-find-pivot-index) |
 | [0792-number-of-matching-subsequences](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0792-number-of-matching-subsequences) |
 | [0821-shortest-distance-to-a-character](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0821-shortest-distance-to-a-character) |
 | [0867-transpose-matrix](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0867-transpose-matrix) |
