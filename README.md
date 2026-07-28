@@ -74,6 +74,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2390-removing-stars-from-a-string](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/2390-removing-stars-from-a-string) |
 | [3499-maximize-active-section-with-trade-i](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/3499-maximize-active-section-with-trade-i) |
 | [3501-maximize-active-section-with-trade-ii](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/3501-maximize-active-section-with-trade-ii) |
+| [3517-smallest-palindromic-rearrangement-i](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/3517-smallest-palindromic-rearrangement-i) |
 | [3756-concatenate-non-zero-digits-and-multiply-by-sum-ii](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/3756-concatenate-non-zero-digits-and-multiply-by-sum-ii) |
 | [3813-vowel-consonant-score](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/3813-vowel-consonant-score) |
 ## Prefix Sum
@@ -251,6 +252,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2465-number-of-distinct-averages](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/2465-number-of-distinct-averages) |
 | [2996-smallest-missing-integer-greater-than-sequential-prefix-sum](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/2996-smallest-missing-integer-greater-than-sequential-prefix-sum) |
 | [3024-type-of-triangle](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/3024-type-of-triangle) |
+| [3517-smallest-palindromic-rearrangement-i](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/3517-smallest-palindromic-rearrangement-i) |
 | [3534-path-existence-queries-in-a-graph-ii](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/3534-path-existence-queries-in-a-graph-ii) |
 | [3536-maximum-product-of-two-digits](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/3536-maximum-product-of-two-digits) |
 | [3867-sum-of-gcd-of-formed-pairs](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/3867-sum-of-gcd-of-formed-pairs) |
@@ -525,6 +527,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [1122-relative-sort-array](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1122-relative-sort-array) |
 | [1365-how-many-numbers-are-smaller-than-the-current-number](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1365-how-many-numbers-are-smaller-than-the-current-number) |
+| [3517-smallest-palindromic-rearrangement-i](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/3517-smallest-palindromic-rearrangement-i) |
 ## Segment Tree
 |  |
 | ------- |
