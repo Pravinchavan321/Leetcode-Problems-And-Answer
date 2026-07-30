@@ -30,6 +30,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2125-number-of-laser-beams-in-a-bank](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/2125-number-of-laser-beams-in-a-bank) |
 | [2729-check-if-the-number-is-fascinating](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/2729-check-if-the-number-is-fascinating) |
 | [2807-insert-greatest-common-divisors-in-linked-list](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/2807-insert-greatest-common-divisors-in-linked-list) |
+| [3014-minimum-number-of-pushes-to-type-word-i](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/3014-minimum-number-of-pushes-to-type-word-i) |
 | [3024-type-of-triangle](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/3024-type-of-triangle) |
 | [3312-sorted-gcd-pair-queries](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/3312-sorted-gcd-pair-queries) |
 | [3336-find-the-number-of-subsequences-with-equal-gcd](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/3336-find-the-number-of-subsequences-with-equal-gcd) |
@@ -73,6 +74,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1805-number-of-different-integers-in-a-string](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1805-number-of-different-integers-in-a-string) |
 | [2125-number-of-laser-beams-in-a-bank](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/2125-number-of-laser-beams-in-a-bank) |
 | [2390-removing-stars-from-a-string](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/2390-removing-stars-from-a-string) |
+| [3014-minimum-number-of-pushes-to-type-word-i](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/3014-minimum-number-of-pushes-to-type-word-i) |
 | [3499-maximize-active-section-with-trade-i](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/3499-maximize-active-section-with-trade-i) |
 | [3501-maximize-active-section-with-trade-ii](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/3501-maximize-active-section-with-trade-ii) |
 | [3517-smallest-palindromic-rearrangement-i](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/3517-smallest-palindromic-rearrangement-i) |
@@ -385,6 +387,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1081-smallest-subsequence-of-distinct-characters](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1081-smallest-subsequence-of-distinct-characters) |
 | [1221-split-a-string-in-balanced-strings](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1221-split-a-string-in-balanced-strings) |
 | [1736-latest-time-by-replacing-hidden-digits](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1736-latest-time-by-replacing-hidden-digits) |
+| [3014-minimum-number-of-pushes-to-type-word-i](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/3014-minimum-number-of-pushes-to-type-word-i) |
 | [3534-path-existence-queries-in-a-graph-ii](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/3534-path-existence-queries-in-a-graph-ii) |
 ## Depth-First Search
 |  |
