@@ -5,7 +5,7 @@
 //         int pushes = 0;
 
 //         int n = word.length();
- 
+
 //         Integer[] freqArr = new Integer[26];
 //         Arrays.fill(freqArr, 0);
 //         for (int i = 0; i < n; i++) {
@@ -43,8 +43,6 @@
 //     }
 // }
 
-
-
 //(2)
 class Solution {
     public int minimumPushes(String word) {
@@ -54,14 +52,15 @@ class Solution {
             freq[c - 'a']++;
         }
 
-        Arrays.sort(freq);  // ascending
+        Arrays.sort(freq); // ascending
 
         int pushes = 0;
         int count = 0;
 
         // reverse iterate karo (highest freq pehle)
         for (int i = 25; i >= 0; i--) {
-            if (freq[i] == 0) break;
+            if (freq[i] == 0)
+                break;
             pushes += freq[i] * (count / 8 + 1);
             count++;
         }
