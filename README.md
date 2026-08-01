@@ -10,6 +10,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0227-basic-calculator-ii](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0227-basic-calculator-ii) |
 | [0367-valid-perfect-square](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0367-valid-perfect-square) |
 | [0445-add-two-numbers-ii](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0445-add-two-numbers-ii) |
+| [0486-predict-the-winner](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0486-predict-the-winner) |
 | [0509-fibonacci-number](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0509-fibonacci-number) |
 | [0598-range-addition-ii](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0598-range-addition-ii) |
 | [0628-maximum-product-of-three-numbers](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0628-maximum-product-of-three-numbers) |
@@ -108,6 +109,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0322-coin-change](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0322-coin-change) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0442-find-all-duplicates-in-an-array](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0442-find-all-duplicates-in-an-array) |
+| [0486-predict-the-winner](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0486-predict-the-winner) |
 | [0503-next-greater-element-ii](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0503-next-greater-element-ii) |
 | [0525-contiguous-array](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0525-contiguous-array) |
 | [0566-reshape-the-matrix](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0566-reshape-the-matrix) |
@@ -323,6 +325,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0322-coin-change](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0322-coin-change) |
+| [0486-predict-the-winner](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0486-predict-the-winner) |
 | [0509-fibonacci-number](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0509-fibonacci-number) |
 | [0646-maximum-length-of-pair-chain](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0646-maximum-length-of-pair-chain) |
 | [0788-rotated-digits](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0788-rotated-digits) |
@@ -470,6 +473,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0024-swap-nodes-in-pairs](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0024-swap-nodes-in-pairs) |
+| [0486-predict-the-winner](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0486-predict-the-winner) |
 | [0509-fibonacci-number](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0509-fibonacci-number) |
 ## Tree
 |  |
@@ -545,4 +549,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [3501-maximize-active-section-with-trade-ii](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/3501-maximize-active-section-with-trade-ii) |
+## Game Theory
+|  |
+| ------- |
+| [0486-predict-the-winner](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0486-predict-the-winner) |
 <!---LeetCode Topics End-->
