@@ -15,6 +15,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0598-range-addition-ii](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0598-range-addition-ii) |
 | [0628-maximum-product-of-three-numbers](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0628-maximum-product-of-three-numbers) |
 | [0788-rotated-digits](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0788-rotated-digits) |
+| [0877-stone-game](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0877-stone-game) |
 | [1030-matrix-cells-in-distance-order](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1030-matrix-cells-in-distance-order) |
 | [1037-valid-boomerang](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1037-valid-boomerang) |
 | [1137-n-th-tribonacci-number](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1137-n-th-tribonacci-number) |
@@ -128,6 +129,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0792-number-of-matching-subsequences](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0792-number-of-matching-subsequences) |
 | [0821-shortest-distance-to-a-character](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0821-shortest-distance-to-a-character) |
 | [0867-transpose-matrix](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0867-transpose-matrix) |
+| [0877-stone-game](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0877-stone-game) |
 | [0941-valid-mountain-array](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0941-valid-mountain-array) |
 | [1030-matrix-cells-in-distance-order](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1030-matrix-cells-in-distance-order) |
 | [1037-valid-boomerang](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1037-valid-boomerang) |
@@ -330,6 +332,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0646-maximum-length-of-pair-chain](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0646-maximum-length-of-pair-chain) |
 | [0788-rotated-digits](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0788-rotated-digits) |
 | [0792-number-of-matching-subsequences](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0792-number-of-matching-subsequences) |
+| [0877-stone-game](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0877-stone-game) |
 | [1137-n-th-tribonacci-number](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1137-n-th-tribonacci-number) |
 | [3336-find-the-number-of-subsequences-with-equal-gcd](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/3336-find-the-number-of-subsequences-with-equal-gcd) |
 | [3534-path-existence-queries-in-a-graph-ii](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/3534-path-existence-queries-in-a-graph-ii) |
@@ -553,4 +556,5 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0486-predict-the-winner](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0486-predict-the-winner) |
+| [0877-stone-game](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0877-stone-game) |
 <!---LeetCode Topics End-->
