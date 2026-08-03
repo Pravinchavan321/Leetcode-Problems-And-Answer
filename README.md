@@ -72,6 +72,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1408-string-matching-in-an-array](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1408-string-matching-in-an-array) |
 | [1417-reformat-the-string](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1417-reformat-the-string) |
 | [1422-maximum-score-after-splitting-a-string](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1422-maximum-score-after-splitting-a-string) |
+| [1436-destination-city](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1436-destination-city) |
 | [1736-latest-time-by-replacing-hidden-digits](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1736-latest-time-by-replacing-hidden-digits) |
 | [1796-second-largest-digit-in-a-string](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1796-second-largest-digit-in-a-string) |
 | [1805-number-of-different-integers-in-a-string](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1805-number-of-different-integers-in-a-string) |
@@ -159,6 +160,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1406-stone-game-iii](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1406-stone-game-iii) |
 | [1408-string-matching-in-an-array](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1408-string-matching-in-an-array) |
 | [1431-kids-with-the-greatest-number-of-candies](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1431-kids-with-the-greatest-number-of-candies) |
+| [1436-destination-city](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1436-destination-city) |
 | [1441-build-an-array-with-stack-operations](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1441-build-an-array-with-stack-operations) |
 | [1464-maximum-product-of-two-elements-in-an-array](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1464-maximum-product-of-two-elements-in-an-array) |
 | [1491-average-salary-excluding-the-minimum-and-maximum-salary](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1491-average-salary-excluding-the-minimum-and-maximum-salary) |
@@ -311,6 +313,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1365-how-many-numbers-are-smaller-than-the-current-number](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1365-how-many-numbers-are-smaller-than-the-current-number) |
 | [1394-find-lucky-integer-in-an-array](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1394-find-lucky-integer-in-an-array) |
 | [1399-count-largest-group](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1399-count-largest-group) |
+| [1436-destination-city](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1436-destination-city) |
 | [1796-second-largest-digit-in-a-string](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1796-second-largest-digit-in-a-string) |
 | [1805-number-of-different-integers-in-a-string](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1805-number-of-different-integers-in-a-string) |
 | [2404-most-frequent-even-element](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/2404-most-frequent-even-element) |
