@@ -168,6 +168,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1464-maximum-product-of-two-elements-in-an-array](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1464-maximum-product-of-two-elements-in-an-array) |
 | [1491-average-salary-excluding-the-minimum-and-maximum-salary](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1491-average-salary-excluding-the-minimum-and-maximum-salary) |
 | [1582-special-positions-in-a-binary-matrix](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1582-special-positions-in-a-binary-matrix) |
+| [1652-defuse-the-bomb](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1652-defuse-the-bomb) |
 | [1822-sign-of-the-product-of-an-array](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1822-sign-of-the-product-of-an-array) |
 | [1909-remove-one-element-to-make-the-array-strictly-increasing](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1909-remove-one-element-to-make-the-array-strictly-increasing) |
 | [1979-find-greatest-common-divisor-of-array](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1979-find-greatest-common-divisor-of-array) |
@@ -486,6 +487,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0003-longest-substring-without-repeating-characters](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0567-permutation-in-string](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0567-permutation-in-string) |
 | [0643-maximum-average-subarray-i](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0643-maximum-average-subarray-i) |
+| [1652-defuse-the-bomb](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1652-defuse-the-bomb) |
 ## Recursion
 |  |
 | ------- |
