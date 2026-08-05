@@ -1,47 +1,107 @@
+//(1)
+
+// class Solution {
+
+//     void dfs(int node, HashMap<Integer, ArrayList<Integer>> invoke, int[] vis) {
+//         vis[node] = 1;
+
+//         if (!invoke.containsKey(node))
+//             return;
+
+//         for (int it : invoke.get(node)) {
+//             if (vis[it] == 0) {
+//                 dfs(it, invoke, vis);
+//             }
+//         }
+//     }
+
+//     public List<Integer> remainingMethods(int n, int k, int[][] invocations) {
+//         HashMap<Integer, ArrayList<Integer>> invoke = new HashMap<>();
+
+//         for (int[] it : invocations) {
+//             int u = it[0];
+//             int v = it[1];
+
+//             invoke.computeIfAbsent(u, x -> new ArrayList<>()).add(v);
+//         }
+
+//         int[] vis = new int[n];
+//         dfs(k, invoke, vis);
+
+//         List<Integer> rem = new ArrayList<>();
+
+//         for (int[] it : invocations) {
+//             int u = it[0];
+//             int v = it[1];
+
+//             if (vis[u] == 0 && vis[v] == 1) {
+//                 for (int i = 0; i < n; i++)
+//                     rem.add(i);
+//                 return rem;
+//             }
+//         }
+
+//         for (int i = 0; i < n; i++) {
+//             if (vis[i] == 0)
+//                 rem.add(i);
+//         }
+
+//         return rem;
+//     }
+// }
+
+
+//(2)
+
 class Solution {
+    public List<Integer> remainingMethods(int n, int k, int[][] invocations) {
+        List<Integer>[] edges = new ArrayList[n];
+        for (int i = 0; i < n; i++) {
+            edges[i] = new ArrayList<>();
+        }
+        int[] inDegree = new int[n];
 
-    void dfs(int node, HashMap<Integer, ArrayList<Integer>> invoke, int[] vis) {
-        vis[node] = 1;
+        for (int[] inv : invocations) {
+            edges[inv[0]].add(inv[1]);
+            inDegree[inv[1]]++;
+        }
 
-        if (!invoke.containsKey(node))
-            return;
+        Queue<Integer> queue = new ArrayDeque<>();
+        queue.offer(k);
+        boolean[] sus = new boolean[n];
+        sus[k] = true;
 
-        for (int it : invoke.get(node)) {
-            if (vis[it] == 0) {
-                dfs(it, invoke, vis);
+
+        while (!queue.isEmpty()) {
+            int u = queue.poll();
+            for (int v : edges[u]) {
+                inDegree[v]--;
+
+                if (!sus[v]) {
+                    queue.offer(v);
+                    sus[v] = true;
+                }
             }
         }
-    }
 
-    public List<Integer> remainingMethods(int n, int k, int[][] invocations) {
-        HashMap<Integer, ArrayList<Integer>> invoke = new HashMap<>();
-
-        for (int[] it : invocations) {
-            int u = it[0];
-            int v = it[1];
-
-            invoke.computeIfAbsent(u, x -> new ArrayList<>()).add(v);
-        }
-
-        int[] vis = new int[n];
-        dfs(k, invoke, vis);
-
+        boolean canRemoveAll = true;
         List<Integer> rem = new ArrayList<>();
 
-        for (int[] it : invocations) {
-            int u = it[0];
-            int v = it[1];
-
-            if (vis[u] == 0 && vis[v] == 1) {
-                for (int i = 0; i < n; i++)
-                    rem.add(i);
-                return rem;
+        for (int i = 0; i < n; i++) {
+            if (sus[i] && inDegree[i] > 0) {
+                canRemoveAll = false;
+                break;
+            } else if (!sus[i]) {
+                rem.add(i);
             }
         }
 
-        for (int i = 0; i < n; i++) {
-            if (vis[i] == 0)
-                rem.add(i);
+        if (!canRemoveAll) {
+            List<Integer> allNodes = new ArrayList<>(n);
+            for (int i = 0; i < n; i++) {
+                allNodes.add(i);
+            }
+            return allNodes;
         }
 
         return rem;
