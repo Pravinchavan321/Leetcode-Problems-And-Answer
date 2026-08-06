@@ -2,7 +2,7 @@ class Solution {
     public int smallestNumber(int n, int t) {
 
         int currNum = n;
-        int res = n;
+        // int res = n;
         while (true) {
             int currNumCopy = currNum;
             int product = 1;
@@ -13,15 +13,17 @@ class Solution {
 
             }
             if (product % t == 0) {
-                res = currNumCopy;
-                break;
+                // res = currNumCopy;
+                // break;
+
+                return currNumCopy;
 
             }
             currNum = currNumCopy + 1;
 
         }
 
-        return res;
+        // return res;
 
     }
 }
