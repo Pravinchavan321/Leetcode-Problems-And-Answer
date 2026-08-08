@@ -84,6 +84,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2390-removing-stars-from-a-string](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/2390-removing-stars-from-a-string) |
 | [3014-minimum-number-of-pushes-to-type-word-i](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/3014-minimum-number-of-pushes-to-type-word-i) |
 | [3016-minimum-number-of-pushes-to-type-word-ii](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/3016-minimum-number-of-pushes-to-type-word-ii) |
+| [3302-find-the-lexicographically-smallest-valid-sequence](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/3302-find-the-lexicographically-smallest-valid-sequence) |
 | [3348-smallest-divisible-digit-product-ii](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/3348-smallest-divisible-digit-product-ii) |
 | [3499-maximize-active-section-with-trade-i](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/3499-maximize-active-section-with-trade-i) |
 | [3501-maximize-active-section-with-trade-ii](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/3501-maximize-active-section-with-trade-ii) |
@@ -301,6 +302,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1346-check-if-n-and-its-double-exist](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1346-check-if-n-and-its-double-exist) |
 | [1385-find-the-distance-value-between-two-arrays](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1385-find-the-distance-value-between-two-arrays) |
 | [2465-number-of-distinct-averages](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/2465-number-of-distinct-averages) |
+| [3302-find-the-lexicographically-smallest-valid-sequence](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/3302-find-the-lexicographically-smallest-valid-sequence) |
 | [3534-path-existence-queries-in-a-graph-ii](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/3534-path-existence-queries-in-a-graph-ii) |
 | [3867-sum-of-gcd-of-formed-pairs](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/3867-sum-of-gcd-of-formed-pairs) |
 ## Hash Table
@@ -351,6 +353,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0877-stone-game](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0877-stone-game) |
 | [1137-n-th-tribonacci-number](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1137-n-th-tribonacci-number) |
 | [1406-stone-game-iii](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1406-stone-game-iii) |
+| [3302-find-the-lexicographically-smallest-valid-sequence](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/3302-find-the-lexicographically-smallest-valid-sequence) |
 | [3336-find-the-number-of-subsequences-with-equal-gcd](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/3336-find-the-number-of-subsequences-with-equal-gcd) |
 | [3534-path-existence-queries-in-a-graph-ii](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/3534-path-existence-queries-in-a-graph-ii) |
 | [3857-minimum-cost-to-split-into-ones](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/3857-minimum-cost-to-split-into-ones) |
@@ -419,6 +422,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1736-latest-time-by-replacing-hidden-digits](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1736-latest-time-by-replacing-hidden-digits) |
 | [3014-minimum-number-of-pushes-to-type-word-i](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/3014-minimum-number-of-pushes-to-type-word-i) |
 | [3016-minimum-number-of-pushes-to-type-word-ii](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/3016-minimum-number-of-pushes-to-type-word-ii) |
+| [3302-find-the-lexicographically-smallest-valid-sequence](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/3302-find-the-lexicographically-smallest-valid-sequence) |
 | [3348-smallest-divisible-digit-product-ii](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/3348-smallest-divisible-digit-product-ii) |
 | [3534-path-existence-queries-in-a-graph-ii](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/3534-path-existence-queries-in-a-graph-ii) |
 ## Depth-First Search
