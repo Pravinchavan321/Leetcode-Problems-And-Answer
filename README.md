@@ -29,6 +29,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1317-convert-integer-to-the-sum-of-two-no-zero-integers](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1317-convert-integer-to-the-sum-of-two-no-zero-integers) |
 | [1399-count-largest-group](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1399-count-largest-group) |
 | [1406-stone-game-iii](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1406-stone-game-iii) |
+| [1510-stone-game-iv](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1510-stone-game-iv) |
 | [1523-count-odd-numbers-in-an-interval-range](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1523-count-odd-numbers-in-an-interval-range) |
 | [1716-calculate-money-in-leetcode-bank](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1716-calculate-money-in-leetcode-bank) |
 | [1822-sign-of-the-product-of-an-array](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1822-sign-of-the-product-of-an-array) |
@@ -357,6 +358,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1137-n-th-tribonacci-number](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1137-n-th-tribonacci-number) |
 | [1140-stone-game-ii](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1140-stone-game-ii) |
 | [1406-stone-game-iii](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1406-stone-game-iii) |
+| [1510-stone-game-iv](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1510-stone-game-iv) |
 | [3302-find-the-lexicographically-smallest-valid-sequence](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/3302-find-the-lexicographically-smallest-valid-sequence) |
 | [3336-find-the-number-of-subsequences-with-equal-gcd](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/3336-find-the-number-of-subsequences-with-equal-gcd) |
 | [3534-path-existence-queries-in-a-graph-ii](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/3534-path-existence-queries-in-a-graph-ii) |
@@ -592,6 +594,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0877-stone-game](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0877-stone-game) |
 | [1140-stone-game-ii](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1140-stone-game-ii) |
 | [1406-stone-game-iii](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1406-stone-game-iii) |
+| [1510-stone-game-iv](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1510-stone-game-iv) |
 ## Backtracking
 |  |
 | ------- |
@@ -600,8 +603,18 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1140-stone-game-ii](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1140-stone-game-ii) |
+| [1510-stone-game-iv](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1510-stone-game-iv) |
 ## Zero-Sum Game
 |  |
 | ------- |
 | [1140-stone-game-ii](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1140-stone-game-ii) |
+| [1510-stone-game-iv](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1510-stone-game-iv) |
+## Nim Game
+|  |
+| ------- |
+| [1510-stone-game-iv](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1510-stone-game-iv) |
+## Sprague–Grundy Theorem
+|  |
+| ------- |
+| [1510-stone-game-iv](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1510-stone-game-iv) |
 <!---LeetCode Topics End-->
