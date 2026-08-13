@@ -189,6 +189,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2482-difference-between-ones-and-zeros-in-row-and-column](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/2482-difference-between-ones-and-zeros-in-row-and-column) |
 | [2815-max-pair-sum-in-an-array](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/2815-max-pair-sum-in-an-array) |
 | [2855-minimum-right-shifts-to-sort-the-array](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/2855-minimum-right-shifts-to-sort-the-array) |
+| [2958-length-of-longest-subarray-with-at-most-k-frequency](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/2958-length-of-longest-subarray-with-at-most-k-frequency) |
 | [2996-smallest-missing-integer-greater-than-sequential-prefix-sum](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/2996-smallest-missing-integer-greater-than-sequential-prefix-sum) |
 | [3024-type-of-triangle](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/3024-type-of-triangle) |
 | [3312-sorted-gcd-pair-queries](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/3312-sorted-gcd-pair-queries) |
@@ -336,6 +337,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2465-number-of-distinct-averages](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/2465-number-of-distinct-averages) |
 | [2729-check-if-the-number-is-fascinating](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/2729-check-if-the-number-is-fascinating) |
 | [2815-max-pair-sum-in-an-array](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/2815-max-pair-sum-in-an-array) |
+| [2958-length-of-longest-subarray-with-at-most-k-frequency](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/2958-length-of-longest-subarray-with-at-most-k-frequency) |
 | [2996-smallest-missing-integer-greater-than-sequential-prefix-sum](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/2996-smallest-missing-integer-greater-than-sequential-prefix-sum) |
 | [3016-minimum-number-of-pushes-to-type-word-ii](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/3016-minimum-number-of-pushes-to-type-word-ii) |
 | [3312-sorted-gcd-pair-queries](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/3312-sorted-gcd-pair-queries) |
@@ -507,6 +509,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0567-permutation-in-string](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0567-permutation-in-string) |
 | [0643-maximum-average-subarray-i](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0643-maximum-average-subarray-i) |
 | [1652-defuse-the-bomb](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1652-defuse-the-bomb) |
+| [2958-length-of-longest-subarray-with-at-most-k-frequency](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/2958-length-of-longest-subarray-with-at-most-k-frequency) |
 ## Recursion
 |  |
 | ------- |
