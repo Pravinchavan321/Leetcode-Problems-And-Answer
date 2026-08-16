@@ -34,6 +34,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1716-calculate-money-in-leetcode-bank](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1716-calculate-money-in-leetcode-bank) |
 | [1822-sign-of-the-product-of-an-array](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1822-sign-of-the-product-of-an-array) |
 | [1979-find-greatest-common-divisor-of-array](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1979-find-greatest-common-divisor-of-array) |
+| [2029-stone-game-ix](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/2029-stone-game-ix) |
 | [2125-number-of-laser-beams-in-a-bank](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/2125-number-of-laser-beams-in-a-bank) |
 | [2729-check-if-the-number-is-fascinating](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/2729-check-if-the-number-is-fascinating) |
 | [2807-insert-greatest-common-divisors-in-linked-list](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/2807-insert-greatest-common-divisors-in-linked-list) |
@@ -184,6 +185,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1822-sign-of-the-product-of-an-array](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1822-sign-of-the-product-of-an-array) |
 | [1909-remove-one-element-to-make-the-array-strictly-increasing](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1909-remove-one-element-to-make-the-array-strictly-increasing) |
 | [1979-find-greatest-common-divisor-of-array](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1979-find-greatest-common-divisor-of-array) |
+| [2029-stone-game-ix](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/2029-stone-game-ix) |
 | [2057-smallest-index-with-equal-value](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/2057-smallest-index-with-equal-value) |
 | [2125-number-of-laser-beams-in-a-bank](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/2125-number-of-laser-beams-in-a-bank) |
 | [2148-count-elements-with-strictly-smaller-and-greater-elements](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/2148-count-elements-with-strictly-smaller-and-greater-elements) |
@@ -411,6 +413,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1221-split-a-string-in-balanced-strings](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1221-split-a-string-in-balanced-strings) |
 | [1394-find-lucky-integer-in-an-array](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1394-find-lucky-integer-in-an-array) |
 | [1399-count-largest-group](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1399-count-largest-group) |
+| [2029-stone-game-ix](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/2029-stone-game-ix) |
 | [2148-count-elements-with-strictly-smaller-and-greater-elements](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/2148-count-elements-with-strictly-smaller-and-greater-elements) |
 | [2404-most-frequent-even-element](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/2404-most-frequent-even-element) |
 | [3016-minimum-number-of-pushes-to-type-word-ii](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/3016-minimum-number-of-pushes-to-type-word-ii) |
@@ -441,6 +444,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1081-smallest-subsequence-of-distinct-characters](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1081-smallest-subsequence-of-distinct-characters) |
 | [1221-split-a-string-in-balanced-strings](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1221-split-a-string-in-balanced-strings) |
 | [1736-latest-time-by-replacing-hidden-digits](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1736-latest-time-by-replacing-hidden-digits) |
+| [2029-stone-game-ix](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/2029-stone-game-ix) |
 | [3014-minimum-number-of-pushes-to-type-word-i](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/3014-minimum-number-of-pushes-to-type-word-i) |
 | [3016-minimum-number-of-pushes-to-type-word-ii](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/3016-minimum-number-of-pushes-to-type-word-ii) |
 | [3302-find-the-lexicographically-smallest-valid-sequence](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/3302-find-the-lexicographically-smallest-valid-sequence) |
@@ -613,6 +617,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1140-stone-game-ii](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1140-stone-game-ii) |
 | [1406-stone-game-iii](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1406-stone-game-iii) |
 | [1510-stone-game-iv](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1510-stone-game-iv) |
+| [2029-stone-game-ix](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/2029-stone-game-ix) |
 ## Backtracking
 |  |
 | ------- |
@@ -622,15 +627,18 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [1140-stone-game-ii](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1140-stone-game-ii) |
 | [1510-stone-game-iv](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1510-stone-game-iv) |
+| [2029-stone-game-ix](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/2029-stone-game-ix) |
 ## Zero-Sum Game
 |  |
 | ------- |
 | [1140-stone-game-ii](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1140-stone-game-ii) |
 | [1510-stone-game-iv](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1510-stone-game-iv) |
+| [2029-stone-game-ix](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/2029-stone-game-ix) |
 ## Nim Game
 |  |
 | ------- |
 | [1510-stone-game-iv](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1510-stone-game-iv) |
+| [2029-stone-game-ix](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/2029-stone-game-ix) |
 ## Sprague–Grundy Theorem
 |  |
 | ------- |
