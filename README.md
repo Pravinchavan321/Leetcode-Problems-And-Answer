@@ -31,6 +31,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1406-stone-game-iii](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1406-stone-game-iii) |
 | [1510-stone-game-iv](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1510-stone-game-iv) |
 | [1523-count-odd-numbers-in-an-interval-range](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1523-count-odd-numbers-in-an-interval-range) |
+| [1563-stone-game-v](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1563-stone-game-v) |
 | [1716-calculate-money-in-leetcode-bank](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1716-calculate-money-in-leetcode-bank) |
 | [1822-sign-of-the-product-of-an-array](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1822-sign-of-the-product-of-an-array) |
 | [1979-find-greatest-common-divisor-of-array](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1979-find-greatest-common-divisor-of-array) |
@@ -180,6 +181,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1441-build-an-array-with-stack-operations](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1441-build-an-array-with-stack-operations) |
 | [1464-maximum-product-of-two-elements-in-an-array](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1464-maximum-product-of-two-elements-in-an-array) |
 | [1491-average-salary-excluding-the-minimum-and-maximum-salary](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1491-average-salary-excluding-the-minimum-and-maximum-salary) |
+| [1563-stone-game-v](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1563-stone-game-v) |
 | [1582-special-positions-in-a-binary-matrix](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1582-special-positions-in-a-binary-matrix) |
 | [1652-defuse-the-bomb](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1652-defuse-the-bomb) |
 | [1822-sign-of-the-product-of-an-array](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1822-sign-of-the-product-of-an-array) |
@@ -374,6 +376,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1140-stone-game-ii](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1140-stone-game-ii) |
 | [1406-stone-game-iii](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1406-stone-game-iii) |
 | [1510-stone-game-iv](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1510-stone-game-iv) |
+| [1563-stone-game-v](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1563-stone-game-v) |
 | [3302-find-the-lexicographically-smallest-valid-sequence](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/3302-find-the-lexicographically-smallest-valid-sequence) |
 | [3336-find-the-number-of-subsequences-with-equal-gcd](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/3336-find-the-number-of-subsequences-with-equal-gcd) |
 | [3534-path-existence-queries-in-a-graph-ii](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/3534-path-existence-queries-in-a-graph-ii) |
@@ -617,6 +620,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1140-stone-game-ii](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1140-stone-game-ii) |
 | [1406-stone-game-iii](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1406-stone-game-iii) |
 | [1510-stone-game-iv](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1510-stone-game-iv) |
+| [1563-stone-game-v](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1563-stone-game-v) |
 | [2029-stone-game-ix](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/2029-stone-game-ix) |
 ## Backtracking
 |  |
