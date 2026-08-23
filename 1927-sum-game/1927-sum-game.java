@@ -1,24 +1,20 @@
 class Solution {
     public boolean sumGame(String num) {
-        int fhqCount=0,fhSum=0,shCount=0,shSum=0;
-
-        int[] fvalues=helper(num.substring(0,num.length()/2));
-        fhqCount=fvalues[0];fhSum=fvalues[1];
-
-        int[]svalues=helper(num.substring(num.length()/2));
-        shCount=svalues[0];shSum=svalues[1];
-
-        if(fhqCount+shCount==0)return fhSum!=shSum;
-        int dif=fhSum-shSum;
-        int difCount=fhqCount-shCount;
-        return difCount == 0?dif != 0:!(dif * difCount < 0 &&2 * Math.abs(dif) == 9 * Math.abs(difCount));
-    }
-    public int[] helper(String half){
-        int qCount=0,sum=0;
-        for(char c:half.toCharArray()){
-            if(c=='?')qCount++;
-            else sum+=Character.getNumericValue(c);
+        int n = num.length();
+        double diff = 0.0;
+        
+        // Process first half
+        for (int i = 0; i < n / 2; i++) {
+            if (num.charAt(i) == '?') diff += 4.5;
+            else diff += (num.charAt(i) - '0');
         }
-        return new int[]{qCount,sum};
+        
+        // Process second half
+        for (int i = n / 2; i < n; i++) {
+            if (num.charAt(i) == '?') diff -= 4.5;
+            else diff -= (num.charAt(i) - '0');
+        }
+        
+        return diff != 0.0;
     }
 }
