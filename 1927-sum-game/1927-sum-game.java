@@ -1,26 +1,24 @@
 class Solution {
     public boolean sumGame(String num) {
-        int n = num.length(), half = n / 2;
-        int sum1 = 0, sum2 = 0, cnt1 = 0, cnt2 = 0;
+        int fhqCount=0,fhSum=0,shCount=0,shSum=0;
 
-        for (int i = 0; i < half; i++) {
-            if (num.charAt(i) == '?')
-                cnt1++;
-            else
-                sum1 += num.charAt(i) - '0';
+        int[] fvalues=helper(num.substring(0,num.length()/2));
+        fhqCount=fvalues[0];fhSum=fvalues[1];
+
+        int[]svalues=helper(num.substring(num.length()/2));
+        shCount=svalues[0];shSum=svalues[1];
+
+        if(fhqCount+shCount==0)return fhSum!=shSum;
+        int dif=fhSum-shSum;
+        int difCount=fhqCount-shCount;
+        return difCount == 0?dif != 0:!(dif * difCount < 0 &&2 * Math.abs(dif) == 9 * Math.abs(difCount));
+    }
+    public int[] helper(String half){
+        int qCount=0,sum=0;
+        for(char c:half.toCharArray()){
+            if(c=='?')qCount++;
+            else sum+=Character.getNumericValue(c);
         }
-
-        for (int i = half; i < n; i++) {
-            if (num.charAt(i) == '?')
-                cnt2++;
-            else
-                sum2 += num.charAt(i) - '0';
-        }
-
-        int totalQ = cnt1 + cnt2;
-        if (totalQ % 2 == 1)
-            return true;
-
-        return 2 * (sum1 - sum2) != 9 * (cnt2 - cnt1);
+        return new int[]{qCount,sum};
     }
 }
