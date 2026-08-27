@@ -1,66 +1,47 @@
 class Solution {
+
+    String res;
+
     public String lexGreaterPermutation(String s, String target) {
-        int n = s.length();
-
-        int[] cnt = new int[26];
-
-        for (char ch : s.toCharArray()) {
-            cnt[ch - 'a']++;
+        res = "";
+        int[] counts = new int[26];
+        for (char c : s.toCharArray()) {
+            counts[c - 'a']++;
         }
+        helper(target, 0, false, counts, new char[s.length()]);
+        return res;
+    }
 
-        int p = 0;
-
-        while (p < n) {
-            int c = target.charAt(p) - 'a';
-
-            if (cnt[c] == 0) {
-                break;
+    private boolean helper(String target, int index, boolean isGreater, int[] counts, char[] cur) {
+        if (index == target.length()) {
+            if (isGreater) {
+                res = new String(cur);
+                return true;
             }
-
-            cnt[c]--;
-            p++;
+            return false;
         }
-
-        int i = p;
-
-        while (i >= 0) {
-            if (i < n) {
-                int t = target.charAt(i) - 'a';
-                int pick = -1;
-
-                for (int c = t + 1; c < 26; c++) {
-                    if (cnt[c] > 0) {
-                        pick = c;
-                        break;
-                    }
-                }
-
-                if (pick >= 0) {
-                    cnt[pick]--;
-
-                    StringBuilder tail = new StringBuilder();
-
-                    for (int c = 0; c < 26; c++) {
-                        for (int j = 0; j < cnt[c]; j++) {
-                            tail.append((char)('a' + c));
-                        }
-                    }
-
-                    cnt[pick]++;
-
-                    return target.substring(0, i)
-                        + (char)('a' + pick)
-                        + tail.toString();
+        if (isGreater) {
+            for (char c = 'a'; c <= 'z'; c++) {
+                while (counts[c - 'a'] > 0) {
+                    cur[index] = c;
+                    index++;
+                    counts[c - 'a']--;
                 }
             }
-
-            i--;
-
-            if (i >= 0) {
-                cnt[target.charAt(i) - 'a']++;
-            }
+            res = new String(cur);
+            return true;
         }
-
-        return "";
+        for (char c = target.charAt(index); c <= 'z'; c++) {
+            if (counts[c - 'a'] == 0) {
+                continue;
+            }
+            counts[c - 'a']--;
+            cur[index] = c;
+            if (helper(target, index + 1, c != target.charAt(index), counts, cur)) {
+                return true;
+            }
+            counts[c - 'a']++;
+        }
+        return false;
     }
 }
