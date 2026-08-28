@@ -1,105 +1,164 @@
 class Solution {
-    public String lexPalindromicPermutation(
-        String s,
-        String target
-    ) {
-        int n = s.length();
+    public String lexPalindromicPermutation(String s, String target) {
+        char[] arr = s.toCharArray();
+        char[] targetArr = target.toCharArray();
+        int len = arr.length;
 
-        int[] freq = new int[26];
-
-        for (char ch : s.toCharArray()) {
-            freq[ch - 'a']++;
+        int[] mem = new int[26];
+        for (int i = 0; i < len; i++) {
+            mem[arr[i] - 'a']++;
         }
 
-        String middle = "";
-
+        /*
+         * The key idea:
+         * a palindrome is completely determined by its left half.
+         * So we only need to find the smallest left half
+         * that is lexicographically greater than target's left half.
+         */
+        boolean visited = false;
+        int foundPos = 0;
         for (int i = 0; i < 26; i++) {
-            if (freq[i] % 2 == 1) {
-                if (!middle.isEmpty()) {
+            if (mem[i] > 0 && mem[i] % 2 != 0) {
+                if (visited) {
                     return "";
                 }
-
-                middle = String.valueOf(
-                    (char)('a' + i)
-                );
+                visited = true;
+                foundPos = i;
             }
-
-            freq[i] /= 2;
         }
 
-        int halfLen = n / 2;
-
-        StringBuilder half =
-            new StringBuilder();
-
-        int matched = 0;
-
-        while (matched < halfLen) {
-            int c =
-                target.charAt(matched) - 'a';
-
-            if (freq[c] == 0) {
-                break;
+        // Keep only the characters needed to build the left half.
+        for (int i = 0; i < 26; i++) {
+            if (mem[i] % 2 == 0) {
+                mem[i] /= 2;
+            } else {
+                mem[i] = (mem[i] / 2) + 1;
             }
-
-            freq[c]--;
-            half.append((char)('a' + c));
-            matched++;
         }
 
-        int i = matched;
+        char[] ans = new char[len];
+        int index = 0, currLen = len;
 
-        while (i >= 0) {
-            if (i < halfLen) {
-                int start =
-                    target.charAt(i) - 'a' + 1;
+        if (len % 2 != 0) {
+            ans[len / 2] = (char) (foundPos + 'a');
+            mem[foundPos]--;
+        }
+        len /= 2;
+        
+        /*
+         * Try to match target's left half.
+         * If we cannot match a character, use the smallest
+         * available character that is greater than it.
+         */
+        for (int i = 0; i < len; i++) {
+            int pos = targetArr[i] - 'a';
+            if (mem[pos] > 0) {
+                ans[index++] = targetArr[i];
+                mem[pos]--;
+            } else {
+                int found;
 
-                for (int c = start; c < 26; c++) {
-                    if (freq[c] == 0) {
-                        continue;
+                // Find the smallest character greater than target[i].
+                for (found = pos + 1; found < 26; found++) {
+                    if (mem[found] > 0) {
+                        break;
                     }
+                }
+                if (found == 26) {
+                    return execute(ans, mem, index - 1, currLen);
+                } else {
+                    ans[index++] = (char) (found + 'a');
+                    mem[found]--;
 
-                    freq[c]--;
-
-                    StringBuilder suffix = new StringBuilder();
-
+                    // Fill the remaining positions with the smallest characters.
                     for (int j = 0; j < 26; j++) {
-                        for (int x = 0; x < freq[j]; x++) {
-                            suffix.append((char)('a' + j));
+                        if (mem[j] > 0) {
+                            ans[index++] = (char) (j + 'a');
+                            mem[j]--;
+                            j--;
                         }
                     }
 
-                    String left = half.substring(0, i) + (char)('a' + c) + suffix;
-
-                    String candidate = left + middle + new StringBuilder(left).reverse().toString();
-
-                    if (candidate.compareTo(target) > 0) {
-                        return candidate;
+                    // Mirror the left half to build the palindrome.
+                    for (int j = currLen - 1; j >= len; j--) {
+                        ans[j] = ans[currLen - j - 1];
                     }
-
-                    freq[c]++;
+                    return new String(ans);
                 }
-            }
-
-            if (i == halfLen) {
-                String left = half.toString();
-
-                String candidate = left + middle + new StringBuilder(left).reverse().toString();
-
-                if (candidate.compareTo(target) > 0) {
-                    return candidate;
-                }
-            }
-
-            i--;
-
-            if (i >= 0) {
-                int c = half.charAt(i) - 'a';
-                freq[c]++;
-                half.deleteCharAt(half.length() - 1);
             }
         }
 
+        // Mirror the left half to build the palindrome.
+        for (int j = currLen - 1; j >= len; j--) {
+            ans[j] = ans[currLen - j - 1];
+        }
+
+        /*
+         * If the constructed palindrome is already greater than target,
+         * we have found the answer.
+         */
+        for (int i = 0; i < currLen; i++) {
+            if (ans[i] > targetArr[i]) {
+                return new String(ans);
+            } else if (ans[i] < targetArr[i]) {
+                break;
+            }
+        }
+
+        /*
+         * The constructed palindrome is equal to target.
+         * Find the next greater permutation of the left half.
+         */
+        return execute(ans, mem, len - 1, currLen);
+    }
+
+    private String execute(char[] ans,
+                                  int[] mem,
+                                  int index,
+                                  int currLen) {
+        if (index == -1) {
+            return "";
+        }
+        while (index >= 0) {
+            int curr = ans[index] - 'a';
+            int nextMax = curr;
+
+            // Find the smallest available character greater than the current one.
+            for (int i = nextMax + 1; i < 26; i++) {
+                if (mem[i] > 0) {
+                    nextMax = i;
+                    break;
+                }
+            }
+
+            if (nextMax < curr) {
+                mem[curr]++;
+            } else if (nextMax > curr) {
+                mem[curr]++;
+
+                // Increase the current position.
+                ans[index++] = (char) (nextMax + 'a');
+                mem[nextMax]--;
+
+                // Put all remaining characters in ascending order.
+                for (int j = 0; j < 26; j++) {
+                    if (mem[j] > 0) {
+                        ans[index++] = (char) (j + 'a');
+                        mem[j]--;
+                        j--;
+                    }
+                }
+
+                // Mirror the left half to complete the palindrome.
+                for (int j = currLen - 1; j >= index; j--) {
+                    ans[j] = ans[currLen - j - 1];
+                }
+                return new String(ans);
+            } else {
+                mem[curr]++;
+            }
+            index--;
+        }
         return "";
     }
 }
