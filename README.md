@@ -200,6 +200,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1979-find-greatest-common-divisor-of-array](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1979-find-greatest-common-divisor-of-array) |
 | [2029-stone-game-ix](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/2029-stone-game-ix) |
 | [2057-smallest-index-with-equal-value](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/2057-smallest-index-with-equal-value) |
+| [2091-removing-minimum-and-maximum-from-array](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/2091-removing-minimum-and-maximum-from-array) |
 | [2125-number-of-laser-beams-in-a-bank](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/2125-number-of-laser-beams-in-a-bank) |
 | [2148-count-elements-with-strictly-smaller-and-greater-elements](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/2148-count-elements-with-strictly-smaller-and-greater-elements) |
 | [2164-sort-even-and-odd-indices-independently](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/2164-sort-even-and-odd-indices-independently) |
@@ -479,6 +480,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1736-latest-time-by-replacing-hidden-digits](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1736-latest-time-by-replacing-hidden-digits) |
 | [1927-sum-game](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1927-sum-game) |
 | [2029-stone-game-ix](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/2029-stone-game-ix) |
+| [2091-removing-minimum-and-maximum-from-array](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/2091-removing-minimum-and-maximum-from-array) |
 | [3014-minimum-number-of-pushes-to-type-word-i](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/3014-minimum-number-of-pushes-to-type-word-i) |
 | [3016-minimum-number-of-pushes-to-type-word-ii](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/3016-minimum-number-of-pushes-to-type-word-ii) |
 | [3302-find-the-lexicographically-smallest-valid-sequence](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/3302-find-the-lexicographically-smallest-valid-sequence) |
