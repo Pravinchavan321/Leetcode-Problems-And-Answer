@@ -57,6 +57,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3756-concatenate-non-zero-digits-and-multiply-by-sum-ii](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/3756-concatenate-non-zero-digits-and-multiply-by-sum-ii) |
 | [3857-minimum-cost-to-split-into-ones](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/3857-minimum-cost-to-split-into-ones) |
 | [3867-sum-of-gcd-of-formed-pairs](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/3867-sum-of-gcd-of-formed-pairs) |
+| [3875-construct-uniform-parity-array-i](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/3875-construct-uniform-parity-array-i) |
 ## String
 |  |
 | ------- |
@@ -233,6 +234,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3833-count-dominant-indices](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/3833-count-dominant-indices) |
 | [3866-first-unique-even-element](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/3866-first-unique-even-element) |
 | [3867-sum-of-gcd-of-formed-pairs](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/3867-sum-of-gcd-of-formed-pairs) |
+| [3875-construct-uniform-parity-array-i](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/3875-construct-uniform-parity-array-i) |
 | [3880-minimum-absolute-difference-between-two-values](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/3880-minimum-absolute-difference-between-two-values) |
 ## Matrix
 |  |
