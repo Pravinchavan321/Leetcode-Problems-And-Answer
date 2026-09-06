@@ -64,6 +64,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0058-length-of-last-word](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0058-length-of-last-word) |
+| [0115-distinct-subsequences](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0115-distinct-subsequences) |
 | [0179-largest-number](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0179-largest-number) |
 | [0227-basic-calculator-ii](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0227-basic-calculator-ii) |
 | [0443-string-compression](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0443-string-compression) |
@@ -399,6 +400,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Dynamic Programming
 |  |
 | ------- |
+| [0115-distinct-subsequences](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0115-distinct-subsequences) |
 | [0322-coin-change](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0322-coin-change) |
 | [0486-predict-the-winner](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0486-predict-the-winner) |
 | [0509-fibonacci-number](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0509-fibonacci-number) |
