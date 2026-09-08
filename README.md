@@ -128,6 +128,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0011-container-with-most-water](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0011-container-with-most-water) |
+| [0053-maximum-subarray](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0053-maximum-subarray) |
 | [0075-sort-colors](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0075-sort-colors) |
 | [0080-remove-duplicates-from-sorted-array-ii](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0080-remove-duplicates-from-sorted-array-ii) |
 | [0128-longest-consecutive-sequence](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0128-longest-consecutive-sequence) |
@@ -401,6 +402,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Dynamic Programming
 |  |
 | ------- |
+| [0053-maximum-subarray](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0053-maximum-subarray) |
 | [0115-distinct-subsequences](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0115-distinct-subsequences) |
 | [0322-coin-change](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0322-coin-change) |
 | [0486-predict-the-winner](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0486-predict-the-winner) |
@@ -623,6 +625,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Divide and Conquer
 |  |
 | ------- |
+| [0053-maximum-subarray](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0053-maximum-subarray) |
 | [0169-majority-element](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0169-majority-element) |
 ## Monotonic Stack
 |  |
