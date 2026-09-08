@@ -1,4 +1,4 @@
-                    //(1)
+//(1)
 
 // class Solution {
 //     public int findPeakElement(int[] nums) {
@@ -38,9 +38,7 @@
 //     }
 // }
 
-
-
-            //(2)
+//(2)
 
 class Solution {
     public int findPeakElement(int[] nums) {
