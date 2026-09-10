@@ -525,6 +525,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0662-maximum-width-of-binary-tree](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0662-maximum-width-of-binary-tree) |
 | [0671-second-minimum-node-in-a-binary-tree](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0671-second-minimum-node-in-a-binary-tree) |
 | [0783-minimum-distance-between-bst-nodes](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0783-minimum-distance-between-bst-nodes) |
+| [2265-count-nodes-equal-to-average-of-subtree](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/2265-count-nodes-equal-to-average-of-subtree) |
 | [2685-count-the-number-of-complete-components](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/2685-count-the-number-of-complete-components) |
 | [3310-remove-methods-from-project](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/3310-remove-methods-from-project) |
 ## Breadth-First Search
@@ -615,6 +616,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0671-second-minimum-node-in-a-binary-tree](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0671-second-minimum-node-in-a-binary-tree) |
 | [0700-search-in-a-binary-search-tree](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0700-search-in-a-binary-search-tree) |
 | [0783-minimum-distance-between-bst-nodes](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0783-minimum-distance-between-bst-nodes) |
+| [2265-count-nodes-equal-to-average-of-subtree](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/2265-count-nodes-equal-to-average-of-subtree) |
 ## Binary Tree
 |  |
 | ------- |
@@ -628,6 +630,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0671-second-minimum-node-in-a-binary-tree](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0671-second-minimum-node-in-a-binary-tree) |
 | [0700-search-in-a-binary-search-tree](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0700-search-in-a-binary-search-tree) |
 | [0783-minimum-distance-between-bst-nodes](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0783-minimum-distance-between-bst-nodes) |
+| [2265-count-nodes-equal-to-average-of-subtree](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/2265-count-nodes-equal-to-average-of-subtree) |
 ## Divide and Conquer
 |  |
 | ------- |
