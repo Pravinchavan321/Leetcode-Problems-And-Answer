@@ -1,116 +1,137 @@
 class Solution {
+    static class Interval {
+        int right;
+        int left;
+        int weight;
+        int index;
 
-    static class Pair {
-        long sum;
-        List<Integer> ids;
-
-        Pair(long sum, List<Integer> ids) {
-            this.sum = sum;
-            this.ids = ids;
-        }
-
-        Pair copy() {
-            return new Pair(sum, new ArrayList<>(ids));
+        Interval(int right, int left, int weight, int index) {
+            this.right = right;
+            this.left = left;
+            this.weight = weight;
+            this.index = index;
         }
     }
 
-    Pair[][] dp;
-    int[] next;
+    static class State {
+        long score;
+        List<Integer> indices;
 
-    Pair better(Pair a, Pair b) {
-        if (a.sum != b.sum)
-            return a.sum > b.sum ? a : b;
-
-        Collections.sort(a.ids);
-        Collections.sort(b.ids);
-
-        for (int i = 0; i < Math.min(a.ids.size(), b.ids.size()); i++) {
-            if (!a.ids.get(i).equals(b.ids.get(i)))
-                return a.ids.get(i) < b.ids.get(i) ? a : b;
+        State(long score, List<Integer> indices) {
+            this.score = score;
+            this.indices = indices;
         }
-
-        return a.ids.size() <= b.ids.size() ? a : b;
-    }
-
-    int lowerBound(List<List<Integer>> in, List<Integer> order, int target) {
-        int l = 0, r = order.size();
-
-        while (l < r) {
-            int m = l + (r - l) / 2;
-
-            if (in.get(order.get(m)).get(0) >= target)
-                r = m;
-            else
-                l = m + 1;
-        }
-
-        return l;
-    }
-
-    Pair solve(List<List<Integer>> in, List<Integer> order,
-               int pos, int count) {
-
-        if (pos == order.size() || count == 4)
-            return new Pair(0, new ArrayList<>());
-
-        if (dp[pos][count] != null)
-            return dp[pos][count].copy();
-
-        Pair skip = solve(in, order, pos + 1, count);
-
-        int id = order.get(pos);
-
-        Pair take = solve(
-            in,
-            order,
-            next[pos],
-            count + 1
-        );
-
-        take.sum += in.get(id).get(2);
-        take.ids.add(id);
-
-        dp[pos][count] = better(skip, take);
-
-        return dp[pos][count].copy();
     }
 
     public int[] maximumWeight(List<List<Integer>> intervals) {
         int n = intervals.size();
 
-        List<Integer> order = new ArrayList<>();
-
-        for (int i = 0; i < n; i++)
-            order.add(i);
-
-        order.sort((a, b) ->
-            Integer.compare(
-                intervals.get(a).get(0),
-                intervals.get(b).get(0)
-            )
-        );
-
-        next = new int[n];
+        Interval[] arr = new Interval[n];
 
         for (int i = 0; i < n; i++) {
-            int id = order.get(i);
-            next[i] = lowerBound(
-                intervals,
-                order,
-                intervals.get(id).get(1) + 1
-            );
+            int left = intervals.get(i).get(0);
+            int right = intervals.get(i).get(1);
+            int weight = intervals.get(i).get(2);
+
+            arr[i] = new Interval(right, left, weight, i);
         }
 
-        dp = new Pair[n][4];
+        Arrays.sort(arr, (a, b) -> {
+            if (a.right != b.right) {
+                return Integer.compare(a.right, b.right);
+            }
 
-        List<Integer> ans = solve(intervals, order, 0, 0).ids;
-        Collections.sort(ans);
+            if (a.left != b.left) {
+                return Integer.compare(a.left, b.left);
+            }
 
-        int[] res = new int[ans.size()];
+            return Integer.compare(a.index, b.index);
+        });
 
-        for (int i = 0; i < ans.size(); i++)
-            res[i] = ans.get(i);
+        int[] rightEnds = new int[n];
 
-        return res;
+        for (int i = 0; i < n; i++) {
+            rightEnds[i] = arr[i].right;
+        }
+
+        State[] previous = new State[n + 1];
+
+        for (int i = 0; i <= n; i++) {
+            previous[i] = new State(0, new ArrayList<>());
+        }
+
+        for (int selectedCount = 1; selectedCount <= 4; selectedCount++) {
+            State[] current = new State[n + 1];
+            current[0] = new State(0, new ArrayList<>());
+
+            for (int i = 1; i <= n; i++) {
+                State skip = current[i - 1];
+
+                int previousCount = lowerBound(
+                    rightEnds,
+                    i - 1,
+                    arr[i - 1].left
+                );
+
+                State old = previous[previousCount];
+
+                List<Integer> newIndices = new ArrayList<>(old.indices);
+                newIndices.add(arr[i - 1].index);
+                Collections.sort(newIndices);
+
+                State take = new State(
+                    old.score + arr[i - 1].weight,
+                    newIndices
+                );
+
+                current[i] = better(skip, take);
+            }
+
+            previous = current;
+        }
+
+        int[] answer = new int[previous[n].indices.size()];
+
+        for (int i = 0; i < answer.length; i++) {
+            answer[i] = previous[n].indices.get(i);
+        }
+
+        return answer;
+    }
+
+    private State better(State a, State b) {
+        if (a.score != b.score) {
+            return a.score > b.score ? a : b;
+        }
+
+        int size = Math.min(a.indices.size(), b.indices.size());
+
+        for (int i = 0; i < size; i++) {
+            int x = a.indices.get(i);
+            int y = b.indices.get(i);
+
+            if (x != y) {
+                return x < y ? a : b;
+            }
+        }
+
+        return a.indices.size() <= b.indices.size() ? a : b;
+    }
+
+    private int lowerBound(int[] arr, int end, int target) {
+        int left = 0;
+        int right = end;
+
+        while (left < right) {
+            int mid = left + (right - left) / 2;
+
+            if (arr[mid] < target) {
+                left = mid + 1;
+            } else {
+                right = mid;
+            }
+        }
+
+        return left;
     }
 }
