@@ -1,137 +1,94 @@
-class Solution {
-    static class Interval {
-        int right;
-        int left;
-        int weight;
-        int index;
-
-        Interval(int right, int left, int weight, int index) {
-            this.right = right;
-            this.left = left;
-            this.weight = weight;
-            this.index = index;
-        }
-    }
-
-    static class State {
-        long score;
-        List<Integer> indices;
-
-        State(long score, List<Integer> indices) {
-            this.score = score;
-            this.indices = indices;
-        }
-    }
-
-    public int[] maximumWeight(List<List<Integer>> intervals) {
+class Solution 
+{
+    
+    public int[] maximumWeight(List<List<Integer>> intervals) 
+    {
         int n = intervals.size();
-
-        Interval[] arr = new Interval[n];
-
-        for (int i = 0; i < n; i++) {
-            int left = intervals.get(i).get(0);
-            int right = intervals.get(i).get(1);
-            int weight = intervals.get(i).get(2);
-
-            arr[i] = new Interval(right, left, weight, i);
+        int[][] arr = new int[n][4];
+        for (int i = 0; i < n; i++) 
+        {
+            arr[i][0] = intervals.get(i).get(0);
+            arr[i][1] = intervals.get(i).get(1);
+            arr[i][2] = intervals.get(i).get(2);
+            arr[i][3] = i;
         }
+        
+        // Sort by right endpoint.
+        Arrays.sort(arr, (a, b) -> Integer.compare(a[1], b[1]));
 
-        Arrays.sort(arr, (a, b) -> {
-            if (a.right != b.right) {
-                return Integer.compare(a.right, b.right);
+        long[][] dp = new long[n + 1][5];
+        List<Integer>[][] indices = new List[n + 1][5];
+        for (int i = 0; i <= n; i++) 
+        {
+            for (int j = 0; j < 5; j++) 
+            {
+                indices[i][j] = new ArrayList<Integer>();
             }
+        }
 
-            if (a.left != b.left) {
-                return Integer.compare(a.left, b.left);
+        for (int i = 0; i < n; i++) 
+        {
+            int l = arr[i][0],
+                weight = arr[i][2],
+                idx = arr[i][3];
+            // Use binary search to find intervals whose right endpoints are smaller than l.
+            int k = binarySearch(arr, i, l);
+
+            for (int j = 1; j < 5; j++) 
+            {
+                long s1 = dp[i][j];
+                long s2 = dp[k][j - 1] + weight;
+                if (s1 > s2) 
+                {
+                    dp[i + 1][j] = dp[i][j];
+                    indices[i + 1][j] = new ArrayList<>(indices[i][j]);
+                    continue;
+                }
+
+                List<Integer> newIndex = new ArrayList<>(indices[k][j - 1]);
+                newIndex.add(idx);
+                Collections.sort(newIndex);
+                if (s1 == s2 && compareLists(indices[i][j], newIndex) < 0) 
+                {
+                    newIndex = new ArrayList<>(indices[i][j]);
+                }
+                dp[i + 1][j] = s2;
+                indices[i + 1][j] = newIndex;
             }
-
-            return Integer.compare(a.index, b.index);
-        });
-
-        int[] rightEnds = new int[n];
-
-        for (int i = 0; i < n; i++) {
-            rightEnds[i] = arr[i].right;
         }
 
-        State[] previous = new State[n + 1];
-
-        for (int i = 0; i <= n; i++) {
-            previous[i] = new State(0, new ArrayList<>());
+        List<Integer> result = indices[n][4];
+        int[] ans = new int[result.size()];
+        for (int i = 0; i < result.size(); i++) 
+        {
+            ans[i] = result.get(i);
         }
-
-        for (int selectedCount = 1; selectedCount <= 4; selectedCount++) {
-            State[] current = new State[n + 1];
-            current[0] = new State(0, new ArrayList<>());
-
-            for (int i = 1; i <= n; i++) {
-                State skip = current[i - 1];
-
-                int previousCount = lowerBound(
-                    rightEnds,
-                    i - 1,
-                    arr[i - 1].left
-                );
-
-                State old = previous[previousCount];
-
-                List<Integer> newIndices = new ArrayList<>(old.indices);
-                newIndices.add(arr[i - 1].index);
-                Collections.sort(newIndices);
-
-                State take = new State(
-                    old.score + arr[i - 1].weight,
-                    newIndices
-                );
-
-                current[i] = better(skip, take);
-            }
-
-            previous = current;
-        }
-
-        int[] answer = new int[previous[n].indices.size()];
-
-        for (int i = 0; i < answer.length; i++) {
-            answer[i] = previous[n].indices.get(i);
-        }
-
-        return answer;
+        return ans;
     }
 
-    private State better(State a, State b) {
-        if (a.score != b.score) {
-            return a.score > b.score ? a : b;
+    private int binarySearch(int[][] arr, int end, int target) 
+    {
+        int left = 0,
+            right = end;
+        while (left < right) 
+        {
+            int mid = (left + right) / 2;
+            if (arr[mid][1] < target) left = mid + 1;
+            else right = mid;
         }
-
-        int size = Math.min(a.indices.size(), b.indices.size());
-
-        for (int i = 0; i < size; i++) {
-            int x = a.indices.get(i);
-            int y = b.indices.get(i);
-
-            if (x != y) {
-                return x < y ? a : b;
-            }
-        }
-
-        return a.indices.size() <= b.indices.size() ? a : b;
-    }
-
-    private int lowerBound(int[] arr, int end, int target) {
-        int left = 0;
-        int right = end;
-
-        while (left < right) {
-            int mid = left + (right - left) / 2;
-
-            if (arr[mid] < target) {
-                left = mid + 1;
-            } else {
-                right = mid;
-            }
-        }
-
         return left;
+    }
+
+    private int compareLists(List<Integer> a, List<Integer> b) 
+    {
+        int minLen = Math.min(a.size(), b.size());
+        for (int i = 0; i < minLen; i++) 
+        {
+            if (!a.get(i).equals(b.get(i))) 
+            {
+                return Integer.compare(a.get(i), b.get(i));
+            }
+        }
+        return Integer.compare(a.size(), b.size());
     }
 }
