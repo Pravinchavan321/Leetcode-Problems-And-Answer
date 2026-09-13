@@ -166,6 +166,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0724-find-pivot-index](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0724-find-pivot-index) |
 | [0792-number-of-matching-subsequences](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0792-number-of-matching-subsequences) |
 | [0821-shortest-distance-to-a-character](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0821-shortest-distance-to-a-character) |
+| [0835-image-overlap](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0835-image-overlap) |
 | [0867-transpose-matrix](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0867-transpose-matrix) |
 | [0877-stone-game](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0877-stone-game) |
 | [0941-valid-mountain-array](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0941-valid-mountain-array) |
@@ -256,6 +257,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0566-reshape-the-matrix](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0566-reshape-the-matrix) |
+| [0835-image-overlap](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0835-image-overlap) |
 | [0867-transpose-matrix](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0867-transpose-matrix) |
 | [1030-matrix-cells-in-distance-order](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1030-matrix-cells-in-distance-order) |
 | [1260-shift-2d-grid](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1260-shift-2d-grid) |
