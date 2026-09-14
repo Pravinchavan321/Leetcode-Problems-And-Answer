@@ -16,6 +16,8 @@ class Solution {
             int yDiff = Math.abs(ytopCommonArea - ybottomCommonArea);
             commonArea = xDiff * yDiff;
 
+            
+
         }
 
         return aRecArea + bRecArea - commonArea;
