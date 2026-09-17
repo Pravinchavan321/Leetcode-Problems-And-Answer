@@ -748,6 +748,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0577-employee-bonus](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0577-employee-bonus) |
+| [0610-triangle-judgement](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0610-triangle-judgement) |
 | [1070-product-sales-analysis-iii](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1070-product-sales-analysis-iii) |
 | [1075-project-employees-i](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1075-project-employees-i) |
 | [1141-user-activity-for-the-past-30-days-i](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1141-user-activity-for-the-past-30-days-i) |
