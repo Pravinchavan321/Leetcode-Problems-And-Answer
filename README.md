@@ -753,6 +753,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1070-product-sales-analysis-iii](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1070-product-sales-analysis-iii) |
 | [1075-project-employees-i](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1075-project-employees-i) |
 | [1141-user-activity-for-the-past-30-days-i](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1141-user-activity-for-the-past-30-days-i) |
+| [1164-product-price-at-a-given-date](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1164-product-price-at-a-given-date) |
 | [1211-queries-quality-and-percentage](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1211-queries-quality-and-percentage) |
 | [1633-percentage-of-users-attended-a-contest](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1633-percentage-of-users-attended-a-contest) |
 | [1789-primary-department-for-each-employee](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1789-primary-department-for-each-employee) |
