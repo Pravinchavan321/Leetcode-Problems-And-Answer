@@ -770,6 +770,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1141-user-activity-for-the-past-30-days-i](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1141-user-activity-for-the-past-30-days-i) |
 | [1164-product-price-at-a-given-date](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1164-product-price-at-a-given-date) |
 | [1211-queries-quality-and-percentage](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1211-queries-quality-and-percentage) |
+| [1327-list-the-products-ordered-in-a-period](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1327-list-the-products-ordered-in-a-period) |
 | [1341-movie-rating](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1341-movie-rating) |
 | [1527-patients-with-a-condition](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1527-patients-with-a-condition) |
 | [1633-percentage-of-users-attended-a-contest](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1633-percentage-of-users-attended-a-contest) |
