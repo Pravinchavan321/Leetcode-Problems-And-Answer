@@ -131,6 +131,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1140-stone-game-ii](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1140-stone-game-ii) |
 | [1422-maximum-score-after-splitting-a-string](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1422-maximum-score-after-splitting-a-string) |
 | [1621-number-of-sets-of-k-non-overlapping-line-segments](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1621-number-of-sets-of-k-non-overlapping-line-segments) |
+| [1658-minimum-operations-to-reduce-x-to-zero](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1658-minimum-operations-to-reduce-x-to-zero) |
 | [1872-stone-game-viii](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1872-stone-game-viii) |
 | [3312-sorted-gcd-pair-queries](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/3312-sorted-gcd-pair-queries) |
 | [3756-concatenate-non-zero-digits-and-multiply-by-sum-ii](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/3756-concatenate-non-zero-digits-and-multiply-by-sum-ii) |
@@ -217,6 +218,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1563-stone-game-v](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1563-stone-game-v) |
 | [1582-special-positions-in-a-binary-matrix](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1582-special-positions-in-a-binary-matrix) |
 | [1652-defuse-the-bomb](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1652-defuse-the-bomb) |
+| [1658-minimum-operations-to-reduce-x-to-zero](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1658-minimum-operations-to-reduce-x-to-zero) |
 | [1822-sign-of-the-product-of-an-array](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1822-sign-of-the-product-of-an-array) |
 | [1872-stone-game-viii](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1872-stone-game-viii) |
 | [1909-remove-one-element-to-make-the-array-strictly-increasing](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1909-remove-one-element-to-make-the-array-strictly-increasing) |
@@ -315,6 +317,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1351-count-negative-numbers-in-a-sorted-matrix](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1351-count-negative-numbers-in-a-sorted-matrix) |
 | [1385-find-the-distance-value-between-two-arrays](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1385-find-the-distance-value-between-two-arrays) |
 | [1477-find-two-non-overlapping-sub-arrays-each-with-target-sum](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1477-find-two-non-overlapping-sub-arrays-each-with-target-sum) |
+| [1658-minimum-operations-to-reduce-x-to-zero](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1658-minimum-operations-to-reduce-x-to-zero) |
 | [3116-kth-smallest-amount-with-single-denomination-combination](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/3116-kth-smallest-amount-with-single-denomination-combination) |
 | [3312-sorted-gcd-pair-queries](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/3312-sorted-gcd-pair-queries) |
 | [3414-maximum-score-of-non-overlapping-intervals](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/3414-maximum-score-of-non-overlapping-intervals) |
@@ -409,6 +412,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1436-destination-city](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1436-destination-city) |
 | [1477-find-two-non-overlapping-sub-arrays-each-with-target-sum](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1477-find-two-non-overlapping-sub-arrays-each-with-target-sum) |
 | [1520-maximum-number-of-non-overlapping-substrings](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1520-maximum-number-of-non-overlapping-substrings) |
+| [1658-minimum-operations-to-reduce-x-to-zero](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1658-minimum-operations-to-reduce-x-to-zero) |
 | [1796-second-largest-digit-in-a-string](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1796-second-largest-digit-in-a-string) |
 | [1805-number-of-different-integers-in-a-string](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1805-number-of-different-integers-in-a-string) |
 | [2404-most-frequent-even-element](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/2404-most-frequent-even-element) |
@@ -629,6 +633,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0643-maximum-average-subarray-i](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0643-maximum-average-subarray-i) |
 | [1477-find-two-non-overlapping-sub-arrays-each-with-target-sum](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1477-find-two-non-overlapping-sub-arrays-each-with-target-sum) |
 | [1652-defuse-the-bomb](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1652-defuse-the-bomb) |
+| [1658-minimum-operations-to-reduce-x-to-zero](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1658-minimum-operations-to-reduce-x-to-zero) |
 | [2904-shortest-and-lexicographically-smallest-beautiful-string](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/2904-shortest-and-lexicographically-smallest-beautiful-string) |
 | [2958-length-of-longest-subarray-with-at-most-k-frequency](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/2958-length-of-longest-subarray-with-at-most-k-frequency) |
 | [3090-maximum-length-substring-with-two-occurrences](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/3090-maximum-length-substring-with-two-occurrences) |
