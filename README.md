@@ -92,6 +92,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1096-brace-expansion-ii](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1096-brace-expansion-ii) |
 | [1108-defanging-an-ip-address](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1108-defanging-an-ip-address) |
 | [1160-find-words-that-can-be-formed-by-characters](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1160-find-words-that-can-be-formed-by-characters) |
+| [1190-reverse-substrings-between-each-pair-of-parentheses](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1190-reverse-substrings-between-each-pair-of-parentheses) |
 | [1221-split-a-string-in-balanced-strings](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1221-split-a-string-in-balanced-strings) |
 | [1309-decrypt-string-from-alphabet-to-integer-mapping](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1309-decrypt-string-from-alphabet-to-integer-mapping) |
 | [1374-generate-a-string-with-characters-that-have-odd-counts](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1374-generate-a-string-with-characters-that-have-odd-counts) |
@@ -633,6 +634,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1047-remove-all-adjacent-duplicates-in-string](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1047-remove-all-adjacent-duplicates-in-string) |
 | [1081-smallest-subsequence-of-distinct-characters](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1081-smallest-subsequence-of-distinct-characters) |
 | [1096-brace-expansion-ii](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1096-brace-expansion-ii) |
+| [1190-reverse-substrings-between-each-pair-of-parentheses](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1190-reverse-substrings-between-each-pair-of-parentheses) |
 | [1441-build-an-array-with-stack-operations](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1441-build-an-array-with-stack-operations) |
 | [2390-removing-stars-from-a-string](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/2390-removing-stars-from-a-string) |
 ## Sliding Window
@@ -803,4 +805,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1667-fix-names-in-a-table](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1667-fix-names-in-a-table) |
 | [1789-primary-department-for-each-employee](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1789-primary-department-for-each-employee) |
 | [2356-number-of-unique-subjects-taught-by-each-teacher](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/2356-number-of-unique-subjects-taught-by-each-teacher) |
+## Bracket Sequences
+|  |
+| ------- |
+| [1190-reverse-substrings-between-each-pair-of-parentheses](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1190-reverse-substrings-between-each-pair-of-parentheses) |
 <!---LeetCode Topics End-->
