@@ -1,52 +1,48 @@
 class Solution {
-    static Boolean[][][] memo;
-
     public boolean hasValidPath(char[][] grid) {
-        int rows = grid.length;
-        int cols = grid[0].length;
+        int m = grid.length;
+        int n = grid[0].length;
+        int length = m + n - 1;
 
-        if (grid[0][0] == ')' || grid[rows - 1][cols - 1] == '(') {
+        if (length % 2 != 0 || grid[0][0] != '(' ||
+            grid[m - 1][n - 1] != ')') {
             return false;
         }
 
-        if ((rows + cols - 1) % 2 != 0) {
-            return false;
+        // Enough bits for balances 0 through length.
+        int words = (length + 64) / 64;
+        long[][] dp = new long[n][words];
+
+        for (int row = 0; row < m; row++) {
+            for (int col = 0; col < n; col++) {
+                long[] next = new long[words];
+
+                for (int word = 0; word < words; word++) {
+                    if (row > 0) next[word] |= dp[col][word];
+                    if (col > 0) next[word] |= dp[col - 1][word];
+                }
+                if (row == 0 && col == 0) next[0] = 1L;
+
+                if (grid[row][col] == '(') {
+                    // Go backward so the previous word is still unchanged.
+                    for (int word = words - 1; word >= 0; word--) {
+                        long carry = word > 0
+                            ? next[word - 1] >>> 63 : 0L;
+                        next[word] = (next[word] << 1) | carry;
+                    }
+                } else {
+                    // Go forward so the next word is still unchanged.
+                    for (int word = 0; word < words; word++) {
+                        long carry = word + 1 < words
+                            ? next[word + 1] << 63 : 0L;
+                        next[word] = (next[word] >>> 1) | carry;
+                    }
+                }
+
+                dp[col] = next;
+            }
         }
 
-        memo = new Boolean[101][101][201];
-
-        return search(grid, 0, 0, 0);
-    }
-
-    private boolean search(char[][] grid, int row, int col, int balance) {
-        if (grid[row][col] == '(') {
-            balance++;
-        } else {
-            balance--;
-        }
-
-        if (balance < 0) {
-            return false;
-        }
-
-        if (row == grid.length - 1 && col == grid[0].length - 1) {
-            return balance == 0;
-        }
-
-        if (memo[row][col][balance] != null) {
-            return memo[row][col][balance];
-        }
-
-        boolean canFormValidPath = false;
-
-        if (row + 1 < grid.length) {
-            canFormValidPath = search(grid, row + 1, col, balance);
-        }
-
-        if (!canFormValidPath && col + 1 < grid[0].length) {
-            canFormValidPath = search(grid, row, col + 1, balance);
-        }
-
-        return memo[row][col][balance] = canFormValidPath;
+        return (dp[n - 1][0] & 1L) != 0;
     }
 }
