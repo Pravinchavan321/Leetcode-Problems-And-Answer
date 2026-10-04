@@ -83,6 +83,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0459-repeated-substring-pattern](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0459-repeated-substring-pattern) |
 | [0567-permutation-in-string](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0567-permutation-in-string) |
 | [0657-robot-return-to-origin](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0657-robot-return-to-origin) |
+| [0678-valid-parenthesis-string](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0678-valid-parenthesis-string) |
 | [0709-to-lower-case](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0709-to-lower-case) |
 | [0792-number-of-matching-subsequences](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0792-number-of-matching-subsequences) |
 | [0821-shortest-distance-to-a-character](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0821-shortest-distance-to-a-character) |
@@ -462,6 +463,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0486-predict-the-winner](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0486-predict-the-winner) |
 | [0509-fibonacci-number](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0509-fibonacci-number) |
 | [0646-maximum-length-of-pair-chain](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0646-maximum-length-of-pair-chain) |
+| [0678-valid-parenthesis-string](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0678-valid-parenthesis-string) |
 | [0788-rotated-digits](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0788-rotated-digits) |
 | [0792-number-of-matching-subsequences](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0792-number-of-matching-subsequences) |
 | [0877-stone-game](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0877-stone-game) |
@@ -553,6 +555,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0581-shortest-unsorted-continuous-subarray](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0581-shortest-unsorted-continuous-subarray) |
 | [0624-maximum-distance-in-arrays](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0624-maximum-distance-in-arrays) |
 | [0646-maximum-length-of-pair-chain](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0646-maximum-length-of-pair-chain) |
+| [0678-valid-parenthesis-string](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0678-valid-parenthesis-string) |
 | [1081-smallest-subsequence-of-distinct-characters](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1081-smallest-subsequence-of-distinct-characters) |
 | [1221-split-a-string-in-balanced-strings](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1221-split-a-string-in-balanced-strings) |
 | [1386-cinema-seat-allocation](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1386-cinema-seat-allocation) |
@@ -642,6 +645,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0581-shortest-unsorted-continuous-subarray](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0581-shortest-unsorted-continuous-subarray) |
 | [0589-n-ary-tree-preorder-traversal](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0589-n-ary-tree-preorder-traversal) |
 | [0590-n-ary-tree-postorder-traversal](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0590-n-ary-tree-postorder-traversal) |
+| [0678-valid-parenthesis-string](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0678-valid-parenthesis-string) |
 | [0682-baseball-game](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0682-baseball-game) |
 | [1047-remove-all-adjacent-duplicates-in-string](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1047-remove-all-adjacent-duplicates-in-string) |
 | [1081-smallest-subsequence-of-distinct-characters](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1081-smallest-subsequence-of-distinct-characters) |
@@ -826,6 +830,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0020-valid-parentheses](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0020-valid-parentheses) |
 | [0022-generate-parentheses](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0022-generate-parentheses) |
 | [0032-longest-valid-parentheses](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0032-longest-valid-parentheses) |
+| [0678-valid-parenthesis-string](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0678-valid-parenthesis-string) |
 | [1111-maximum-nesting-depth-of-two-valid-parentheses-strings](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1111-maximum-nesting-depth-of-two-valid-parentheses-strings) |
 | [1190-reverse-substrings-between-each-pair-of-parentheses](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1190-reverse-substrings-between-each-pair-of-parentheses) |
 | [1614-maximum-nesting-depth-of-the-parentheses](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1614-maximum-nesting-depth-of-the-parentheses) |
