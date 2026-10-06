@@ -89,6 +89,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0821-shortest-distance-to-a-character](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0821-shortest-distance-to-a-character) |
 | [0824-goat-latin](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0824-goat-latin) |
 | [0856-score-of-parentheses](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0856-score-of-parentheses) |
+| [0921-minimum-add-to-make-parentheses-valid](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0921-minimum-add-to-make-parentheses-valid) |
 | [0925-long-pressed-name](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0925-long-pressed-name) |
 | [0940-distinct-subsequences-ii](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0940-distinct-subsequences-ii) |
 | [1047-remove-all-adjacent-duplicates-in-string](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1047-remove-all-adjacent-duplicates-in-string) |
@@ -557,6 +558,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0624-maximum-distance-in-arrays](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0624-maximum-distance-in-arrays) |
 | [0646-maximum-length-of-pair-chain](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0646-maximum-length-of-pair-chain) |
 | [0678-valid-parenthesis-string](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0678-valid-parenthesis-string) |
+| [0921-minimum-add-to-make-parentheses-valid](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0921-minimum-add-to-make-parentheses-valid) |
 | [1081-smallest-subsequence-of-distinct-characters](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1081-smallest-subsequence-of-distinct-characters) |
 | [1221-split-a-string-in-balanced-strings](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1221-split-a-string-in-balanced-strings) |
 | [1386-cinema-seat-allocation](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1386-cinema-seat-allocation) |
@@ -649,6 +651,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0678-valid-parenthesis-string](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0678-valid-parenthesis-string) |
 | [0682-baseball-game](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0682-baseball-game) |
 | [0856-score-of-parentheses](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0856-score-of-parentheses) |
+| [0921-minimum-add-to-make-parentheses-valid](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0921-minimum-add-to-make-parentheses-valid) |
 | [1047-remove-all-adjacent-duplicates-in-string](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1047-remove-all-adjacent-duplicates-in-string) |
 | [1081-smallest-subsequence-of-distinct-characters](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1081-smallest-subsequence-of-distinct-characters) |
 | [1096-brace-expansion-ii](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1096-brace-expansion-ii) |
@@ -834,6 +837,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0032-longest-valid-parentheses](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0032-longest-valid-parentheses) |
 | [0678-valid-parenthesis-string](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0678-valid-parenthesis-string) |
 | [0856-score-of-parentheses](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0856-score-of-parentheses) |
+| [0921-minimum-add-to-make-parentheses-valid](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0921-minimum-add-to-make-parentheses-valid) |
 | [1111-maximum-nesting-depth-of-two-valid-parentheses-strings](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1111-maximum-nesting-depth-of-two-valid-parentheses-strings) |
 | [1190-reverse-substrings-between-each-pair-of-parentheses](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1190-reverse-substrings-between-each-pair-of-parentheses) |
 | [1614-maximum-nesting-depth-of-the-parentheses](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1614-maximum-nesting-depth-of-the-parentheses) |
