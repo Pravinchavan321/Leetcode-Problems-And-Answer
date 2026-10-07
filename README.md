@@ -79,6 +79,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0115-distinct-subsequences](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0115-distinct-subsequences) |
 | [0179-largest-number](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0179-largest-number) |
 | [0227-basic-calculator-ii](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0227-basic-calculator-ii) |
+| [0301-remove-invalid-parentheses](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0301-remove-invalid-parentheses) |
 | [0443-string-compression](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0443-string-compression) |
 | [0459-repeated-substring-pattern](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0459-repeated-substring-pattern) |
 | [0567-permutation-in-string](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0567-permutation-in-string) |
@@ -596,6 +597,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0116-populating-next-right-pointers-in-each-node](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0116-populating-next-right-pointers-in-each-node) |
 | [0117-populating-next-right-pointers-in-each-node-ii](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0117-populating-next-right-pointers-in-each-node-ii) |
+| [0301-remove-invalid-parentheses](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0301-remove-invalid-parentheses) |
 | [0322-coin-change](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0322-coin-change) |
 | [0429-n-ary-tree-level-order-traversal](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0429-n-ary-tree-level-order-traversal) |
 | [0530-minimum-absolute-difference-in-bst](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0530-minimum-absolute-difference-in-bst) |
@@ -776,6 +778,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0022-generate-parentheses](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0022-generate-parentheses) |
+| [0301-remove-invalid-parentheses](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0301-remove-invalid-parentheses) |
 | [1096-brace-expansion-ii](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1096-brace-expansion-ii) |
 | [3348-smallest-divisible-digit-product-ii](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/3348-smallest-divisible-digit-product-ii) |
 ## Minimax
