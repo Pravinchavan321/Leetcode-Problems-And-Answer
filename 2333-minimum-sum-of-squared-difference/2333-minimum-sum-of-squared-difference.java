@@ -1,49 +1,40 @@
 class Solution {
-    public long minSumSquareDiff(int[] nums1, int[] nums2, int k1, int k2) {
+    public long minSumSquareDiff(int[] nums1, int[] nums2,
+            int k1, int k2) {
         long k = (long) k1 + k2;
-        int n = nums1.length;
-        int[] d = new int[n + 1];
+        long diffSum = 0;
+        int maxDiff = 0;
 
-        long total = 0;
+        int[] freq = new int[100001];
 
-        for (int i = 0; i < n; i++) {
-            d[i] = Math.abs(nums1[i] - nums2[i]);
-            total += d[i];
-        }
+        for (int i = 0; i < nums1.length; i++) {
+            int diff = Math.abs(nums1[i] - nums2[i]);
 
-        if (total <= k)
-            return 0;
-
-        Arrays.sort(d, 0, n);
-
-        for (int i = 0; i < n / 2; i++) {
-            int temp = d[i];
-            d[i] = d[n - 1 - i];
-            d[n - 1 - i] = temp;
-        }
-
-        d[n] = 0;
-
-        for (int i = 1; i <= n; i++) {
-            long cost = (long) (d[i - 1] - d[i]) * i;
-
-            if (cost > k) {
-                long q = k / i;
-                long r = k % i;
-                long hi = d[i - 1] - q;
-
-                long res = hi * hi * (i - r)
-                        + (hi - 1) * (hi - 1) * r;
-
-                for (int j = i; j < n; j++)
-                    res += (long) d[j] * d[j];
-
-                return res;
+            if (diff > 0) {
+                freq[diff]++;
+                diffSum += diff;
+                maxDiff = Math.max(maxDiff, diff);
             }
-
-            k -= cost;
         }
 
-        return 0;
+        if (diffSum <= k) {
+            return 0;
+        }
+
+        for (int d = maxDiff; d > 0 && k > 0; d--) {
+            long take = Math.min((long) freq[d], k);
+
+            freq[d] -= (int) take;
+            freq[d - 1] += (int) take;
+            k -= take;
+        }
+
+        long result = 0;
+
+        for (int d = 1; d <= maxDiff; d++) {
+            result += (long) freq[d] * d * d;
+        }
+
+        return result;
     }
 }
