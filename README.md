@@ -14,6 +14,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0371-sum-of-two-integers](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0371-sum-of-two-integers) |
 | [0445-add-two-numbers-ii](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0445-add-two-numbers-ii) |
 | [0486-predict-the-winner](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0486-predict-the-winner) |
+| [0492-construct-the-rectangle](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0492-construct-the-rectangle) |
 | [0509-fibonacci-number](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0509-fibonacci-number) |
 | [0598-range-addition-ii](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0598-range-addition-ii) |
 | [0628-maximum-product-of-three-numbers](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0628-maximum-product-of-three-numbers) |
