@@ -33,18 +33,16 @@
 
 class Solution {
     public int sumCounts(List<Integer> nums) {
-        int totalSum = 0;
         int n = nums.size();
-
+        int ans = 0;
         for (int i = 0; i < n; i++) {
-            Set<Integer> seen = new HashSet<>();
+            HashSet<Integer> s = new HashSet<>();
             for (int j = i; j < n; j++) {
-                seen.add(nums.get(j));
-                int distinctCount = seen.size();
-                totalSum += distinctCount * distinctCount;
+                s.add(nums.get(j));
+                int len = s.size();
+                ans += (len * len);
             }
         }
-
-        return totalSum;
+        return ans;
     }
 }
