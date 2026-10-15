@@ -1,3 +1,6 @@
+
+//(1)
+
 class Solution {
     public int sumCounts(List<Integer> nums) {
 
@@ -25,3 +28,23 @@ class Solution {
 
     }
 }
+
+//(2)
+
+// class Solution {
+//     public int sumCounts(int[] nums) {
+//         int totalSum = 0;
+//         int n = nums.length;
+
+//         for (int i = 0; i < n; i++) {
+//             Set<Integer> seen = new HashSet<>();
+//             for (int j = i; j < n; j++) {
+//                 seen.add(nums[j]);
+//                 int distinctCount = seen.size();
+//                 totalSum += distinctCount * distinctCount;
+//             }
+//         }
+
+//         return totalSum;
+//     }
+// }
