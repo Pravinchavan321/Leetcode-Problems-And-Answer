@@ -71,6 +71,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3871-count-commas-in-range-ii](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/3871-count-commas-in-range-ii) |
 | [3875-construct-uniform-parity-array-i](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/3875-construct-uniform-parity-array-i) |
 | [3876-construct-uniform-parity-array-ii](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/3876-construct-uniform-parity-array-ii) |
+| [3886-sum-of-sortable-integers](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/3886-sum-of-sortable-integers) |
 ## String
 |  |
 | ------- |
@@ -295,6 +296,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3875-construct-uniform-parity-array-i](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/3875-construct-uniform-parity-array-i) |
 | [3876-construct-uniform-parity-array-ii](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/3876-construct-uniform-parity-array-ii) |
 | [3880-minimum-absolute-difference-between-two-values](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/3880-minimum-absolute-difference-between-two-values) |
+| [3886-sum-of-sortable-integers](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/3886-sum-of-sortable-integers) |
 | [3903-smallest-stable-index-i](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/3903-smallest-stable-index-i) |
 | [3904-smallest-stable-index-ii](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/3904-smallest-stable-index-ii) |
 ## Matrix
@@ -399,6 +401,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3727-maximum-alternating-sum-of-squares](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/3727-maximum-alternating-sum-of-squares) |
 | [3731-find-missing-elements](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/3731-find-missing-elements) |
 | [3867-sum-of-gcd-of-formed-pairs](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/3867-sum-of-gcd-of-formed-pairs) |
+| [3886-sum-of-sortable-integers](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/3886-sum-of-sortable-integers) |
 ## Heap (Priority Queue)
 |  |
 | ------- |
@@ -546,6 +549,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3734-lexicographically-smallest-palindromic-permutation-greater-than-target](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/3734-lexicographically-smallest-palindromic-permutation-greater-than-target) |
 | [3833-count-dominant-indices](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/3833-count-dominant-indices) |
 | [3880-minimum-absolute-difference-between-two-values](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/3880-minimum-absolute-difference-between-two-values) |
+| [3886-sum-of-sortable-integers](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/3886-sum-of-sortable-integers) |
 | [3954-sum-of-compatible-numbers-in-range-i](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/3954-sum-of-compatible-numbers-in-range-i) |
 ## Counting
 |  |
