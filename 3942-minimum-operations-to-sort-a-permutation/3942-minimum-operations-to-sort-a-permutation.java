@@ -1,59 +1,21 @@
 class Solution {
-    public int minOperations(int[] nums) {
-        int n = nums.length;
+    public int minOperations(int[] A) {
+        int n = A.length;
+        int asc = 1, dsc = 1;
 
-        if (n == 0) {
-            return -1;
+        for (int i = 1; i < n; i++) {
+            if (A[i] == (A[i - 1] + 1) % n)
+                asc++;
+            if (A[i - 1] == (A[i] + 1) % n)
+                dsc++;
         }
 
-        int res = Integer.MAX_VALUE;
-        int[] target = new int[n];
+        if (asc == n)
+            return A[0] == 0 ? 0 : Math.min(n - A[0], A[0] + 2);
 
-        for (int i = 0; i < n; i++) {
-            target[i] = i;
-        }
+        if (dsc == n)
+            return Math.min(n - A[n - 1], A[n - 1]) + 1;
 
-        int k = -1;
-
-        for (int i = 0; i < n; i++) {
-            if (nums[i] == 0) {
-                k = i;
-                break;
-            }
-        }
-
-        if (k == -1) {
-            return -1;
-        }
-
-        int[] rotated = new int[n];
-
-        for (int i = 0; i < n; i++) {
-            rotated[i] = nums[(k + i) % n];
-        }
-
-        if (Arrays.equals(rotated, target)) {
-            res = Math.min(res, Math.min(k, n - k + 2));
-        }
-
-        int[] revNums = new int[n];
-
-        for (int i = 0; i < n; i++) {
-            revNums[i] = nums[n - 1 - i];
-        }
-
-        int kRev = n - 1 - k;
-
-        for (int i = 0; i < n; i++) {
-            rotated[i] = revNums[(kRev + i) % n];
-        }
-
-        if (Arrays.equals(rotated, target)) {
-            res = Math.min(
-                    res,
-                    Math.min(kRev + 1, n - kRev + 1));
-        }
-
-        return res == Integer.MAX_VALUE ? -1 : res;
+        return -1;
     }
 }
