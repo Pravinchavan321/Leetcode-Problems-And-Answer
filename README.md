@@ -214,6 +214,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1207-unique-number-of-occurrences](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1207-unique-number-of-occurrences) |
 | [1232-check-if-it-is-a-straight-line](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1232-check-if-it-is-a-straight-line) |
 | [1252-cells-with-odd-values-in-a-matrix](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1252-cells-with-odd-values-in-a-matrix) |
+| [1254-number-of-closed-islands](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1254-number-of-closed-islands) |
 | [1260-shift-2d-grid](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1260-shift-2d-grid) |
 | [1287-element-appearing-more-than-25-in-sorted-array](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1287-element-appearing-more-than-25-in-sorted-array) |
 | [1295-find-numbers-with-even-number-of-digits](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1295-find-numbers-with-even-number-of-digits) |
@@ -312,6 +313,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0835-image-overlap](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0835-image-overlap) |
 | [0867-transpose-matrix](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0867-transpose-matrix) |
 | [1030-matrix-cells-in-distance-order](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1030-matrix-cells-in-distance-order) |
+| [1254-number-of-closed-islands](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1254-number-of-closed-islands) |
 | [1260-shift-2d-grid](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1260-shift-2d-grid) |
 | [1351-count-negative-numbers-in-a-sorted-matrix](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1351-count-negative-numbers-in-a-sorted-matrix) |
 | [1380-lucky-numbers-in-a-matrix](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1380-lucky-numbers-in-a-matrix) |
@@ -578,6 +580,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0128-longest-consecutive-sequence](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0128-longest-consecutive-sequence) |
+| [1254-number-of-closed-islands](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1254-number-of-closed-islands) |
 | [1569-number-of-ways-to-reorder-array-to-get-same-bst](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1569-number-of-ways-to-reorder-array-to-get-same-bst) |
 | [2685-count-the-number-of-complete-components](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/2685-count-the-number-of-complete-components) |
 | [2948-make-lexicographically-smallest-array-by-swapping-elements](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/2948-make-lexicographically-smallest-array-by-swapping-elements) |
@@ -633,6 +636,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0662-maximum-width-of-binary-tree](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0662-maximum-width-of-binary-tree) |
 | [0671-second-minimum-node-in-a-binary-tree](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0671-second-minimum-node-in-a-binary-tree) |
 | [0783-minimum-distance-between-bst-nodes](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0783-minimum-distance-between-bst-nodes) |
+| [1254-number-of-closed-islands](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1254-number-of-closed-islands) |
 | [2265-count-nodes-equal-to-average-of-subtree](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/2265-count-nodes-equal-to-average-of-subtree) |
 | [2685-count-the-number-of-complete-components](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/2685-count-the-number-of-complete-components) |
 | [3310-remove-methods-from-project](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/3310-remove-methods-from-project) |
@@ -649,6 +653,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0662-maximum-width-of-binary-tree](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0662-maximum-width-of-binary-tree) |
 | [0783-minimum-distance-between-bst-nodes](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0783-minimum-distance-between-bst-nodes) |
 | [1096-brace-expansion-ii](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1096-brace-expansion-ii) |
+| [1254-number-of-closed-islands](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1254-number-of-closed-islands) |
 | [2685-count-the-number-of-complete-components](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/2685-count-the-number-of-complete-components) |
 | [3310-remove-methods-from-project](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/3310-remove-methods-from-project) |
 | [3568-minimum-moves-to-clean-the-classroom](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/3568-minimum-moves-to-clean-the-classroom) |
