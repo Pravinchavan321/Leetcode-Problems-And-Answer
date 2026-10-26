@@ -289,6 +289,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3550-smallest-index-with-digit-sum-equal-to-index](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/3550-smallest-index-with-digit-sum-equal-to-index) |
 | [3551-minimum-swaps-to-sort-by-digit-sum](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/3551-minimum-swaps-to-sort-by-digit-sum) |
 | [3568-minimum-moves-to-clean-the-classroom](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/3568-minimum-moves-to-clean-the-classroom) |
+| [3619-count-islands-with-total-value-divisible-by-k](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/3619-count-islands-with-total-value-divisible-by-k) |
 | [3644-maximum-k-to-sort-a-permutation](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/3644-maximum-k-to-sort-a-permutation) |
 | [3678-smallest-absent-positive-greater-than-average](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/3678-smallest-absent-positive-greater-than-average) |
 | [3702-longest-subsequence-with-non-zero-bitwise-xor](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/3702-longest-subsequence-with-non-zero-bitwise-xor) |
@@ -322,6 +323,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2267-check-if-there-is-a-valid-parentheses-string-path](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/2267-check-if-there-is-a-valid-parentheses-string-path) |
 | [2482-difference-between-ones-and-zeros-in-row-and-column](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/2482-difference-between-ones-and-zeros-in-row-and-column) |
 | [3568-minimum-moves-to-clean-the-classroom](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/3568-minimum-moves-to-clean-the-classroom) |
+| [3619-count-islands-with-total-value-divisible-by-k](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/3619-count-islands-with-total-value-divisible-by-k) |
 ## Simulation
 |  |
 | ------- |
@@ -585,6 +587,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2685-count-the-number-of-complete-components](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/2685-count-the-number-of-complete-components) |
 | [2948-make-lexicographically-smallest-array-by-swapping-elements](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/2948-make-lexicographically-smallest-array-by-swapping-elements) |
 | [3532-path-existence-queries-in-a-graph-i](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/3532-path-existence-queries-in-a-graph-i) |
+| [3619-count-islands-with-total-value-divisible-by-k](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/3619-count-islands-with-total-value-divisible-by-k) |
 ## Graph Theory
 |  |
 | ------- |
@@ -640,6 +643,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2265-count-nodes-equal-to-average-of-subtree](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/2265-count-nodes-equal-to-average-of-subtree) |
 | [2685-count-the-number-of-complete-components](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/2685-count-the-number-of-complete-components) |
 | [3310-remove-methods-from-project](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/3310-remove-methods-from-project) |
+| [3619-count-islands-with-total-value-divisible-by-k](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/3619-count-islands-with-total-value-divisible-by-k) |
 ## Breadth-First Search
 |  |
 | ------- |
@@ -657,6 +661,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2685-count-the-number-of-complete-components](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/2685-count-the-number-of-complete-components) |
 | [3310-remove-methods-from-project](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/3310-remove-methods-from-project) |
 | [3568-minimum-moves-to-clean-the-classroom](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/3568-minimum-moves-to-clean-the-classroom) |
+| [3619-count-islands-with-total-value-divisible-by-k](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/3619-count-islands-with-total-value-divisible-by-k) |
 ## Geometry
 |  |
 | ------- |
