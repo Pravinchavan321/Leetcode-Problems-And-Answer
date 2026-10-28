@@ -46,22 +46,15 @@
 
 //(2)
 
-import java.util.*;
 
 class Solution {
     public int minCost(int[][] grid) {
         int m = grid.length;
         int n = grid[0].length;
 
-        Set<Integer>[][] dp = new HashSet[m][n];
+        boolean[][][] dp = new boolean[m][n][1024];
 
-        for (int i = 0; i < m; i++) {
-            for (int j = 0; j < n; j++) {
-                dp[i][j] = new HashSet<>();
-            }
-        }
-
-        dp[0][0].add(grid[0][0]);
+        dp[0][0][grid[0][0]] = true;
 
         for (int i = 0; i < m; i++) {
             for (int j = 0; j < n; j++) {
@@ -70,20 +63,32 @@ class Solution {
                     continue;
                 }
 
+                int val = grid[i][j];
+
                 if (i > 0) {
-                    for (int x : dp[i - 1][j]) {
-                        dp[i][j].add(x ^ grid[i][j]);
+                    for (int x = 0; x < 1024; x++) {
+                        if (dp[i - 1][j][x]) {
+                            dp[i][j][x ^ val] = true;
+                        }
                     }
                 }
 
                 if (j > 0) {
-                    for (int x : dp[i][j - 1]) {
-                        dp[i][j].add(x ^ grid[i][j]);
+                    for (int x = 0; x < 1024; x++) {
+                        if (dp[i][j - 1][x]) {
+                            dp[i][j][x ^ val] = true;
+                        }
                     }
                 }
             }
         }
 
-        return Collections.min(dp[m - 1][n - 1]);
+        for (int x = 0; x < 1024; x++) {
+            if (dp[m - 1][n - 1][x]) {
+                return x;
+            }
+        }
+
+        return -1;
     }
 }
