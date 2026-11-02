@@ -14,6 +14,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0371-sum-of-two-integers](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0371-sum-of-two-integers) |
 | [0445-add-two-numbers-ii](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0445-add-two-numbers-ii) |
 | [0453-minimum-moves-to-equal-array-elements](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0453-minimum-moves-to-equal-array-elements) |
+| [0462-minimum-moves-to-equal-array-elements-ii](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0462-minimum-moves-to-equal-array-elements-ii) |
 | [0486-predict-the-winner](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0486-predict-the-winner) |
 | [0492-construct-the-rectangle](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0492-construct-the-rectangle) |
 | [0509-fibonacci-number](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0509-fibonacci-number) |
@@ -185,6 +186,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0442-find-all-duplicates-in-an-array](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0442-find-all-duplicates-in-an-array) |
 | [0453-minimum-moves-to-equal-array-elements](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0453-minimum-moves-to-equal-array-elements) |
+| [0462-minimum-moves-to-equal-array-elements-ii](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0462-minimum-moves-to-equal-array-elements-ii) |
 | [0486-predict-the-winner](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0486-predict-the-winner) |
 | [0503-next-greater-element-ii](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0503-next-greater-element-ii) |
 | [0525-contiguous-array](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0525-contiguous-array) |
@@ -386,6 +388,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0229-majority-element-ii](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0229-majority-element-ii) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0442-find-all-duplicates-in-an-array](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0442-find-all-duplicates-in-an-array) |
+| [0462-minimum-moves-to-equal-array-elements-ii](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0462-minimum-moves-to-equal-array-elements-ii) |
 | [0581-shortest-unsorted-continuous-subarray](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0581-shortest-unsorted-continuous-subarray) |
 | [0628-maximum-product-of-three-numbers](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0628-maximum-product-of-three-numbers) |
 | [0645-set-mismatch](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0645-set-mismatch) |
