@@ -1,56 +1,41 @@
 class Solution {
     public int[] assignTasks(int[] servers, int[] tasks) {
-        int n = servers.length, m = tasks.length;
-        int[] ans = new int[m];
+        int m = servers.length;
+        int n = tasks.length;
+        PriorityQueue<int[]> busy = new PriorityQueue<>((a, b) -> Integer.compare(a[0], b[0]));
 
-        PriorityQueue<int[]> heapsmol = new PriorityQueue<>(
-                (a, b) -> {
-                    if (a[0] != b[0])
-                        return Integer.compare(a[0], b[0]);
-                    return Integer.compare(a[1], b[1]);
-                });
+        PriorityQueue<int[]> free = new PriorityQueue<>((a, b) -> {
+                if(a[1] == b[1]){
+                    return a[0] - b[0];
+                }
+                return a[1] - b[1];
+            });
 
-        PriorityQueue<long[]> heaplarge = new PriorityQueue<>(
-                (a, b) -> {
-                    if (a[0] != b[0])
-                        return Long.compare(a[0], b[0]);
-                    if (a[1] != b[1])
-                        return Long.compare(a[1], b[1]);
-                    return Long.compare(a[2], b[2]);
-                });
-
-        for (int i = 0; i < n; i++) {
-            heapsmol.offer(new int[] { servers[i], i });
+        for(int i = 0; i < m; i++){
+            free.offer(new int[]{i, servers[i]});
         }
 
-        for (int i = 0; i < m; i++) {
-            while (!heaplarge.isEmpty() && heaplarge.peek()[0] <= i) {
-                long[] node = heaplarge.poll();
-                heapsmol.offer(new int[] { (int) node[1], (int) node[2] });
+        int[] ans = new int[n];
+        int time = 0;
+
+        for(int i = 0; i < n; i++){
+            time = Math.max(i, time);
+            if(free.isEmpty()){
+                time = Math.max(time, busy.peek()[0]);
             }
 
-            if (!heapsmol.isEmpty()) {
-                int[] node = heapsmol.poll();
-                int weight = node[0];
-                int index = node[1];
+            while(!busy.isEmpty() && busy.peek()[0] <= time){
+                int[] currServer = busy.poll();
 
-                ans[i] = index;
-                heaplarge.offer(new long[] {
-                        (long) i + tasks[i], weight, index
-                });
-            } else {
-                long[] node = heaplarge.poll();
-                long time = node[0];
-                long weight = node[1];
-                int index = (int) node[2];
-
-                ans[i] = index;
-                heaplarge.offer(new long[] {
-                        time + tasks[i], weight, index
-                });
+                free.offer(new int[]{currServer[1], currServer[2]});
             }
+
+            int[] pick = free.poll();
+
+            ans[i] = pick[0];
+
+            busy.offer(new int[]{time + tasks[i], pick[0], pick[1]});
         }
-
         return ans;
     }
 }
