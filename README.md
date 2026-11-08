@@ -224,6 +224,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1252-cells-with-odd-values-in-a-matrix](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1252-cells-with-odd-values-in-a-matrix) |
 | [1254-number-of-closed-islands](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1254-number-of-closed-islands) |
 | [1260-shift-2d-grid](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1260-shift-2d-grid) |
+| [1267-count-servers-that-communicate](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1267-count-servers-that-communicate) |
 | [1287-element-appearing-more-than-25-in-sorted-array](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1287-element-appearing-more-than-25-in-sorted-array) |
 | [1295-find-numbers-with-even-number-of-digits](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1295-find-numbers-with-even-number-of-digits) |
 | [1299-replace-elements-with-greatest-element-on-right-side](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1299-replace-elements-with-greatest-element-on-right-side) |
@@ -331,6 +332,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1030-matrix-cells-in-distance-order](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1030-matrix-cells-in-distance-order) |
 | [1254-number-of-closed-islands](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1254-number-of-closed-islands) |
 | [1260-shift-2d-grid](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1260-shift-2d-grid) |
+| [1267-count-servers-that-communicate](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1267-count-servers-that-communicate) |
 | [1351-count-negative-numbers-in-a-sorted-matrix](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1351-count-negative-numbers-in-a-sorted-matrix) |
 | [1380-lucky-numbers-in-a-matrix](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1380-lucky-numbers-in-a-matrix) |
 | [1582-special-positions-in-a-binary-matrix](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1582-special-positions-in-a-binary-matrix) |
@@ -597,6 +599,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0229-majority-element-ii](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0229-majority-element-ii) |
 | [1160-find-words-that-can-be-formed-by-characters](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1160-find-words-that-can-be-formed-by-characters) |
 | [1221-split-a-string-in-balanced-strings](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1221-split-a-string-in-balanced-strings) |
+| [1267-count-servers-that-communicate](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1267-count-servers-that-communicate) |
 | [1394-find-lucky-integer-in-an-array](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1394-find-lucky-integer-in-an-array) |
 | [1399-count-largest-group](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1399-count-largest-group) |
 | [2029-stone-game-ix](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/2029-stone-game-ix) |
@@ -612,6 +615,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0128-longest-consecutive-sequence](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0128-longest-consecutive-sequence) |
 | [1254-number-of-closed-islands](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1254-number-of-closed-islands) |
+| [1267-count-servers-that-communicate](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1267-count-servers-that-communicate) |
 | [1569-number-of-ways-to-reorder-array-to-get-same-bst](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1569-number-of-ways-to-reorder-array-to-get-same-bst) |
 | [2685-count-the-number-of-complete-components](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/2685-count-the-number-of-complete-components) |
 | [2948-make-lexicographically-smallest-array-by-swapping-elements](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/2948-make-lexicographically-smallest-array-by-swapping-elements) |
@@ -670,6 +674,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0671-second-minimum-node-in-a-binary-tree](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0671-second-minimum-node-in-a-binary-tree) |
 | [0783-minimum-distance-between-bst-nodes](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0783-minimum-distance-between-bst-nodes) |
 | [1254-number-of-closed-islands](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1254-number-of-closed-islands) |
+| [1267-count-servers-that-communicate](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1267-count-servers-that-communicate) |
 | [2265-count-nodes-equal-to-average-of-subtree](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/2265-count-nodes-equal-to-average-of-subtree) |
 | [2685-count-the-number-of-complete-components](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/2685-count-the-number-of-complete-components) |
 | [3310-remove-methods-from-project](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/3310-remove-methods-from-project) |
@@ -689,6 +694,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0783-minimum-distance-between-bst-nodes](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0783-minimum-distance-between-bst-nodes) |
 | [1096-brace-expansion-ii](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1096-brace-expansion-ii) |
 | [1254-number-of-closed-islands](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1254-number-of-closed-islands) |
+| [1267-count-servers-that-communicate](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1267-count-servers-that-communicate) |
 | [2685-count-the-number-of-complete-components](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/2685-count-the-number-of-complete-components) |
 | [3310-remove-methods-from-project](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/3310-remove-methods-from-project) |
 | [3568-minimum-moves-to-clean-the-classroom](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/3568-minimum-moves-to-clean-the-classroom) |
