@@ -254,6 +254,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1807-evaluate-the-bracket-pairs-of-a-string](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1807-evaluate-the-bracket-pairs-of-a-string) |
 | [1822-sign-of-the-product-of-an-array](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1822-sign-of-the-product-of-an-array) |
 | [1872-stone-game-viii](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1872-stone-game-viii) |
+| [1882-process-tasks-using-servers](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1882-process-tasks-using-servers) |
 | [1909-remove-one-element-to-make-the-array-strictly-increasing](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1909-remove-one-element-to-make-the-array-strictly-increasing) |
 | [1979-find-greatest-common-divisor-of-array](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1979-find-greatest-common-divisor-of-array) |
 | [2029-stone-game-ix](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/2029-stone-game-ix) |
@@ -434,6 +435,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [1464-maximum-product-of-two-elements-in-an-array](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1464-maximum-product-of-two-elements-in-an-array) |
+| [1882-process-tasks-using-servers](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1882-process-tasks-using-servers) |
 | [2333-minimum-sum-of-squared-difference](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/2333-minimum-sum-of-squared-difference) |
 | [3505-minimum-operations-to-make-elements-within-k-subarrays-equal](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/3505-minimum-operations-to-make-elements-within-k-subarrays-equal) |
 | [3970-shortest-path-with-at-most-k-consecutive-identical-characters](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/3970-shortest-path-with-at-most-k-consecutive-identical-characters) |
