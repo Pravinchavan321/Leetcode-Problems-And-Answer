@@ -32,6 +32,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1295-find-numbers-with-even-number-of-digits](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1295-find-numbers-with-even-number-of-digits) |
 | [1304-find-n-unique-integers-sum-up-to-zero](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1304-find-n-unique-integers-sum-up-to-zero) |
 | [1317-convert-integer-to-the-sum-of-two-no-zero-integers](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1317-convert-integer-to-the-sum-of-two-no-zero-integers) |
+| [1352-product-of-the-last-k-numbers](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1352-product-of-the-last-k-numbers) |
 | [1399-count-largest-group](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1399-count-largest-group) |
 | [1401-circle-and-rectangle-overlapping](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1401-circle-and-rectangle-overlapping) |
 | [1406-stone-game-iii](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1406-stone-game-iii) |
@@ -164,6 +165,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0525-contiguous-array](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0525-contiguous-array) |
 | [0724-find-pivot-index](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/0724-find-pivot-index) |
 | [1140-stone-game-ii](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1140-stone-game-ii) |
+| [1352-product-of-the-last-k-numbers](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1352-product-of-the-last-k-numbers) |
 | [1422-maximum-score-after-splitting-a-string](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1422-maximum-score-after-splitting-a-string) |
 | [1524-number-of-sub-arrays-with-odd-sum](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1524-number-of-sub-arrays-with-odd-sum) |
 | [1621-number-of-sets-of-k-non-overlapping-line-segments](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1621-number-of-sets-of-k-non-overlapping-line-segments) |
@@ -242,6 +244,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1331-rank-transform-of-an-array](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1331-rank-transform-of-an-array) |
 | [1346-check-if-n-and-its-double-exist](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1346-check-if-n-and-its-double-exist) |
 | [1351-count-negative-numbers-in-a-sorted-matrix](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1351-count-negative-numbers-in-a-sorted-matrix) |
+| [1352-product-of-the-last-k-numbers](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1352-product-of-the-last-k-numbers) |
 | [1365-how-many-numbers-are-smaller-than-the-current-number](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1365-how-many-numbers-are-smaller-than-the-current-number) |
 | [1380-lucky-numbers-in-a-matrix](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1380-lucky-numbers-in-a-matrix) |
 | [1385-find-the-distance-value-between-two-arrays](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1385-find-the-distance-value-between-two-arrays) |
@@ -1014,4 +1017,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [3420-count-non-decreasing-subarrays-after-k-operations](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/3420-count-non-decreasing-subarrays-after-k-operations) |
+## Design
+|  |
+| ------- |
+| [1352-product-of-the-last-k-numbers](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1352-product-of-the-last-k-numbers) |
+## Data Stream
+|  |
+| ------- |
+| [1352-product-of-the-last-k-numbers](https://github.com/Pravinchavan321/Leetcode-Problems-And-Answer/tree/master/1352-product-of-the-last-k-numbers) |
 <!---LeetCode Topics End-->
